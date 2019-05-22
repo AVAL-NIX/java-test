@@ -1,5 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44d1e24d-f22b-46fe-99ed-f4de373f70fd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/eclipseCodeFormatter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FourBuilder/Bottle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FourBuilder/Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FourBuilder/BurgerWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FourBuilder/Cold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FourBuilder/ColdBottle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FourBuilder/FourMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FourBuilder/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FourBuilder/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FourBuilder/MealBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FourBuilder/Packing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FourBuilder/Wrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OneFactory/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OneFactory/OneMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OneFactory/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OneFactory/SharpFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OneFactory/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OneFactory/shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeSingle/SingleFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeSingle/SingleOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeSingle/SingleThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreeSingle/SingleTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoAbstractFactory/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoAbstractFactory/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoAbstractFactory/ColorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoAbstractFactory/FactoryProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoAbstractFactory/Red.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoAbstractFactory/SharpFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoAbstractFactory/TwoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoAbstractFactory/Yellow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Bottle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FourBuilder/Bottle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Packing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FourBuilder/Packing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BurgerWrapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FourBuilder/BurgerWrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Burger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FourBuilder/Burger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Meal.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FourBuilder/Meal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MealBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FourBuilder/MealBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FourMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FourBuilder/FourMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FourBuilder/Item.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Collectors.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/soft/jdk1.8.0_151/src.zip!/java/util/stream/Collectors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="463" column="4" selection-start-line="463" selection-start-column="4" selection-end-line="463" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ColorFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TwoAbstractFactory/ColorFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/OneFactory/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/OneFactory/Square.java" />
+        <option value="$PROJECT_DIR$/src/OneFactory/Circle.java" />
+        <option value="$PROJECT_DIR$/src/OneFactory/Main.java" />
+        <option value="$PROJECT_DIR$/src/TwoAbstractFactory/Color.java" />
+        <option value="$PROJECT_DIR$/src/TwoAbstractFactory/Red.java" />
+        <option value="$PROJECT_DIR$/src/TwoAbstractFactory/Yellow.java" />
+        <option value="$PROJECT_DIR$/src/TwoAbstractFactory/AbstractFactory.java" />
+        <option value="$PROJECT_DIR$/src/TwoAbstractFactory/ColorFactory.java" />
+        <option value="$PROJECT_DIR$/src/TwoAbstractFactory/SharpFactory.java" />
+        <option value="$PROJECT_DIR$/src/TwoAbstractFactory/FactoryProducer.java" />
+        <option value="$PROJECT_DIR$/src/ThreeSingle/SingleOne.java" />
+        <option value="$PROJECT_DIR$/src/ThreeSingle/SingleTwo.java" />
+        <option value="$PROJECT_DIR$/src/ThreeSingle/SingleThree.java" />
+        <option value="$PROJECT_DIR$/src/ThreeSingle/SingleFour.java" />
+        <option value="$PROJECT_DIR$/src/TwoAbstractFactory/TwoMain.java" />
+        <option value="$PROJECT_DIR$/src/OneFactory/OneMain.java" />
+        <option value="$PROJECT_DIR$/src/OneFactory/SharpFactory.java" />
+        <option value="$PROJECT_DIR$/src/OneFactory/Sharp.java" />
+        <option value="$PROJECT_DIR$/src/OneFactory/shape.java" />
+        <option value="$PROJECT_DIR$/src/FourBuilder/Wrapper.java" />
+        <option value="$PROJECT_DIR$/src/FourBuilder/Bottle.java" />
+        <option value="$PROJECT_DIR$/src/FourBuilder/Packing.java" />
+        <option value="$PROJECT_DIR$/src/FourBuilder/BurgerItem.java" />
+        <option value="$PROJECT_DIR$/src/FourBuilder/BurgerWrapper.java" />
+        <option value="$PROJECT_DIR$/src/FourBuilder/ColdBottle.java" />
+        <option value="$PROJECT_DIR$/src/FourBuilder/Burger.java" />
+        <option value="$PROJECT_DIR$/src/FourBuilder/Cold.java" />
+        <option value="$PROJECT_DIR$/src/FourBuilder/Item.java" />
+        <option value="$PROJECT_DIR$/src/FourBuilder/Meal.java" />
+        <option value="$PROJECT_DIR$/src/FourBuilder/FourMain.java" />
+        <option value="$PROJECT_DIR$/src/FourBuilder/MealBuilder.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
@@ -8,14 +204,133 @@
     <option name="width" value="1931" />
     <option name="height" value="1055" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DesignMode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignMode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignMode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignMode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignMode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignMode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FourBuilder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignMode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="DesignMode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="DesignMode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignMode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignMode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignMode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="D:/sort/node-v8.9.0-win-x64/node-v8.9.0-win-x64/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="debugger.stepping" />
+    <property name="settings.editor.selected.configurable" value="EclipseFormatter" />
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.FourMain">
+    <configuration name="FourMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FourBuilder.FourMain" />
+      <module name="DesignMode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FourBuilder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="OneMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OneFactory.OneMain" />
+      <module name="DesignMode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OneFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TwoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoAbstractFactory.TwoMain" />
+      <module name="DesignMode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TwoAbstractFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -57,6 +372,301 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.OneMain" />
+      <item itemvalue="Application.TwoMain" />
+      <item itemvalue="Application.FourMain" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FourMain" />
+        <item itemvalue="Application.TwoMain" />
+        <item itemvalue="Application.OneMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44d1e24d-f22b-46fe-99ed-f4de373f70fd" name="Default" comment="" />
+      <created>1558485841287</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558485841287</updated>
+      <workItem from="1558485844140" duration="10038000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10038000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32838982" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4936034" weight="0.3205945" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5125" side_tool="true" weight="0.33050847" />
+      <window_info anchor="right" id="Maven Projects" order="0" weight="0.32995737" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49166667" weight="0.39041793" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32899022" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Designer" order="0" />
+      <window_info content_ui="combo" x="774" y="199" width="371" height="641" id="Project" order="5" visible="true" weight="0.19270833" />
+      <window_info anchor="right" id="Database" order="1" weight="0.32995737" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32908705" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
+      <window_info id="UI Designer" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info active="true" anchor="bottom" id="Debug" order="8" sideWeight="0.4875" visible="true" weight="0.35270134" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="right" id="Bean Validation" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="JSF" order="2" weight="0.32995737" />
+      <window_info anchor="right" id="Commander" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.21041666" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="right" id="SciView" order="12" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="1" weight="0.32899022" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DesignMode.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwoAbstractFactory/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwoAbstractFactory/Yellow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwoAbstractFactory/AbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwoAbstractFactory/Red.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwoAbstractFactory/SharpFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwoAbstractFactory/FactoryProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreeSingle/SingleTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwoAbstractFactory/TwoMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreeSingle/SingleThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreeSingle/SingleOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThreeSingle/SingleFour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OneFactory/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OneFactory/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OneFactory/SharpFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OneFactory/OneMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OneFactory/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OneFactory/shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FourBuilder/Wrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FourBuilder/ColdBottle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FourBuilder/Cold.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TwoAbstractFactory/ColorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/soft/jdk1.8.0_151/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="463" column="4" selection-start-line="463" selection-start-column="4" selection-end-line="463" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FourBuilder/Bottle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FourBuilder/BurgerWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FourBuilder/Burger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FourBuilder/MealBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FourBuilder/Packing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FourBuilder/FourMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FourBuilder/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FourBuilder/Meal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
