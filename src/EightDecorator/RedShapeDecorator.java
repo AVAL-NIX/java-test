@@ -1,5 +1,8 @@
 package EightDecorator;
 
+import EightDecorator.Shape;
+import EightDecorator.ShapeDecorator;
+
 /**
  * 抽象装饰类的具体实现 , 对装饰对象做补充
  *
@@ -14,7 +17,7 @@ public class RedShapeDecorator extends ShapeDecorator {
  
    @Override
    public void draw() {
-      decoratedShape.draw();         
+      super.draw();
       setRedBorder(decoratedShape);
    }
  

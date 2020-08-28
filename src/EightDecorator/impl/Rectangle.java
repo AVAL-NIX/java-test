@@ -1,4 +1,6 @@
-package EightDecorator;
+package EightDecorator.impl;
+
+import EightDecorator.Shape;
 
 /**
  * 装饰具体实现
