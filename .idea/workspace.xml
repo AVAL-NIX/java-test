@@ -2,153 +2,281 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44d1e24d-f22b-46fe-99ed-f4de373f70fd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/EightDecorator/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EightDecorator/EightMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EightDecorator/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EightDecorator/RedShapeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EightDecorator/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EightDecorator/ShapeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FiveAdapter/AdvancedMediaPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FiveAdapter/AudioPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FiveAdapter/FiveMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FiveAdapter/MediaAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FiveAdapter/MediaPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FiveAdapter/Mp4Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FiveAdapter/VicPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NineProxy/JDKProxy/CarHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NineProxy/JDKProxy/JDKMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NineProxy/SaticProxy/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NineProxy/SaticProxy/MoiveAble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NineProxy/SaticProxy/NineMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NineProxy/SaticProxy/TimeProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SevenFilter/AndCriteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SevenFilter/Criteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SevenFilter/CriteriaFemale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SevenFilter/CriteriaMale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SevenFilter/CriteriaPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SevenFilter/CriteriaSingle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SevenFilter/OrCriteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SevenFilter/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SevenFilter/SevenMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SixBridge/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SixBridge/DrawAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SixBridge/GreenCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SixBridge/RedCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SixBridge/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SixBridge/SixMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TenIterator/Container.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TenIterator/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TenIterator/NamePepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TenIterator/TenMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/eclipseCodeFormatter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/eclipseCodeFormatter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_easyexcel_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_38.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_38.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designmode/designmode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/designmode/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/excel/EasyExcelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/excel/EasyExcelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/excel/ElectronicDrawDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/excel/ExcelModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/excel/ExcelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/excel/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netty/src/main/java/excel/POIUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger/src/main/java/com/boot/swagger/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger/src/main/java/com/boot/swagger/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FourBuilder/FourMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignMode/FourBuilder/FourMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FourBuilder/FourMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FourBuilder/FourMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignMode.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/netty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/netty/netty.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/netty/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/src/main/java/bio/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/bio/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/EightDecorator/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/EightDecorator/EightMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/EightDecorator/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/EightDecorator/RedShapeDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/EightDecorator/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/EightDecorator/ShapeDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FiveAdapter/AdvancedMediaPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FiveAdapter/AudioPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FiveAdapter/FiveMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FiveAdapter/MediaAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FiveAdapter/MediaPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FiveAdapter/Mp4Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FiveAdapter/VicPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FourBuilder/Bottle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FourBuilder/Burger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FourBuilder/BurgerWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FourBuilder/Cold.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FourBuilder/ColdBottle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FourBuilder/FourMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FourBuilder/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FourBuilder/Meal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FourBuilder/MealBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FourBuilder/Packing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FourBuilder/Wrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/NineProxy/JDKProxy/CarHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/NineProxy/JDKProxy/JDKMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/NineProxy/SaticProxy/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/NineProxy/SaticProxy/MoiveAble.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/NineProxy/SaticProxy/NineMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/NineProxy/SaticProxy/TimeProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/OneFactory/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/OneFactory/OneMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/OneFactory/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/OneFactory/SharpFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/OneFactory/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/OneFactory/shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SevenFilter/AndCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SevenFilter/Criteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SevenFilter/CriteriaFemale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SevenFilter/CriteriaMale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SevenFilter/CriteriaPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SevenFilter/CriteriaSingle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SevenFilter/OrCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SevenFilter/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SevenFilter/SevenMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SixBridge/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SixBridge/DrawAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SixBridge/GreenCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SixBridge/RedCircle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SixBridge/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SixBridge/SixMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TenIterator/Container.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TenIterator/Iterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TenIterator/NamePepository$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TenIterator/NamePepository$NameIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TenIterator/NamePepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TenIterator/TenMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/ThreeSingle/SingleFour$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/ThreeSingle/SingleFour$SingleEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/ThreeSingle/SingleFour.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/ThreeSingle/SingleOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/ThreeSingle/SingleThree$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/ThreeSingle/SingleThree$SingleThreeInner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/ThreeSingle/SingleThree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/ThreeSingle/SingleTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TwoAbstractFactory/AbstractFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TwoAbstractFactory/Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TwoAbstractFactory/ColorFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TwoAbstractFactory/FactoryProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TwoAbstractFactory/Red.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TwoAbstractFactory/SharpFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TwoAbstractFactory/TwoMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TwoAbstractFactory/Yellow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EightDecorator/EightMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/EightDecorator/EightMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EightDecorator/RedShapeDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/EightDecorator/RedShapeDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EightDecorator/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/EightDecorator/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EightDecorator/ShapeDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/EightDecorator/ShapeDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EightDecorator/impl/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/EightDecorator/impl/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EightDecorator/impl/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/EightDecorator/impl/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FiveAdapter/AdvancedMediaPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FiveAdapter/AdvancedMediaPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FiveAdapter/AudioPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FiveAdapter/AudioPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FiveAdapter/FiveMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FiveAdapter/FiveMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FiveAdapter/MediaAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FiveAdapter/MediaAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FiveAdapter/MediaPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FiveAdapter/MediaPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FiveAdapter/Mp4Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FiveAdapter/Mp4Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FiveAdapter/VicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FiveAdapter/VicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FourBuilder/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FourBuilder/Bottle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FourBuilder/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FourBuilder/Burger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FourBuilder/BurgerWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FourBuilder/BurgerWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FourBuilder/Cold.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FourBuilder/Cold.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FourBuilder/ColdBottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FourBuilder/ColdBottle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FourBuilder/FourMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FourBuilder/FourMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FourBuilder/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FourBuilder/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FourBuilder/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FourBuilder/Meal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FourBuilder/MealBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FourBuilder/MealBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FourBuilder/Packing.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FourBuilder/Packing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FourBuilder/Wrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FourBuilder/Wrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NineProxy/JDKProxy/CarHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/NineProxy/JDKProxy/CarHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NineProxy/JDKProxy/JDKMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/NineProxy/JDKProxy/JDKMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NineProxy/SaticProxy/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/NineProxy/SaticProxy/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NineProxy/SaticProxy/MoiveAble.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/NineProxy/SaticProxy/MoiveAble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NineProxy/SaticProxy/NineMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/NineProxy/SaticProxy/NineMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NineProxy/SaticProxy/TimeProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/NineProxy/SaticProxy/TimeProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OneFactory/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/OneFactory/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OneFactory/OneMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/OneFactory/OneMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OneFactory/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/OneFactory/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OneFactory/SharpFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/OneFactory/SharpFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OneFactory/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/OneFactory/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OneFactory/shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/OneFactory/shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SevenFilter/AndCriteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SevenFilter/AndCriteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SevenFilter/Criteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SevenFilter/Criteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SevenFilter/CriteriaFemale.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SevenFilter/CriteriaFemale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SevenFilter/CriteriaMale.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SevenFilter/CriteriaMale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SevenFilter/CriteriaPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SevenFilter/CriteriaPatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SevenFilter/CriteriaSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SevenFilter/CriteriaSingle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SevenFilter/OrCriteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SevenFilter/OrCriteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SevenFilter/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SevenFilter/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SevenFilter/SevenMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SevenFilter/SevenMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SixBridge/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SixBridge/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SixBridge/DrawAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SixBridge/DrawAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SixBridge/GreenCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SixBridge/GreenCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SixBridge/RedCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SixBridge/RedCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SixBridge/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SixBridge/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SixBridge/SixMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SixBridge/SixMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TenIterator/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/TenIterator/Container.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TenIterator/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/TenIterator/Iterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TenIterator/NamePepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/TenIterator/NamePepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TenIterator/TenMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/TenIterator/TenMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreeSingle/SingleFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/ThreeSingle/SingleFour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreeSingle/SingleOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/ThreeSingle/SingleOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreeSingle/SingleThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/ThreeSingle/SingleThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreeSingle/SingleTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/ThreeSingle/SingleTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoAbstractFactory/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/TwoAbstractFactory/AbstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoAbstractFactory/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/TwoAbstractFactory/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoAbstractFactory/ColorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/TwoAbstractFactory/ColorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoAbstractFactory/FactoryProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/TwoAbstractFactory/FactoryProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoAbstractFactory/Red.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/TwoAbstractFactory/Red.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoAbstractFactory/SharpFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/TwoAbstractFactory/SharpFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoAbstractFactory/TwoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/TwoAbstractFactory/TwoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoAbstractFactory/Yellow.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/TwoAbstractFactory/Yellow.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NineMain.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/NineProxy/SaticProxy/NineMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="32" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimeProxy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NineProxy/SaticProxy/TimeProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CarHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NineProxy/JDKProxy/CarHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TenMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TenIterator/TenMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="43" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Iterator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TenIterator/Iterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Container.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TenIterator/Container.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NamePepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TenIterator/NamePepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JDKMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NineProxy/JDKProxy/JDKMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NineProxy/SaticProxy/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MoiveAble.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NineProxy/SaticProxy/MoiveAble.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="162" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -163,141 +291,53 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/FourBuilder/BurgerWrapper.java" />
-        <option value="$PROJECT_DIR$/src/FourBuilder/ColdBottle.java" />
-        <option value="$PROJECT_DIR$/src/FourBuilder/Burger.java" />
-        <option value="$PROJECT_DIR$/src/FourBuilder/Cold.java" />
-        <option value="$PROJECT_DIR$/src/FourBuilder/Item.java" />
-        <option value="$PROJECT_DIR$/src/FourBuilder/Meal.java" />
-        <option value="$PROJECT_DIR$/src/FourBuilder/MealBuilder.java" />
-        <option value="$PROJECT_DIR$/src/FiveAdapterpattern/MediaPlayer.java" />
-        <option value="$PROJECT_DIR$/src/FiveAdapterpattern/AdvancedMediaPlayer.java" />
-        <option value="$PROJECT_DIR$/src/FiveAdapterpattern/VicPlayer.java" />
-        <option value="$PROJECT_DIR$/src/FiveAdapterpattern/Mp4Player.java" />
-        <option value="$PROJECT_DIR$/src/FiveAdapterpattern/MediaAdapter.java" />
-        <option value="$PROJECT_DIR$/src/FiveAdapterpattern/AudioPlayer.java" />
-        <option value="$PROJECT_DIR$/src/FiveAdapterpattern/FiveMain.java" />
-        <option value="$PROJECT_DIR$/src/FourBuilder/FourMain.java" />
-        <option value="$PROJECT_DIR$/src/SixBridge/DrawAPI.java" />
-        <option value="$PROJECT_DIR$/src/SixBridge/GreenCircle.java" />
-        <option value="$PROJECT_DIR$/src/SixBridge/RedCircle.java" />
-        <option value="$PROJECT_DIR$/src/SixBridge/Shape.java" />
-        <option value="$PROJECT_DIR$/src/SixBridge/Circle.java" />
-        <option value="$PROJECT_DIR$/src/SixBridge/SixMain.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/SevenFilter/Person.java" />
-        <option value="$PROJECT_DIR$/src/SevenFilter/CriteriaMale.java" />
-        <option value="$PROJECT_DIR$/src/SevenFilter/CriteriaSingle.java" />
-        <option value="$PROJECT_DIR$/src/SevenFilter/CriteriaFemale.java" />
-        <option value="$PROJECT_DIR$/src/SevenFilter/Criteria.java" />
-        <option value="$PROJECT_DIR$/src/SevenFilter/AndCriteria.java" />
-        <option value="$PROJECT_DIR$/src/SevenFilter/OrCriteria.java" />
-        <option value="$PROJECT_DIR$/src/SevenFilter/CriteriaPatternDemo.java" />
-        <option value="$PROJECT_DIR$/src/SevenFilter/SevenMain.java" />
-        <option value="$PROJECT_DIR$/src/EightDecorator/Shape.java" />
-        <option value="$PROJECT_DIR$/src/EightDecorator/Rectangle.java" />
-        <option value="$PROJECT_DIR$/src/EightDecorator/Circle.java" />
-        <option value="$PROJECT_DIR$/src/EightDecorator/ShapeDecorator.java" />
-        <option value="$PROJECT_DIR$/src/EightDecorator/EightMain.java" />
-        <option value="$PROJECT_DIR$/src/EightDecorator/RedShapeDecorator.java" />
-        <option value="$PROJECT_DIR$/src/NineProxy/static/Nine.kt" />
-        <option value="$PROJECT_DIR$/src/NineProxy/SaticProxy/RealImage.java" />
-        <option value="$PROJECT_DIR$/src/NineProxy/SaticProxy/ProxyImage.java" />
-        <option value="$PROJECT_DIR$/src/NineProxy/SaticProxy/Car.java" />
-        <option value="$PROJECT_DIR$/src/NineProxy/SaticProxy/MoiveAble.java" />
-        <option value="$PROJECT_DIR$/src/NineProxy/SaticProxy/Image.java" />
-        <option value="$PROJECT_DIR$/src/NineProxy/SaticProxy/NineMain.java" />
-        <option value="$PROJECT_DIR$/src/NineProxy/SaticProxy/TimeProxy.java" />
-        <option value="$PROJECT_DIR$/src/NineProxy/JDKProxy/JDKMain.java" />
-        <option value="$PROJECT_DIR$/src/NineProxy/JDKProxy/CarHandler.java" />
-        <option value="$PROJECT_DIR$/src/TenIterator/Interator.java" />
-        <option value="$PROJECT_DIR$/src/TenIterator/Container.java" />
-        <option value="$PROJECT_DIR$/src/TenIterator/TenMain.java" />
-        <option value="$PROJECT_DIR$/src/TenIterator/NamePepository.java" />
-      </list>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="width" value="1920" />
-    <option name="height" value="1055" />
-  </component>
+  <component name="ProjectId" id="1gfHpIctkO8njaaHUcRec2aNz3L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DesignMode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignMode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignMode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignMode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignMode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignMode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="NineProxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignMode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignMode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="NineProxy" type="462c0819:PsiDirectoryNode" />
-              <item name="JDKProxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignMode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignMode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="NineProxy" type="462c0819:PsiDirectoryNode" />
-              <item name="SaticProxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignMode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignMode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TenIterator" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/sort/eclipse-codestyle.xml" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="D:/sort/node-v8.9.0-win-x64/node-v8.9.0-win-x64/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.19562043" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="bio.server" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="excel" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github\design-mode-test" />
+      <recent name="D:\github\design-mode-test\designmode" />
+      <recent name="D:\github\design-mode-test\.idea" />
+      <recent name="D:\github\design-mode-test\designmode\src\main\java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -311,117 +351,120 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TenMain">
-    <configuration name="EightMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EightDecorator.EightMain" />
-      <module name="DesignMode" />
+  <component name="RunManager" selected="Spring Boot.CloudApplication">
+    <configuration name="EasyExcelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="excel.EasyExcelTest" />
+      <module name="netty" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EightDecorator.*" />
+          <option name="PATTERN" value="excel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="JDKMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NineProxy.JDKProxy.JDKMain" />
-      <module name="DesignMode" />
+    <configuration name="ExcelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="excel.ExcelTest" />
+      <module name="netty" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NineProxy.JDKProxy.*" />
+          <option name="PATTERN" value="excel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="NineMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NineProxy.SaticProxy.NineMain" />
-      <module name="DesignMode" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="excel.Main" />
+      <module name="netty" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NineProxy.SaticProxy.*" />
+          <option name="PATTERN" value="excel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="SevenMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SevenFilter.SevenMain" />
-      <module name="DesignMode" />
+    <configuration name="ServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nio.server.ServerMain" />
+      <module name="netty" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SevenFilter.*" />
+          <option name="PATTERN" value="nio.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-    </configuration>
-    <configuration name="TenMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TenIterator.TenMain" />
-      <module name="DesignMode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TenIterator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration name="CloudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cloud.CloudApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwaggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="swagger" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.boot.swagger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.boot.swagger.SwaggerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SevenMain" />
-      <item itemvalue="Application.EightMain" />
-      <item itemvalue="Application.NineMain" />
-      <item itemvalue="Application.JDKMain" />
-      <item itemvalue="Application.TenMain" />
+      <item itemvalue="Application.ServerMain" />
+      <item itemvalue="Application.EasyExcelTest" />
+      <item itemvalue="Application.ExcelTest" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Spring Boot.SwaggerApplication" />
+      <item itemvalue="Spring Boot.CloudApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TenMain" />
-        <item itemvalue="Application.JDKMain" />
-        <item itemvalue="Application.NineMain" />
-        <item itemvalue="Application.EightMain" />
-        <item itemvalue="Application.SevenMain" />
+        <item itemvalue="Application.EasyExcelTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ExcelTest" />
+        <item itemvalue="Spring Boot.SwaggerApplication" />
+        <item itemvalue="Application.ServerMain" />
       </list>
     </recent_temporary>
   </component>
@@ -437,526 +480,46 @@
       <updated>1558485841287</updated>
       <workItem from="1558485844140" duration="10038000" />
       <workItem from="1561443672674" duration="9199000" />
+      <workItem from="1598498913458" duration="22758000" />
+      <workItem from="1600917746320" duration="13378000" />
+      <workItem from="1601282403269" duration="4380000" />
+      <workItem from="1601342132951" duration="8891000" />
+      <workItem from="1601371728235" duration="2369000" />
+      <workItem from="1601427630677" duration="4698000" />
     </task>
+    <task id="LOCAL-00001" summary="netty提交">
+      <created>1598602232276</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598602232276</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19237000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1055" extended-state="1" />
-    <editor active="true" />
-    <layout>
-      <window_info anchor="right" id="Palette" order="7" />
-      <window_info anchor="bottom" id="TODO" order="11" weight="0.32838982" />
-      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4936034" weight="0.3205945" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5125" side_tool="true" weight="0.33050847" />
-      <window_info anchor="right" id="Maven Projects" order="0" weight="0.32995737" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49166667" weight="0.40681577" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32899022" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" x="774" y="199" width="371" height="641" id="Project" order="5" visible="true" weight="0.19432773" />
-      <window_info anchor="right" id="Database" order="1" weight="0.32995737" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32857144" />
-      <window_info anchor="right" id="SciView" order="12" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
-      <window_info id="UI Designer" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.4875" weight="0.35270134" />
-      <window_info anchor="right" id="Bean Validation" order="5" weight="0.32995737" />
-      <window_info anchor="right" id="JSF" order="2" weight="0.32995737" />
-      <window_info anchor="right" id="Commander" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.21041666" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="1" weight="0.32899022" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FourBuilder/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FourBuilder/Meal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FourBuilder/ColdBottle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FourBuilder/MealBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TwoAbstractFactory/FactoryProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TwoAbstractFactory/ColorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FourBuilder/Burger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FiveAdapter/VicPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FiveAdapter/MediaAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FiveAdapter/AudioPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FiveAdapter/AdvancedMediaPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FiveAdapter/MediaPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FiveAdapter/Mp4Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FiveAdapter/FiveMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="37" column="2" lean-forward="true" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FourBuilder/FourMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SixBridge/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SixBridge/RedCircle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SixBridge/GreenCircle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SixBridge/DrawAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SixBridge/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SixBridge/SixMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="238">
-            <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SevenFilter/CriteriaMale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SevenFilter/AndCriteria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SevenFilter/CriteriaSingle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SevenFilter/OrCriteria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SevenFilter/CriteriaFemale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SevenFilter/Criteria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SevenFilter/CriteriaPatternDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SevenFilter/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SevenFilter/SevenMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#544#552#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EightDecorator/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EightDecorator/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EightDecorator/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EightDecorator/ShapeDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EightDecorator/EightMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="49" column="55" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NineProxy/static/Nine.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EightDecorator/RedShapeDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NineProxy/SaticProxy/RealImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NineProxy/SaticProxy/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NineProxy/SaticProxy/MoiveAble.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NineProxy/SaticProxy/Image.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NineProxy/SaticProxy/ProxyImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NineProxy/SaticProxy/TimeProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NineProxy/JDKProxy/CarHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TenIterator/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TenIterator/Container.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TenIterator/NamePepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TenIterator/TenMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="43" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NineProxy/JDKProxy/JDKMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NineProxy/SaticProxy/NineMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="32" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="netty提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="netty提交" />
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>lib</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>DesignMode</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.19562043" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.19562043" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/design_mode_test$SwaggerApplication.ic" NAME="SwaggerApplication Coverage Results" MODIFIED="1601357360294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.boot.swagger.*</FILTER>
+    </SUITE>
   </component>
 </project>

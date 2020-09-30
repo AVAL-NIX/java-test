@@ -7,7 +7,6 @@ import java.net.Socket;
 
 /**
  * 阻塞式I/O创建的客户端
- *
  */
 public class Client {
     public static void send(String expression) {
