@@ -6,21 +6,41 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="netty" />
-        <module name="cloud" />
-        <module name="swagger" />
+        <module name="mango-common" />
+        <module name="mango-admin" />
+        <module name="all" />
+        <module name="mango-core" />
+        <module name="cloud (1)" />
+        <module name="boot" />
+        <module name="cors" />
+        <module name="druid" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cloud" target="1.8" />
-      <module name="netty" target="8" />
-      <module name="swagger" target="1.8" />
+      <module name="all" target="1.8" />
+      <module name="boot" target="1.8" />
+      <module name="cloud (1)" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="cors" target="1.8" />
+      <module name="druid" target="1.8" />
+      <module name="mango-admin" target="1.8" />
+      <module name="mango-common" target="1.8" />
+      <module name="mango-core" target="1.8" />
+      <module name="mango-pom" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="cloud" options="-parameters" />
-      <module name="swagger" options="-parameters" />
+      <module name="all" options="-parameters" />
+      <module name="boot" options="-parameters" />
+      <module name="cloud (1)" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="cors" options="-parameters" />
+      <module name="druid" options="-parameters" />
+      <module name="mango-admin" options="-parameters" />
+      <module name="mango-common" options="-parameters" />
+      <module name="mango-core" options="-parameters" />
+      <module name="mango-pom" options="-parameters" />
     </option>
   </component>
 </project>

@@ -2,255 +2,186 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44d1e24d-f22b-46fe-99ed-f4de373f70fd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_easyexcel_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designmode/designmode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designmode/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/excel/EasyExcelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/excel/EasyExcelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/excel/ElectronicDrawDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/excel/ExcelModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/excel/ExcelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/excel/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/netty/src/main/java/excel/POIUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagger/src/main/java/com/boot/swagger/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagger/src/main/java/com/boot/swagger/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/cors/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/cors/src/main/java/com/boot/swagger/config/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/cors/src/main/java/com/boot/swagger/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/cors/src/main/java/com/boot/swagger/config/WebMvcMyConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/cors/src/main/java/com/boot/swagger/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/cors/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/druid/src/main/java/com/boot/swagger/config/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/druid/src/main/java/com/boot/swagger/config/DruidDataSourceProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/config/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/config/WebMvcMyConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/constant/SysConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/controller/SysConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/controller/SysDeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/controller/SysDictController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/controller/SysLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/controller/SysLoginLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/controller/SysMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/controller/SysRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/controller/SysUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/dao/SysConfigMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/dao/SysDeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/dao/SysDictMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/dao/SysLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/dao/SysLoginLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/dao/SysMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/dao/SysRoleDeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/dao/SysRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/dao/SysRoleMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/dao/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/dao/SysUserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/model/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/model/SysConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/model/SysDept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/model/SysDict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/model/SysLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/model/SysLoginLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/model/SysMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/model/SysRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/model/SysRoleDept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/model/SysRoleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/model/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/model/SysUserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/SysConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/SysDeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/SysDictService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/SysLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/SysLoginLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/SysMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/SysRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/impl/SysConfigServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/impl/SysDeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/impl/SysDictServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/impl/SysLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/impl/SysLoginLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/resources/mapping/SysConfigMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/resources/mapping/SysDeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/resources/mapping/SysDictMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/resources/mapping/SysLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/resources/mapping/SysLoginLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/resources/mapping/SysMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/resources/mapping/SysRoleDeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/resources/mapping/SysRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/resources/mapping/SysRoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/resources/mapping/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/resources/mapping/SysUserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/test/com/mango/dao/SysUserMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/common/util/DateTimeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/common/util/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/common/util/IOUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/common/util/PasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/common/util/PasswordUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/common/util/PoiUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/common/util/ReflectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/common/util/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-core/src/main/java/com/mango/core/common/MyBatisPageHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-core/src/main/java/com/mango/core/common/PageRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-core/src/main/java/com/mango/core/common/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-core/src/main/java/com/mango/core/common/ReflectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-core/src/main/java/com/mango/core/http/HttpResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-core/src/main/java/com/mango/core/http/HttpStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-core/src/main/java/com/mango/core/service/CurdService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_easyexcel_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_38.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_38.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignMode.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/netty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/netty/netty.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/netty/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty/src/main/java/bio/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty/src/main/java/bio/client/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/EightDecorator/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/EightDecorator/EightMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/EightDecorator/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/EightDecorator/RedShapeDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/EightDecorator/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/EightDecorator/ShapeDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FiveAdapter/AdvancedMediaPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FiveAdapter/AudioPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FiveAdapter/FiveMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FiveAdapter/MediaAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FiveAdapter/MediaPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FiveAdapter/Mp4Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FiveAdapter/VicPlayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FourBuilder/Bottle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FourBuilder/Burger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FourBuilder/BurgerWrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FourBuilder/Cold.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FourBuilder/ColdBottle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FourBuilder/FourMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FourBuilder/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FourBuilder/Meal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FourBuilder/MealBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FourBuilder/Packing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/FourBuilder/Wrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/NineProxy/JDKProxy/CarHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/NineProxy/JDKProxy/JDKMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/NineProxy/SaticProxy/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/NineProxy/SaticProxy/MoiveAble.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/NineProxy/SaticProxy/NineMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/NineProxy/SaticProxy/TimeProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/OneFactory/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/OneFactory/OneMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/OneFactory/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/OneFactory/SharpFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/OneFactory/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/OneFactory/shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SevenFilter/AndCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SevenFilter/Criteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SevenFilter/CriteriaFemale.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SevenFilter/CriteriaMale.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SevenFilter/CriteriaPatternDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SevenFilter/CriteriaSingle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SevenFilter/OrCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SevenFilter/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SevenFilter/SevenMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SixBridge/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SixBridge/DrawAPI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SixBridge/GreenCircle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SixBridge/RedCircle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SixBridge/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/SixBridge/SixMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TenIterator/Container.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TenIterator/Iterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TenIterator/NamePepository$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TenIterator/NamePepository$NameIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TenIterator/NamePepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TenIterator/TenMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/ThreeSingle/SingleFour$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/ThreeSingle/SingleFour$SingleEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/ThreeSingle/SingleFour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/ThreeSingle/SingleOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/ThreeSingle/SingleThree$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/ThreeSingle/SingleThree$SingleThreeInner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/ThreeSingle/SingleThree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/ThreeSingle/SingleTwo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TwoAbstractFactory/AbstractFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TwoAbstractFactory/Color.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TwoAbstractFactory/ColorFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TwoAbstractFactory/FactoryProducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TwoAbstractFactory/Red.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TwoAbstractFactory/SharpFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TwoAbstractFactory/TwoMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/TwoAbstractFactory/Yellow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EightDecorator/EightMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/EightDecorator/EightMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EightDecorator/RedShapeDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/EightDecorator/RedShapeDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EightDecorator/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/EightDecorator/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EightDecorator/ShapeDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/EightDecorator/ShapeDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EightDecorator/impl/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/EightDecorator/impl/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EightDecorator/impl/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/EightDecorator/impl/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FiveAdapter/AdvancedMediaPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FiveAdapter/AdvancedMediaPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FiveAdapter/AudioPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FiveAdapter/AudioPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FiveAdapter/FiveMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FiveAdapter/FiveMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FiveAdapter/MediaAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FiveAdapter/MediaAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FiveAdapter/MediaPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FiveAdapter/MediaPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FiveAdapter/Mp4Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FiveAdapter/Mp4Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FiveAdapter/VicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FiveAdapter/VicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FourBuilder/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FourBuilder/Bottle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FourBuilder/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FourBuilder/Burger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FourBuilder/BurgerWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FourBuilder/BurgerWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FourBuilder/Cold.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FourBuilder/Cold.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FourBuilder/ColdBottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FourBuilder/ColdBottle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FourBuilder/FourMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FourBuilder/FourMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FourBuilder/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FourBuilder/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FourBuilder/Meal.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FourBuilder/Meal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FourBuilder/MealBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FourBuilder/MealBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FourBuilder/Packing.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FourBuilder/Packing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FourBuilder/Wrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/FourBuilder/Wrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NineProxy/JDKProxy/CarHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/NineProxy/JDKProxy/CarHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NineProxy/JDKProxy/JDKMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/NineProxy/JDKProxy/JDKMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NineProxy/SaticProxy/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/NineProxy/SaticProxy/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NineProxy/SaticProxy/MoiveAble.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/NineProxy/SaticProxy/MoiveAble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NineProxy/SaticProxy/NineMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/NineProxy/SaticProxy/NineMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NineProxy/SaticProxy/TimeProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/NineProxy/SaticProxy/TimeProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OneFactory/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/OneFactory/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OneFactory/OneMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/OneFactory/OneMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OneFactory/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/OneFactory/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OneFactory/SharpFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/OneFactory/SharpFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OneFactory/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/OneFactory/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OneFactory/shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/OneFactory/shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SevenFilter/AndCriteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SevenFilter/AndCriteria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SevenFilter/Criteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SevenFilter/Criteria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SevenFilter/CriteriaFemale.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SevenFilter/CriteriaFemale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SevenFilter/CriteriaMale.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SevenFilter/CriteriaMale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SevenFilter/CriteriaPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SevenFilter/CriteriaPatternDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SevenFilter/CriteriaSingle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SevenFilter/CriteriaSingle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SevenFilter/OrCriteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SevenFilter/OrCriteria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SevenFilter/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SevenFilter/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SevenFilter/SevenMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SevenFilter/SevenMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SixBridge/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SixBridge/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SixBridge/DrawAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SixBridge/DrawAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SixBridge/GreenCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SixBridge/GreenCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SixBridge/RedCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SixBridge/RedCircle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SixBridge/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SixBridge/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SixBridge/SixMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/SixBridge/SixMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TenIterator/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/TenIterator/Container.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TenIterator/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/TenIterator/Iterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TenIterator/NamePepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/TenIterator/NamePepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TenIterator/TenMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/TenIterator/TenMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreeSingle/SingleFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/ThreeSingle/SingleFour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreeSingle/SingleOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/ThreeSingle/SingleOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreeSingle/SingleThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/ThreeSingle/SingleThree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreeSingle/SingleTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/ThreeSingle/SingleTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoAbstractFactory/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/TwoAbstractFactory/AbstractFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoAbstractFactory/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/TwoAbstractFactory/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoAbstractFactory/ColorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/TwoAbstractFactory/ColorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoAbstractFactory/FactoryProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/TwoAbstractFactory/FactoryProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoAbstractFactory/Red.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/TwoAbstractFactory/Red.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoAbstractFactory/SharpFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/TwoAbstractFactory/SharpFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoAbstractFactory/TwoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/TwoAbstractFactory/TwoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoAbstractFactory/Yellow.java" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/src/main/java/TwoAbstractFactory/Yellow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/cors/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/boot/cors/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot/cors/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/cloud.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/src/main/java/com/example/cloud/CloudApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/cors/src/main/java/com/boot/swagger/SwaggerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-common/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/src/test/java/com/example/cloud/CloudApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/target/classes/com/example/cloud/CloudApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/target/test-classes/com/example/cloud/CloudApplicationTests.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -285,6 +216,10 @@
         <option value="Python Script" />
         <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="JUnit5 Test Class" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -298,6 +233,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
   <component name="ProjectId" id="1gfHpIctkO8njaaHUcRec2aNz3L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -310,8 +248,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/common/util" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -323,20 +266,40 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19562043" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="bio.server" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.mango.dao" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="excel" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\github\design-mode-test\cloud\mango-admin\src\main\java\com\mango\sysmap" />
       <recent name="D:\github\design-mode-test" />
       <recent name="D:\github\design-mode-test\designmode" />
       <recent name="D:\github\design-mode-test\.idea" />
       <recent name="D:\github\design-mode-test\designmode\src\main\java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\design-mode-test\cloud\mango-common\src\main\java\com\mango\common\util" />
+      <recent name="D:\github\design-mode-test\cloud\mango-admin\src\main\java\com\mango\controller" />
+      <recent name="D:\github\design-mode-test\cloud\mango-admin\src\main\java\com\mango\dao" />
+      <recent name="D:\github\design-mode-test\cloud\mango-admin\src\main\java\com\mango\model" />
+      <recent name="D:\github\design-mode-test\cloud\mango-admin\src\main\java\com\mango\service\impl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mango.constant" />
+      <recent name="com.mango.dao" />
+      <recent name="com.mango.service.impl" />
+      <recent name="com.mango.controller" />
+      <recent name="com.mango" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mango.core.service.common" />
+      <recent name="com.mango.core.common" />
+      <recent name="bio.server" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -351,65 +314,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CloudApplication">
-    <configuration name="EasyExcelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="excel.EasyExcelTest" />
-      <module name="netty" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="excel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExcelTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="excel.ExcelTest" />
-      <module name="netty" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="excel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="excel.Main" />
-      <module name="netty" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="excel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nio.server.ServerMain" />
-      <module name="netty" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nio.server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.AdminApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysUserMapperTest.findPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mango-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mango.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mango.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.mango.dao.SysUserMapperTest" />
+      <option name="METHOD_NAME" value="findPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -421,15 +345,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CloudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cloud" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cloud.CloudApplication" />
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mango-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.AdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mango-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mango.common.CommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mango-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mango.core.CoreApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SwaggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="swagger" />
+      <module name="cors" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.boot.swagger.*" />
@@ -450,23 +388,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.ServerMain" />
-      <item itemvalue="Application.EasyExcelTest" />
-      <item itemvalue="Application.ExcelTest" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Spring Boot.SwaggerApplication" />
-      <item itemvalue="Spring Boot.CloudApplication" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EasyExcelTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ExcelTest" />
+        <item itemvalue="JUnit.SysUserMapperTest.findPage" />
         <item itemvalue="Spring Boot.SwaggerApplication" />
-        <item itemvalue="Application.ServerMain" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -485,7 +415,12 @@
       <workItem from="1601282403269" duration="4380000" />
       <workItem from="1601342132951" duration="8891000" />
       <workItem from="1601371728235" duration="2369000" />
-      <workItem from="1601427630677" duration="4698000" />
+      <workItem from="1601427630677" duration="5529000" />
+      <workItem from="1602205944372" duration="2042000" />
+      <workItem from="1602211114217" duration="23000" />
+      <workItem from="1602295717118" duration="2561000" />
+      <workItem from="1602496408810" duration="33529000" />
+      <workItem from="1602680690906" duration="13978000" />
     </task>
     <task id="LOCAL-00001" summary="netty提交">
       <created>1598602232276</created>
@@ -518,6 +453,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="netty提交" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/design_mode_test$AdminApplication.ic" NAME="AdminApplication Coverage Results" MODIFIED="1602668117622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/design_mode_test$SwaggerApplication.ic" NAME="SwaggerApplication Coverage Results" MODIFIED="1601357360294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.boot.swagger.*</FILTER>
     </SUITE>

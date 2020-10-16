@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/boot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/cors" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot/druid" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/mango-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/mango-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/mango-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/mango-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/mango-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/mango-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud/mango-pom" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/designmode" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/swagger" charset="UTF-8" />
   </component>
