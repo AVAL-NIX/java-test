@@ -21,8 +21,25 @@ spring:
       pool-prepared-statements: true
       max-open-prepared-statements: 50
       max-pool-prepared-statement-per-connection-size: 20
-
-
+  application:
+    name: mango-admin
+  boot:
+    admin:
+      client:
+        url: "http://localhost:7374"
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        serviceName: ${spring.application.name}    # 注册到consul的服务名称
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 mybatis:
   mapper-locations: classpath:mapping/*Mapper.xml
   type-aliases-package: com.mango.model
+server:
+  port: 7373

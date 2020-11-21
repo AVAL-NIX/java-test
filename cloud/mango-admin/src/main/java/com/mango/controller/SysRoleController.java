@@ -1,12 +1,12 @@
 package com.mango.controller;
 
-import com.louis.mango.admin.constant.SysConstants;
-import com.louis.mango.admin.dao.SysRoleMapper;
-import com.louis.mango.admin.model.SysRole;
-import com.louis.mango.admin.model.SysRoleMenu;
-import com.louis.mango.admin.service.SysRoleService;
-import com.louis.mango.core.http.HttpResult;
-import com.louis.mango.core.page.PageRequest;
+import com.mango.constant.SysConstants;
+import com.mango.core.common.PageRequest;
+import com.mango.http.HttpResult;
+import com.mango.dao.SysRoleMapper;
+import com.mango.model.SysRole;
+import com.mango.model.SysRoleMenu;
+import com.mango.service.SysRoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,8 +14,6 @@ import java.util.List;
 
 /**
  * 角色控制器
- * @author Louis
- * @date Jan 13, 2019
  */
 @RestController
 @RequestMapping("role")

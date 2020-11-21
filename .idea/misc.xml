@@ -14,6 +14,13 @@
         <option value="$PROJECT_DIR$/cloud/mango-core/pom.xml" />
         <option value="$PROJECT_DIR$/cloud/mango-pom/pom.xml" />
         <option value="$PROJECT_DIR$/cloud/mango-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/mango-back/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/mango-monitor/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/mango-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/mango-producer2/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/mango-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/test/mango-producer2/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud/mango-hystrix/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,11 +1,11 @@
 package com.mango.controller;
 
 
-import com.mango.common.util.FileUtils;
-import com.mango.common.util.PasswordUtils;
+import com.mango.util.FileUtils;
+import com.mango.util.PasswordUtils;
 import com.mango.constant.SysConstants;
 import com.mango.core.common.PageRequest;
-import com.mango.core.http.HttpResult;
+import com.mango.http.HttpResult;
 import com.mango.model.SysUser;
 import com.mango.service.SysUserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,8 +17,6 @@ import java.util.List;
 
 /**
  * 用户控制器
- * @author Louis
- * @date Jan 13, 2019
  */
 @RestController
 @RequestMapping("user")

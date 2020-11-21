@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * 系统配置管理
- * @author Louis
+ * @author zhengxin
  * @date Jan 13, 2019
  */
 public interface SysConfigService extends CurdService<SysConfig> {

@@ -1,0 +1,31 @@
+server:
+  port: 7377
+spring:
+  application:
+    name: mango-back
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        serviceName: ${spring.application.name}    # 注册到consul的服务名称
+  boot:
+    admin:
+      client:
+        url: "http://localhost:7374"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+mango:
+  backup:
+    datasource:
+      host: localhost
+      userName: root
+      password: 123456
+      database: mango
+

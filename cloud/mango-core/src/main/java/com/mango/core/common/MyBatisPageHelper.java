@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 翻页工具类
  *
- * @author Administrator
+ * @author zhengxin
  * @date 2020/10/13
  */
 public class MyBatisPageHelper {

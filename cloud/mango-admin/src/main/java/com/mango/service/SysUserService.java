@@ -11,7 +11,7 @@ import java.util.Set;
 
 /**
  * 用户管理
- * @author Louis
+ * @author zhengxin
  * @date Jan 13, 2019
  */
 public interface SysUserService extends CurdService<SysUser> {

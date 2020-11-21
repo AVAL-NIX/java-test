@@ -12,6 +12,8 @@ import javax.sql.DataSource;
 
 /**
  * Mybatis配置
+ * @author zhengxin
+ * @date 2020/11/12
  */
 @Configuration
 @MapperScan("com.mango.dao")    // 扫描DAO

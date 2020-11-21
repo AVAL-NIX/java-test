@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 通用CURD接口
  *
- * @author Administrator
+ * @author zhengxin
  * @date 2020/10/13
  */
 public interface CurdService<T> {

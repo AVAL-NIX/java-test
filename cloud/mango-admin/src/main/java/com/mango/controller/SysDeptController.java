@@ -1,6 +1,6 @@
 package com.mango.controller;
 
-import com.mango.core.http.HttpResult;
+import com.mango.http.HttpResult;
 import com.mango.model.SysDept;
 import com.mango.service.SysDeptService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,8 +10,6 @@ import java.util.List;
 
 /**
  * 机构控制器
- * @author Louis
- * @date Jan 13, 2019
  */
 @RestController
 @RequestMapping("dept")

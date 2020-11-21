@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * 角色管理
- * @author Louis
+ * @author zhengxin
  * @date Jan 13, 2019
  */
 public interface SysRoleService extends CurdService<SysRole> {

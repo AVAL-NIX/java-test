@@ -22,7 +22,7 @@ public class HelloController {
     public void down(HttpServletResponse response)throws Exception{
         response.setHeader("Access-Control-Allow-Origin", "*"); // 解决请求头跨域问题
         response.setContentType("application/pdf");
-        File f1 = new File("C:\\Users\\Administrator\\Pictures\\111.pdf");
+        File f1 = new File("C:\\Users\\zhengxin\\Pictures\\111.pdf");
         FileInputStream reader= new FileInputStream(f1);
         BufferedInputStream BufferReader = new BufferedInputStream(reader);
         // 创建servlet 输出流对象

@@ -14,6 +14,13 @@ import javax.servlet.Filter;
 import javax.servlet.Servlet;
 import javax.sql.DataSource;
 
+
+/**
+ * 连接池配置
+ *
+ * @author zhengxin
+ * @date 2020/11/12
+ */
 @Configuration
 public class DruidConfig {
 

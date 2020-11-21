@@ -2,7 +2,7 @@ package com.mango.controller;
 
 
 import com.mango.core.common.PageRequest;
-import com.mango.core.http.HttpResult;
+import com.mango.http.HttpResult;
 import com.mango.model.SysConfig;
 import com.mango.service.SysConfigService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,8 +12,6 @@ import java.util.List;
 
 /**
  * 系统配置控制器
- * @author Louis
- * @date Jan 13, 2019
  */
 @RestController
 @RequestMapping("config")

@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * 机构管理
- * @author Louis
+ * @author zhengxin
  * @date Jan 13, 2019
  */
 public interface SysDeptService extends CurdService<SysDept> {

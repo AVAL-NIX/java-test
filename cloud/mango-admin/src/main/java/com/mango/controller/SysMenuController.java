@@ -1,8 +1,8 @@
 package com.mango.controller;
 
-import com.louis.mango.admin.model.SysMenu;
-import com.louis.mango.admin.service.SysMenuService;
-import com.louis.mango.core.http.HttpResult;
+import com.mango.http.HttpResult;
+import com.mango.model.SysMenu;
+import com.mango.service.SysMenuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * 菜单控制器
- * @author Louis
+ * @author zhengxin
  * @date Jan 13, 2019
  */
 @RestController

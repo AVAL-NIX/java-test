@@ -1,0 +1,31 @@
+server:
+  port: 8006
+spring:
+  application:
+    name: mango-consumer
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        serviceName: ${spring.application.name}	# 注册到consul的服务名称
+  boot:
+    admin:
+      client:
+        url: "http://localhost:7374"
+# 开放健康检查接口
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+
+### 针对单个服务的 Ribbon 配置
+mango-producer:
+  ribbon:
+    # 基于配置文件形式的 针对单个服务的 Ribbon 负载均衡策略
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule

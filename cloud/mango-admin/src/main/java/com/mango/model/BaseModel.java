@@ -4,7 +4,7 @@ import java.util.Date;
 
 /**
  * 基础模型
- * @author Louis
+ * @author zhengxin
  * @date Sep 13, 2018
  */
 public class BaseModel {
