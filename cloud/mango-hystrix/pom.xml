@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.mango</groupId>
-    <artifactId>mango-producer2</artifactId>
+    <artifactId>mango-hystrix</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mango-producer2</name>
+    <name>mango-hystrix</name>
     <description>Demo project for Spring Boot</description>
     <packaging>jar</packaging>
 

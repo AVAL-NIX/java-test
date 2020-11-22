@@ -1,289 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="ALL" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="44d1e24d-f22b-46fe-99ed-f4de373f70fd" name="Default" comment="netty提交">
-      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/config/KaptchaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/controller/SysLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/security/GrantedAuthorityImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/security/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/security/JwtAuthenticationProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/security/JwtAuthenticationToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/security/JwtTokenUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/security/JwtUserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/security/PasswordEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/security/SecurityUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/security/UserDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/vo/LoginBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-back/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-back/src/main/java/com/mango/BackApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-back/src/main/java/com/mango/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-back/src/main/java/com/mango/config/WebMvcMyConfigurer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-back/src/main/java/com/mango/controller/MySqlBackupController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-back/src/main/java/com/mango/contstant/BackupConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-back/src/main/java/com/mango/datasource/BackupDataSourceProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-back/src/main/java/com/mango/service/MysqlBackupService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-back/src/main/java/com/mango/service/impl/MysqlBackupServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-back/src/main/java/com/mango/util/MySqlBackupRestoreUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-back/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/constant/SysConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/util/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/util/PasswordUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-consul/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-consul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-consul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-consul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-consul/安装说明.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-consumer/src/main/java/com/mango/consumer/ConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-consumer/src/main/java/com/mango/consumer/controller/CallHelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-consumer/src/main/java/com/mango/consumer/controller/FeignHelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-consumer/src/main/java/com/mango/consumer/controller/MangoProducerHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-consumer/src/main/java/com/mango/consumer/controller/MangoProducerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-consumer/src/main/java/com/mango/consumer/controller/RibbonConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-consumer/src/main/java/com/mango/consumer/controller/RibbonHelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-consumer/src/main/java/com/mango/consumer/controller/ServiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-hystrix/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-hystrix/src/main/java/com/mango/hystrix/HystrixApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-hystrix/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-monitor/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-monitor/src/main/java/com/mango/MonitorApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-monitor/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-producer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-producer/src/main/java/com/mango/ProducerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-producer/src/main/java/com/mango/consumer/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/mango-producer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/test/mango-producer2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/test/mango-producer2/src/main/java/com/mango/ProducerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/test/mango-producer2/src/main/java/com/mango/producer/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud/test/mango-producer2/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="137146e1-d7d1-4e19-9368-af57070558f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud/mango-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-config/src/main/java/com/mango/config/ConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-config/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-zipkin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-zipkin/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-zipkin/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-zipkin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-zipkin/安装说明.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-zuul/src/main/java/com/mango/config/ZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-zuul/src/main/java/com/mango/config/filter/MyFallbackProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-zuul/src/main/java/com/mango/config/filter/MyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/mango-zuul/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/eclipseCodeFormatter.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/cors/src/main/java/com/boot/swagger/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/cors/src/main/java/com/boot/swagger/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/AdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/AdminApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/config/DruidConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/config/DruidConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/config/MybatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/config/MybatisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/config/WebMvcMyConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/config/WebMvcMyConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/constant/SysConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/constant/SysConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/controller/SysConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/controller/SysConfigController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/controller/SysDeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/controller/SysDeptController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/controller/SysDictController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/controller/SysDictController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/controller/SysLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/controller/SysLogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/controller/SysLoginLogController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/controller/SysMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/controller/SysMenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/controller/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/controller/SysRoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/controller/SysUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/model/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/model/BaseModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/SysConfigService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/SysConfigService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/SysDeptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/SysDeptService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/SysDictService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/SysDictService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/SysLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/SysLogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/SysLoginLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/SysLoginLogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/SysMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/SysMenuService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/SysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/SysRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/SysUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/common/util/DateTimeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/util/DateTimeUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/common/util/FileUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/common/util/IOUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/util/IOUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/common/util/PasswordEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/util/PasswordEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/common/util/PasswordUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-admin/src/main/java/com/mango/security/PasswordUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/common/util/PoiUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/util/PoiUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/common/util/ReflectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/util/ReflectionUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/common/util/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/util/StringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-core/src/main/java/com/mango/core/common/MyBatisPageHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-core/src/main/java/com/mango/core/common/MyBatisPageHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-core/src/main/java/com/mango/core/common/PageRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-core/src/main/java/com/mango/core/common/PageRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-core/src/main/java/com/mango/core/common/PageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-core/src/main/java/com/mango/core/common/PageResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-core/src/main/java/com/mango/core/common/ReflectionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-core/src/main/java/com/mango/core/common/ReflectionUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-core/src/main/java/com/mango/core/http/HttpResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/http/HttpResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-core/src/main/java/com/mango/core/http/HttpStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-common/src/main/java/com/mango/http/HttpStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-core/src/main/java/com/mango/core/service/CurdService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-core/src/main/java/com/mango/core/service/CurdService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/mango-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/mango-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/mango-hystrix/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-hystrix/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud/mango-pom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-pom/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designmode/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/designmode/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty/netty.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="162" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Python Script" />
-        <option value="Kotlin Class" />
-        <option value="FxmlFile" />
-        <option value="JUnit5 Test Class" />
-        <option value="Arquillian JUnit Test Class" />
-        <option value="JUnit4 Test Class" />
-        <option value="JavaScript File" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="C:\Users\Administrator\.m2\repository" />
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
-        <option name="userSettingsFile" value="C:\Users\Administrator\.m2\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
-  </component>
-  <component name="ProjectId" id="1gfHpIctkO8njaaHUcRec2aNz3L" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectId" id="1kaLJUnz1MFe6DzYzNLNx60sTMp" />
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="abbreviatePackageNames" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud/mango-hystrix" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="$PROJECT_DIR$/../../sort/node-v8.9.0-win-x64/node-v8.9.0-win-x64/node" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud/mango-config" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.19562043" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="vue.rearranger.settings.migration" value="true" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.mango.dao" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\github\design-mode-test\cloud\test" />
-      <recent name="D:\github\design-mode-test\cloud\mango-admin\src\main\java\com\mango\sysmap" />
-      <recent name="D:\github\design-mode-test" />
-      <recent name="D:\github\design-mode-test\designmode" />
-      <recent name="D:\github\design-mode-test\.idea" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.mango.config" />
-      <recent name="com.mango" />
-      <recent name="com.mango.constant" />
-      <recent name="com.mango.dao" />
-      <recent name="com.mango.service.impl" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\github\design-mode-test\cloud\mango-hystrix" />
-      <recent name="D:\github\design-mode-test\cloud" />
-      <recent name="D:\github\design-mode-test\cloud\mango-consumer\src\main\java\com\mango\consumer\controller" />
-      <recent name="D:\github\design-mode-test\cloud\mango-producer\src\main\java\com\mango\producer\controller" />
-      <recent name="D:\github\design-mode-test\cloud\mango-common\src\main\java\com\mango" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.mango.core.service.common" />
-      <recent name="com.mango.core.common" />
-      <recent name="bio.server" />
+      <recent name="D:\github\java-test\cloud" />
+      <recent name="D:\github\java-test\cloud\mango-zuul\src\main\java\com\mango\zuul\filter" />
+      <recent name="D:\github\java-test\cloud\mango-zuul\src\main\java\com\mango\zuul" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.HystrixApplication">
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SysUserMapperTest.findPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mango-admin" />
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ZuulApplication">
+    <configuration name="ConsumerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mango.consumer.ConsumerApplication" />
+      <module name="mango-consumer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mango.dao.*" />
+          <option name="PATTERN" value="com.mango.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mango.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.mango.dao.SysUserMapperTest" />
-      <option name="METHOD_NAME" value="findPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -298,26 +102,33 @@
     <configuration name="BackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mango-back" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mango.BackApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="CloudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cloud.CloudApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mango-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mango.config.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mango-consumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mango.consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mango.consumer.ConsumerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="mango-admin" />
+      <module name="mango-core" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mango.core.CoreApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -326,31 +137,25 @@
     <configuration name="HystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mango-hystrix" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mango.hystrix.HystrixApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="MonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="mango-monitor" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mango.MonitorApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProducerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="mango-producer2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.mango.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mango.ProducerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mango.MonitorApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ProducerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="mango-producer" />
       <extension name="coverage">
         <pattern>
@@ -363,234 +168,157 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwaggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cors" />
+    <configuration name="ProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mango-producer2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.boot.swagger.*" />
+          <option name="PATTERN" value="com.mango.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mango.ProducerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwaggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="druid (1)" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.boot.swagger.SwaggerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
+    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mango-zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mango.hystrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mango.config.ZuulApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SysUserMapperTest.findPage" />
+      <item itemvalue="Application.ConsumerApplication" />
       <item itemvalue="Spring Boot.AdminApplication" />
       <item itemvalue="Spring Boot.BackApplication" />
+      <item itemvalue="Spring Boot.CloudApplication" />
       <item itemvalue="Spring Boot.CoreApplication" />
-      <item itemvalue="Spring Boot.MonitorApplication" />
-      <item itemvalue="Spring Boot.SwaggerApplication" />
-      <item itemvalue="Spring Boot.ProducerApplication" />
-      <item itemvalue="Spring Boot.ConsumerApplication" />
-      <item itemvalue="Spring Boot.ProducerApplication (1)" />
       <item itemvalue="Spring Boot.HystrixApplication" />
+      <item itemvalue="Spring Boot.SwaggerApplication" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
+      <item itemvalue="Spring Boot.MonitorApplication" />
+      <item itemvalue="Spring Boot.ProducerApplication" />
+      <item itemvalue="Spring Boot.ProducerApplication (1)" />
+      <item itemvalue="Spring Boot.ZuulApplication" />
+      <item itemvalue="Spring Boot.ConfigApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConsumerApplication" />
+        <item itemvalue="Spring Boot.MonitorApplication" />
+        <item itemvalue="Spring Boot.ZuulApplication" />
         <item itemvalue="Spring Boot.ProducerApplication (1)" />
         <item itemvalue="Spring Boot.ProducerApplication" />
-        <item itemvalue="JUnit.SysUserMapperTest.findPage" />
-        <item itemvalue="Spring Boot.SwaggerApplication" />
+        <item itemvalue="Application.ConsumerApplication" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="44d1e24d-f22b-46fe-99ed-f4de373f70fd" name="Default" comment="" />
-      <created>1558485841287</created>
+      <changelist id="137146e1-d7d1-4e19-9368-af57070558f1" name="Default Changelist" comment="" />
+      <created>1605933683130</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1558485841287</updated>
-      <workItem from="1558485844140" duration="10038000" />
-      <workItem from="1561443672674" duration="9199000" />
-      <workItem from="1598498913458" duration="22758000" />
-      <workItem from="1600917746320" duration="13378000" />
-      <workItem from="1601282403269" duration="4380000" />
-      <workItem from="1601342132951" duration="8891000" />
-      <workItem from="1601371728235" duration="2369000" />
-      <workItem from="1601427630677" duration="5529000" />
-      <workItem from="1602205944372" duration="2042000" />
-      <workItem from="1602211114217" duration="23000" />
-      <workItem from="1602295717118" duration="2561000" />
-      <workItem from="1602496408810" duration="33529000" />
-      <workItem from="1602680690906" duration="13978000" />
-      <workItem from="1604999002803" duration="32857000" />
-      <workItem from="1605167430595" duration="3035000" />
-      <workItem from="1605180708731" duration="4602000" />
-      <workItem from="1605234678912" duration="4667000" />
-      <workItem from="1605493320274" duration="10332000" />
-      <workItem from="1605583733494" duration="8747000" />
+      <updated>1605933683130</updated>
+      <workItem from="1605933684306" duration="2410000" />
+      <workItem from="1605957885944" duration="5161000" />
+      <workItem from="1606007725552" duration="9902000" />
+      <workItem from="1606044674596" duration="5378000" />
     </task>
-    <task id="LOCAL-00001" summary="netty提交">
-      <created>1598602232276</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1598602232276</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="netty提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="netty提交" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="586" y="198" key="#Inspections" timestamp="1605159942662">
+    <state x="590" y="113" key="#HystrixApplication" timestamp="1606008628514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1605159942662" />
-    <state x="440" y="94" key="#Project_Structure" timestamp="1605525922324">
+    <state x="590" y="113" key="#HystrixApplication/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606008628514" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606019635173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1605525922324" />
-    <state x="414" y="175" width="1092" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605584463236">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606019635173" />
+    <state x="695" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606053288604">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" width="1092" height="740" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605584463236" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1605238350419">
+    <state x="695" y="320" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053288604" />
+    <state x="689" y="308" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1606008626211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605238350419" />
-    <state x="549" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1605237847795">
+    <state x="689" y="308" key="#com.intellij.ide.util.TreeClassChooserDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606008626211" />
+    <state x="601" y="226" key="FileChooserDialogImpl" timestamp="1606055363338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="549" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605237847795" />
-    <state x="558" y="87" key="CommitChangelistDialog2" timestamp="1605061343651">
+    <state x="601" y="226" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606055363338" />
+    <state width="1324" height="289" key="GridCell.Tab.0.bottom" timestamp="1606053139028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="87" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605061343651" />
-    <state x="818" y="266" key="EnvironmentVariablesDialog" timestamp="1605185155416">
+    <state width="1324" height="289" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053139028" />
+    <state width="1324" height="289" key="GridCell.Tab.0.center" timestamp="1606053139028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="818" y="266" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605185155416" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605494808870">
+    <state width="1324" height="289" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053139028" />
+    <state width="1324" height="289" key="GridCell.Tab.0.left" timestamp="1606053139028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605494808870" />
-    <state width="1921" height="289" key="GridCell.Tab.0.bottom" timestamp="1605601416337">
+    <state width="1324" height="289" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053139028" />
+    <state width="1324" height="289" key="GridCell.Tab.0.right" timestamp="1606053139028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605601416337" />
-    <state width="1921" height="289" key="GridCell.Tab.0.center" timestamp="1605601416337">
+    <state width="1324" height="289" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053139028" />
+    <state width="1324" height="289" key="GridCell.Tab.1.bottom" timestamp="1606053139029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="289" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605601416337" />
-    <state width="1921" height="289" key="GridCell.Tab.0.left" timestamp="1605601416337">
+    <state width="1324" height="289" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053139029" />
+    <state width="1324" height="289" key="GridCell.Tab.1.center" timestamp="1606053139029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="289" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605601416337" />
-    <state width="1921" height="289" key="GridCell.Tab.0.right" timestamp="1605601416337">
+    <state width="1324" height="289" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053139029" />
+    <state width="1324" height="289" key="GridCell.Tab.1.left" timestamp="1606053139028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="289" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605601416337" />
-    <state width="1921" height="289" key="GridCell.Tab.1.bottom" timestamp="1605601416338">
+    <state width="1324" height="289" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053139028" />
+    <state width="1324" height="289" key="GridCell.Tab.1.right" timestamp="1606053139029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="289" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605601416338" />
-    <state width="1921" height="289" key="GridCell.Tab.1.center" timestamp="1605601416337">
+    <state width="1324" height="289" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053139029" />
+    <state width="1324" height="289" key="GridCell.Tab.2.bottom" timestamp="1606053139029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="289" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605601416337" />
-    <state width="1921" height="289" key="GridCell.Tab.1.left" timestamp="1605601416337">
+    <state width="1324" height="289" key="GridCell.Tab.2.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053139029" />
+    <state width="1324" height="289" key="GridCell.Tab.2.center" timestamp="1606053139029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="289" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605601416337" />
-    <state width="1921" height="289" key="GridCell.Tab.1.right" timestamp="1605601416337">
+    <state width="1324" height="289" key="GridCell.Tab.2.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053139029" />
+    <state width="1324" height="289" key="GridCell.Tab.2.left" timestamp="1606053139029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="289" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605601416337" />
-    <state width="1921" height="356" key="GridCell.Tab.2.bottom" timestamp="1605601416304">
+    <state width="1324" height="289" key="GridCell.Tab.2.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053139029" />
+    <state width="1324" height="289" key="GridCell.Tab.2.right" timestamp="1606053139029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605601416304" />
-    <state width="1921" height="356" key="GridCell.Tab.2.center" timestamp="1605601416304">
+    <state width="1324" height="289" key="GridCell.Tab.2.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053139029" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1606055368401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605601416304" />
-    <state width="1921" height="356" key="GridCell.Tab.2.left" timestamp="1605601416304">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="356" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605601416304" />
-    <state width="1921" height="356" key="GridCell.Tab.2.right" timestamp="1605601416304">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="356" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605601416304" />
-    <state x="440" y="94" width="998" height="902" key="SettingsEditor" timestamp="1605182467956">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="94" width="998" height="902" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605182467956" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605061313253">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605061313253" />
-    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605061322579">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605061322579" />
-    <state x="386" y="256" width="1147" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605182675820">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="386" y="256" width="1147" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1605182675820" />
-    <state x="287" y="217" width="596" height="594" key="find.popup" timestamp="1605238054200">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="287" y="217" width="596" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605238054200" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1605530413142">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605530413142" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605530263671">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605530263671" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="org.springframework.beans.factory.UnsatisfiedDependencyException" package="org.springframework.beans.factory" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/design_mode_test$SwaggerApplication.ic" NAME="SwaggerApplication Coverage Results" MODIFIED="1601357360294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.boot.swagger.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/design_mode_test$AdminApplication.ic" NAME="AdminApplication Coverage Results" MODIFIED="1602668117622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <state x="440" y="94" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606055368401" />
   </component>
 </project>

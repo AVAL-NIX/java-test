@@ -13,6 +13,12 @@ spring:
     admin:
       client:
         url: "http://localhost:7374"
+
+  zipkin:
+    base-url: http://localhost:9411/
+  sleuth:
+    sampler:
+      probability: 1 #样本采集量，默认为0.1，为了测试这里修改为1，正式环境一般使用默认值。
 # 开放健康检查接口
 management:
   endpoints:
@@ -29,3 +35,10 @@ mango-producer:
   ribbon:
     # 基于配置文件形式的 针对单个服务的 Ribbon 负载均衡策略
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+
+
+
+#开启熔断器
+feign:
+  hystrix:
+    enabled: true
