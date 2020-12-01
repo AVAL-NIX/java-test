@@ -53,7 +53,7 @@
           <!-- 用户信息 -->
           <span class="user-info">
             <img :src="user.avatar" />
-            {{ user.name }}
+            {{ user.name }} {{ test() }}
           </span>
           <el-popover ref="popover-personal" placement="bottom-end" trigger="click" :visible-arrow="false">
             <personal-panel :user="user"></personal-panel>
@@ -93,6 +93,9 @@ export default {
     }
   },
   methods: {
+    test() {
+      return 'test'
+    },
     openWindow(url) {
       window.open(url)
     },

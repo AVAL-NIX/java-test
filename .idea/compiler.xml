@@ -6,22 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud" />
-        <module name="mango-zuul" />
-        <module name="druid" />
-        <module name="netty" />
-        <module name="mango-admin" />
-        <module name="mango-consumer" />
-        <module name="mango-hystrix" />
-        <module name="mango-back" />
-        <module name="mango-producer" />
-        <module name="mango-monitor" />
-        <module name="swagger" />
-        <module name="druid (1)" />
-        <module name="mango-config" />
+        <module name="mango-zuul (1)" />
+        <module name="mango-zuul (2)" />
         <module name="mango-core" />
-        <module name="mango-common" />
+        <module name="mango-producer" />
         <module name="mango-producer2" />
+        <module name="mango-common" />
+        <module name="mango-zuul" />
+        <module name="swagger" />
+        <module name="cloud" />
+        <module name="mango-config" />
+        <module name="mango-monitor" />
+        <module name="druid" />
+        <module name="mango-consumer" />
+        <module name="druid (1)" />
+        <module name="mango-back" />
+        <module name="mango-admin" />
+        <module name="mango-hystrix" />
+        <module name="netty" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -42,6 +44,8 @@
       <module name="mango-producer2" target="1.8" />
       <module name="mango-zipkin" target="1.8" />
       <module name="mango-zuul" target="1.8" />
+      <module name="mango-zuul (1)" target="1.8" />
+      <module name="mango-zuul (2)" target="1.8" />
       <module name="netty" target="1.5" />
       <module name="swagger" target="1.8" />
     </bytecodeTargetLevel>
@@ -62,6 +66,8 @@
       <module name="mango-producer" options="-parameters" />
       <module name="mango-producer2" options="-parameters" />
       <module name="mango-zuul" options="-parameters" />
+      <module name="mango-zuul (1)" options="-parameters" />
+      <module name="mango-zuul (2)" options="-parameters" />
       <module name="swagger" options="-parameters" />
     </option>
   </component>
