@@ -17,7 +17,21 @@ spring:
           username:
           passowrd:
         default-label: main
-
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    bus-refresh:
+      enabled: true
+    health:
+      show-details: ALWAYS
 #
 #  spring.cloud.config.server.git.uri：配置git仓库地址
 #  spring.cloud.config.server.git.searchPaths：配置仓库路径

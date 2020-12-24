@@ -10,5 +10,7 @@ public class Main {
         Tom tom = new Tom();
         tom.study(new JavaCourse());
         tom.study(new PythonCourse());
+
+
     }
 }
