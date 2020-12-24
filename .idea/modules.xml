@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud/mango-back/mango-back.iml" filepath="$PROJECT_DIR$/cloud/mango-back/mango-back.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/mango-common/mango-common.iml" filepath="$PROJECT_DIR$/cloud/mango-common/mango-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/mango-config/mango-config.iml" filepath="$PROJECT_DIR$/cloud/mango-config/mango-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud/mango-config/mango-config.iml" filepath="$PROJECT_DIR$/cloud/mango-config/mango-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/mango-consul/mango-consul.iml" filepath="$PROJECT_DIR$/cloud/mango-consul/mango-consul.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/mango-consumer/mango-consumer.iml" filepath="$PROJECT_DIR$/cloud/mango-consumer/mango-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/mango-core/mango-core.iml" filepath="$PROJECT_DIR$/cloud/mango-core/mango-core.iml" />
@@ -20,7 +21,6 @@
       <module fileurl="file://$PROJECT_DIR$/cloud/test/mango-producer2/mango-producer2.iml" filepath="$PROJECT_DIR$/cloud/test/mango-producer2/mango-producer2.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/mango-zipkin/mango-zipkin.iml" filepath="$PROJECT_DIR$/cloud/mango-zipkin/mango-zipkin.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/mango-zuul/mango-zuul.iml" filepath="$PROJECT_DIR$/cloud/mango-zuul/mango-zuul.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud/mango-config/mango-zuul (1).iml" filepath="$PROJECT_DIR$/cloud/mango-config/mango-zuul (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/mango-zuul/mango-zuul (2).iml" filepath="$PROJECT_DIR$/cloud/mango-zuul/mango-zuul (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/netty/netty.iml" filepath="$PROJECT_DIR$/netty/netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/swagger/swagger.iml" filepath="$PROJECT_DIR$/swagger/swagger.iml" />

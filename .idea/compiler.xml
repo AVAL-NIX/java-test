@@ -6,7 +6,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mango-zuul (1)" />
         <module name="mango-zuul (2)" />
         <module name="mango-core" />
         <module name="mango-producer" />
@@ -44,7 +43,6 @@
       <module name="mango-producer2" target="1.8" />
       <module name="mango-zipkin" target="1.8" />
       <module name="mango-zuul" target="1.8" />
-      <module name="mango-zuul (1)" target="1.8" />
       <module name="mango-zuul (2)" target="1.8" />
       <module name="netty" target="1.5" />
       <module name="swagger" target="1.8" />
@@ -66,7 +64,6 @@
       <module name="mango-producer" options="-parameters" />
       <module name="mango-producer2" options="-parameters" />
       <module name="mango-zuul" options="-parameters" />
-      <module name="mango-zuul (1)" options="-parameters" />
       <module name="mango-zuul (2)" options="-parameters" />
       <module name="swagger" options="-parameters" />
     </option>

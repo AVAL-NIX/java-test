@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.mango</groupId>
-    <artifactId>mango-zuul</artifactId>
+    <artifactId>mango-config</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mango-zuul</name>
+    <name>mango-config</name>
     <description>Demo project for Spring Boot</description>
     <packaging>jar</packaging>
 
