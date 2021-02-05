@@ -4,12 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/designmode/cloud.iml" filepath="$PROJECT_DIR$/designmode/cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot/cors/druid.iml" filepath="$PROJECT_DIR$/boot/cors/druid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/boot/druid/druid (1).iml" filepath="$PROJECT_DIR$/boot/druid/druid (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot/druid/druid.iml" filepath="$PROJECT_DIR$/boot/druid/druid.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-test.iml" filepath="$PROJECT_DIR$/.idea/java-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/mango-admin/mango-admin.iml" filepath="$PROJECT_DIR$/cloud/mango-admin/mango-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/mango-back/mango-back.iml" filepath="$PROJECT_DIR$/cloud/mango-back/mango-back.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/mango-common/mango-common.iml" filepath="$PROJECT_DIR$/cloud/mango-common/mango-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud/mango-config/mango-config.iml" filepath="$PROJECT_DIR$/cloud/mango-config/mango-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/mango-config/mango-config.iml" filepath="$PROJECT_DIR$/cloud/mango-config/mango-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/mango-consul/mango-consul.iml" filepath="$PROJECT_DIR$/cloud/mango-consul/mango-consul.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud/mango-consumer/mango-consumer.iml" filepath="$PROJECT_DIR$/cloud/mango-consumer/mango-consumer.iml" />

@@ -5,20 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="137146e1-d7d1-4e19-9368-af57070558f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/designinit/src/main/java/测试静态块/Children.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/designinit/src/main/java/测试静态块/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot/designinit/src/main/java/测试静态块/TestObj.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/mango-config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-consumer/src/main/java/com/mango/consumer/RetryConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud/mango-consumer/src/main/resources/META-INF/spring.factories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/cors/src/main/java/com/boot/swagger/config/DruidConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/cors/src/main/java/com/boot/swagger/config/DruidConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/cors/src/main/java/com/boot/swagger/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/cors/src/main/java/com/boot/swagger/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/designinit/src/main/java/依赖倒置原则/PythonCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/designinit/src/main/java/依赖倒置原则/PythonCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/designinit/src/main/java/依赖倒置原则/Tom.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/designinit/src/main/java/依赖倒置原则/Tom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/designinit/src/main/java/开闭原则/ICourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/designinit/src/main/java/开闭原则/ICourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/designinit/src/main/java/开闭原则/JavaCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/designinit/src/main/java/开闭原则/JavaCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/designmode/src/main/java/ThreeSingle/SingleFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/designmode/src/main/java/ThreeSingle/SingleFour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/designmode/src/main/java/ThreeSingle/SingleThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/designmode/src/main/java/ThreeSingle/SingleThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/druid/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot/druid/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/druid/src/main/java/com/boot/swagger/config/DruidConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/druid/src/main/java/com/boot/swagger/config/DruidConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/druid/src/main/java/com/boot/swagger/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/druid/src/main/java/com/boot/swagger/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/netty/src/main/java/bio/server/ServerBIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/netty/src/main/java/bio/server/ServerBIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/netty/src/main/java/excel/EasyExcelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/netty/src/main/java/excel/EasyExcelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/netty/src/main/java/excel/ElectronicDrawDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/netty/src/main/java/excel/ElectronicDrawDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/netty/src/main/java/excel/ExcelModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/netty/src/main/java/excel/ExcelModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/netty/src/main/java/excel/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/netty/src/main/java/excel/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/netty/src/main/java/nio/client/ClientHander.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/netty/src/main/java/nio/client/ClientHander.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/netty/src/main/java/nio/client/ClientHanderReadAndWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/netty/src/main/java/nio/client/ClientHanderReadAndWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/netty/src/main/java/nio/server/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/netty/src/main/java/nio/server/ServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/netty/src/main/java/nio/server/ServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/netty/src/main/java/nio/server/ServerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/netty/src/main/java/nio/server/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/netty/src/main/java/nio/server/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/swagger/src/main/java/com/boot/swagger/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/swagger/src/main/java/com/boot/swagger/controller/HelloController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -48,11 +75,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -73,7 +103,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigApplication (1)">
+  <component name="RunManager" selected="Spring Boot.SwaggerApplication">
     <configuration name="ConsumerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mango.consumer.ConsumerApplication" />
       <module name="mango-consumer" />
@@ -83,19 +113,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,11 +232,11 @@
       <item itemvalue="Spring Boot.AdminApplication" />
       <item itemvalue="Spring Boot.BackApplication" />
       <item itemvalue="Spring Boot.CloudApplication" />
+      <item itemvalue="Spring Boot.ConfigApplication" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
       <item itemvalue="Spring Boot.CoreApplication" />
       <item itemvalue="Spring Boot.HystrixApplication" />
       <item itemvalue="Spring Boot.SwaggerApplication" />
-      <item itemvalue="Spring Boot.ConsumerApplication" />
-      <item itemvalue="Spring Boot.ConfigApplication" />
       <item itemvalue="Spring Boot.ConfigApplication (1)" />
       <item itemvalue="Spring Boot.MonitorApplication" />
       <item itemvalue="Spring Boot.ProducerApplication (1)" />
@@ -227,11 +244,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConfigApplication (1)" />
-        <item itemvalue="Spring Boot.MonitorApplication" />
-        <item itemvalue="Spring Boot.ProducerApplication (1)" />
-        <item itemvalue="Application.ConsumerApplication" />
         <item itemvalue="Spring Boot.ZuulApplication" />
+        <item itemvalue="Spring Boot.ProducerApplication (1)" />
+        <item itemvalue="Spring Boot.MonitorApplication" />
+        <item itemvalue="Spring Boot.ConfigApplication (1)" />
+        <item itemvalue="Application.ConsumerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +275,18 @@
       <workItem from="1607493559047" duration="14000" />
       <workItem from="1607908371970" duration="599000" />
       <workItem from="1608370567888" duration="135000" />
-      <workItem from="1608709718949" duration="10372000" />
+      <workItem from="1608709718949" duration="11408000" />
+      <workItem from="1610594119841" duration="65000" />
+      <workItem from="1610691750809" duration="15000" />
+      <workItem from="1610953877765" duration="2917000" />
+      <workItem from="1611022513426" duration="76000" />
+      <workItem from="1611022616030" duration="1291000" />
+      <workItem from="1611023976062" duration="592000" />
+      <workItem from="1611025515420" duration="605000" />
+      <workItem from="1611044217772" duration="3693000" />
+      <workItem from="1611541355188" duration="612000" />
+      <workItem from="1612248429768" duration="601000" />
+      <workItem from="1612508113301" duration="5000" />
     </task>
     <servers />
   </component>
@@ -295,82 +323,91 @@
     </state>
     <state x="601" y="226" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606055363338" />
     <state x="601" y="226" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607493571094" />
-    <state width="1324" height="312" key="GridCell.Tab.0.bottom" timestamp="1608773864049">
+    <state width="1324" height="312" key="GridCell.Tab.0.bottom" timestamp="1608779742870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1324" height="289" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053139028" />
-    <state width="1324" height="312" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608773864049" />
-    <state width="1324" height="312" key="GridCell.Tab.0.center" timestamp="1608773864049">
+    <state width="1324" height="312" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608779742870" />
+    <state width="1324" height="312" key="GridCell.Tab.0.center" timestamp="1608779742870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1324" height="289" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053139028" />
-    <state width="1324" height="312" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608773864049" />
-    <state width="1324" height="312" key="GridCell.Tab.0.left" timestamp="1608773864049">
+    <state width="1324" height="312" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608779742870" />
+    <state width="1324" height="312" key="GridCell.Tab.0.left" timestamp="1608779742869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1324" height="289" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053139028" />
-    <state width="1324" height="312" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608773864049" />
-    <state width="1324" height="312" key="GridCell.Tab.0.right" timestamp="1608773864049">
+    <state width="1324" height="312" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608779742869" />
+    <state width="1324" height="312" key="GridCell.Tab.0.right" timestamp="1608779742870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1324" height="289" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053139028" />
-    <state width="1324" height="312" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608773864049" />
-    <state width="1324" height="312" key="GridCell.Tab.1.bottom" timestamp="1608773864050">
+    <state width="1324" height="312" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608779742870" />
+    <state width="1324" height="312" key="GridCell.Tab.1.bottom" timestamp="1608779742871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1324" height="289" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053139029" />
-    <state width="1324" height="312" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608773864050" />
-    <state width="1324" height="312" key="GridCell.Tab.1.center" timestamp="1608773864049">
+    <state width="1324" height="312" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608779742871" />
+    <state width="1324" height="312" key="GridCell.Tab.1.center" timestamp="1608779742870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1324" height="289" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053139029" />
-    <state width="1324" height="312" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608773864049" />
-    <state width="1324" height="312" key="GridCell.Tab.1.left" timestamp="1608773864049">
+    <state width="1324" height="312" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608779742870" />
+    <state width="1324" height="312" key="GridCell.Tab.1.left" timestamp="1608779742870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1324" height="289" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053139028" />
-    <state width="1324" height="312" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608773864049" />
-    <state width="1324" height="312" key="GridCell.Tab.1.right" timestamp="1608773864050">
+    <state width="1324" height="312" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608779742870" />
+    <state width="1324" height="312" key="GridCell.Tab.1.right" timestamp="1608779742870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1324" height="289" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053139029" />
-    <state width="1324" height="312" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608773864050" />
-    <state width="1324" height="312" key="GridCell.Tab.2.bottom" timestamp="1608773864051">
+    <state width="1324" height="312" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608779742870" />
+    <state width="1324" height="312" key="GridCell.Tab.2.bottom" timestamp="1608779742871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1324" height="289" key="GridCell.Tab.2.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053139029" />
-    <state width="1324" height="312" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608773864051" />
-    <state width="1324" height="312" key="GridCell.Tab.2.center" timestamp="1608773864050">
+    <state width="1324" height="312" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608779742871" />
+    <state width="1324" height="312" key="GridCell.Tab.2.center" timestamp="1608779742871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1324" height="289" key="GridCell.Tab.2.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053139029" />
-    <state width="1324" height="312" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608773864050" />
-    <state width="1324" height="312" key="GridCell.Tab.2.left" timestamp="1608773864050">
+    <state width="1324" height="312" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608779742871" />
+    <state width="1324" height="312" key="GridCell.Tab.2.left" timestamp="1608779742871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1324" height="289" key="GridCell.Tab.2.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053139029" />
-    <state width="1324" height="312" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608773864050" />
-    <state width="1324" height="312" key="GridCell.Tab.2.right" timestamp="1608773864050">
+    <state width="1324" height="312" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608779742871" />
+    <state width="1324" height="312" key="GridCell.Tab.2.right" timestamp="1608779742871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1324" height="289" key="GridCell.Tab.2.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606053139029" />
-    <state width="1324" height="312" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608773864050" />
+    <state width="1324" height="312" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608779742871" />
     <state x="661" y="221" key="RollbackChangesDialog" timestamp="1608715874584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="661" y="221" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608715874584" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1606055368401">
+    <state x="440" y="94" key="SettingsEditor" timestamp="1611023916236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606055368401" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611023916236" />
     <state width="508" height="508" key="SwitcherDM" timestamp="1606876957262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="508" height="508" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1606876957262" />
+    <state x="662" y="223" width="596" height="594" key="find.popup" timestamp="1610954761378">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="223" width="596" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610954761378" />
     <state x="334" y="130" key="new project wizard" timestamp="1606888548232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="130" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606888548232" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1611022653058">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611022653058" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608370640919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
