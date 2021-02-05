@@ -7,7 +7,7 @@ import lombok.Data;
  * @date 2020/11/27
  */
 @Data
-public class JavaCourse  extends ICourse{
+public class JavaCourse extends ICourse {
     private int id;
     private String name;
     private double price;

@@ -29,9 +29,9 @@ public class EasyExcelTest {
             ElectronicDrawDto.setDrawNumber(i + "");
             ElectronicDrawDto.setIndex("卷册索引号" + i);
             ElectronicDrawDto.setInterval("所属间隔" + i);
-            ElectronicDrawDto.setEquipmentDrawName("设备"+i);
-            ElectronicDrawDto.setEquipmentTypeName("凤凰嘴变" );
-            ElectronicDrawDto.setImgPath("111.pdf" );
+            ElectronicDrawDto.setEquipmentDrawName("设备" + i);
+            ElectronicDrawDto.setEquipmentTypeName("凤凰嘴变");
+            ElectronicDrawDto.setImgPath("111.pdf");
             excelModelList.add(ElectronicDrawDto);
         }
 

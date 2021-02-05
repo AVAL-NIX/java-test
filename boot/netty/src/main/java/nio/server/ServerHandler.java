@@ -83,7 +83,7 @@ public class ServerHandler implements Runnable {
     public ServerHandler(String addr, int port) {
         try {
             serverSocketChannel = ServerSocketChannel.open();
-            serverSocketChannel.socket().bind(new InetSocketAddress(addr,port));
+            serverSocketChannel.socket().bind(new InetSocketAddress(addr, port));
             selector = Selector.open();
             serverSocketChannel.configureBlocking(false);
             serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);

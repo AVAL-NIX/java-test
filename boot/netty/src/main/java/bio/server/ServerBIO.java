@@ -10,7 +10,7 @@ public class ServerBIO {
 
     public static void main(String[] args) throws Exception {
         ServerSocket serverSocket = new ServerSocket(8888);
-        while (true){
+        while (true) {
             Socket socket = serverSocket.accept();
             new Thread(new handlerBIO(socket)).start();
         }

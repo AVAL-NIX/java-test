@@ -17,7 +17,7 @@ public class Tom {
 //    }
 
     //
-    public void study(ICourse iCourse){
+    public void study(ICourse iCourse) {
         iCourse.study();
     }
 }

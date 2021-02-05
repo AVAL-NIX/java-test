@@ -9,9 +9,9 @@ import java.nio.channels.SocketChannel;
 public class ClientHanderReadAndWriter {
     /**
      * 从SocketChannel中读取信息
-     * 
+     *
      * @param channel
-     * @throws IOException 
+     * @throws IOException
      */
     public static void read(SocketChannel channel) throws IOException {
 
@@ -29,7 +29,7 @@ public class ClientHanderReadAndWriter {
             content += Util.charset.decode(buffer);
         }
         //若系统发送通知名字已经存在，则需要换个昵称
-        if(Util.USER_EXIST.equals(content)) {
+        if (Util.USER_EXIST.equals(content)) {
 //            name = "";
             System.out.println("name has exists.");
         }
@@ -38,7 +38,7 @@ public class ClientHanderReadAndWriter {
 
     /**
      * 想SocketChannel中写入数据
-     * 
+     *
      * @param channel
      */
     public static void write(SocketChannel channel) {

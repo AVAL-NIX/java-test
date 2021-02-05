@@ -38,14 +38,14 @@ public class ClientHander implements Runnable {
             channel.register(selector, SelectionKey.OP_READ
                     | SelectionKey.OP_WRITE);
 
-            
+
         } catch (IOException e) {
             e.printStackTrace();
         }
 
     }
-    
-    public void chancelToWrite(ByteBuffer buffer){
+
+    public void chancelToWrite(ByteBuffer buffer) {
         try {
             channel.write(buffer);
         } catch (IOException e) {
@@ -111,10 +111,10 @@ public class ClientHander implements Runnable {
                     }
                 }
             }
-            
+
             /*取消关注，多用在多线程的时候
              * key.interestOps(key.interestOps() & (~SelectionKey.OP_READ));
-             * 
+             *
              * 增加关注
              * key.interestOps(key.interestOps() | SelectionKey.OP_READ);
              * */
