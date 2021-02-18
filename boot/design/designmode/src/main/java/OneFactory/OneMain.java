@@ -1,5 +1,7 @@
 package OneFactory;
 
+import javafx.scene.shape.Circle;
+
 /**
  * 工厂模式
  *
@@ -12,5 +14,6 @@ public class OneMain {
     public static void main(String[] args) {
         shape s = SharpFactory.getShape("CIRCLE");
         s.draw();
+        Circle circle =new Circle();
     }
 }

@@ -5,33 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="137146e1-d7d1-4e19-9368-af57070558f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/boot/designinit/src/main/java/测试静态块/Children.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/designinit/src/main/java/测试静态块/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot/designinit/src/main/java/测试静态块/TestObj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/cors/src/main/java/com/boot/swagger/config/DruidConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/cors/src/main/java/com/boot/swagger/config/DruidConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/cors/src/main/java/com/boot/swagger/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/cors/src/main/java/com/boot/swagger/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/designinit/src/main/java/依赖倒置原则/PythonCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/designinit/src/main/java/依赖倒置原则/PythonCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/designinit/src/main/java/依赖倒置原则/Tom.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/designinit/src/main/java/依赖倒置原则/Tom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/designinit/src/main/java/开闭原则/ICourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/designinit/src/main/java/开闭原则/ICourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/designinit/src/main/java/开闭原则/JavaCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/designinit/src/main/java/开闭原则/JavaCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/designmode/src/main/java/ThreeSingle/SingleFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/designmode/src/main/java/ThreeSingle/SingleFour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/designmode/src/main/java/ThreeSingle/SingleThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/designmode/src/main/java/ThreeSingle/SingleThree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/druid/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot/druid/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/druid/src/main/java/com/boot/swagger/config/DruidConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/druid/src/main/java/com/boot/swagger/config/DruidConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/druid/src/main/java/com/boot/swagger/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/druid/src/main/java/com/boot/swagger/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/netty/src/main/java/bio/server/ServerBIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/netty/src/main/java/bio/server/ServerBIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/netty/src/main/java/excel/EasyExcelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/netty/src/main/java/excel/EasyExcelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/netty/src/main/java/excel/ElectronicDrawDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/netty/src/main/java/excel/ElectronicDrawDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/netty/src/main/java/excel/ExcelModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/netty/src/main/java/excel/ExcelModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/netty/src/main/java/excel/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/netty/src/main/java/excel/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/netty/src/main/java/nio/client/ClientHander.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/netty/src/main/java/nio/client/ClientHander.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/netty/src/main/java/nio/client/ClientHanderReadAndWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/netty/src/main/java/nio/client/ClientHanderReadAndWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/netty/src/main/java/nio/server/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/netty/src/main/java/nio/server/ServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/netty/src/main/java/nio/server/ServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/netty/src/main/java/nio/server/ServerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/netty/src/main/java/nio/server/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/netty/src/main/java/nio/server/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/swagger/src/main/java/com/boot/swagger/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot/swagger/src/main/java/com/boot/swagger/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/~$test.doc" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -287,6 +261,7 @@
       <workItem from="1611541355188" duration="612000" />
       <workItem from="1612248429768" duration="601000" />
       <workItem from="1612508113301" duration="5000" />
+      <workItem from="1613615360464" duration="170000" />
     </task>
     <servers />
   </component>
