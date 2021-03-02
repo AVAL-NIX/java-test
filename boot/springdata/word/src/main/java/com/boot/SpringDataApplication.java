@@ -3,9 +3,7 @@ package com.boot;
 import com.boot.model.Table;
 import com.boot.model.TableCol;
 import com.boot.service.BaseService;
-import com.boot.util.Base64;
-import com.boot.util.SpringUtil;
-import com.boot.util.WordUtil;
+import com.boot.util.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -35,8 +33,7 @@ public class SpringDataApplication {
 //        }
         try {
 //            WordUtil.createDocContext("d:/test.doc",tables);
-            WordUtil.createDocContext2("d:/test4.doc");
-
+//            WordUtil.createDocContext2("d:/test4.doc");
 
         } catch (Exception e) {
             e.printStackTrace();
