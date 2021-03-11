@@ -16,6 +16,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Optional;
@@ -66,7 +67,6 @@ public class JPATestOne {
         articleDao.deleteById(2);
     }
 
-
     //查询所有---分页
     @Test
     public void testFindAllWithPage() {
@@ -81,13 +81,36 @@ public class JPATestOne {
     //查询所有---分页和排序
     @Test
     public void testFindAllWithPageAndSort() {
-        Sort sort = Sort.by(Sort.Order.desc("aid"));
+        Sort sort = Sort.by(Sort.Order.desc("title"), Sort.Order.desc("createTime"));
         //从第几页(页数从0开始)开始查,每页多少条
-        Pageable pageable = PageRequest.of(2, 1, sort);
+        Pageable pageable = PageRequest.of(0, 10, sort);
         Page<Article> page = articleDao.findAll(pageable);
         for (Article article : page.getContent()) {
             System.out.println(article);
         }
+    }
+
+
+    @Test
+    public void findByTitle() {
+        List<Article> articles = articleDao.findByTitle("测试标题1");
+
+        System.out.println(articles);
+    }
+
+    @Test
+    public void findByTitleLike() {
+        List<Article> articles = articleDao.findByTitleLike("%测试%");
+
+        System.out.println(articles);
+    }
+
+
+    @Test
+    public void findByTitleAndAuthorLike() {
+        List<Article> articles = articleDao.findByTitleLikeAndAuthorLike("郑_", "%测试%");
+
+        System.out.println(articles);
     }
 
 
