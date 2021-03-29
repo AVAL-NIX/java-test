@@ -35,10 +35,6 @@ public class Solution {
             // 从上往下
             if (left <= right && top < bottom-1) {
                 for (int i = top + 1; i < bottom; i++) {
-
-
-
-
                     result.add(matrix[i][right - 1]);
                 }
             }

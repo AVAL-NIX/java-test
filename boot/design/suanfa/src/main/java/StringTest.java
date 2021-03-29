@@ -8,6 +8,7 @@ public class StringTest {
 
     /**
      * 反转字符串
+     * 用堆栈  或者双指针法
      *
      * @param str string字符串
      * @return string字符串
