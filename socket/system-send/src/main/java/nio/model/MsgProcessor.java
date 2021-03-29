@@ -11,6 +11,8 @@ import nio.netty.code.IMDecoder;
 import nio.netty.code.IMEncoder;
 
 /**
+ * 处理消息的类
+ *
  * @author zhengxin
  * @date 2021/3/29
  */
