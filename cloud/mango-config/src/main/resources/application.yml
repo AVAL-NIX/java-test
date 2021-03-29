@@ -1,5 +1,5 @@
 server:
-  port: 8046
+  port: 8010
 spring:
   application:
     name: mango-config
