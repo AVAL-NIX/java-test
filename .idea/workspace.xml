@@ -1,249 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a29feb6d-b1d2-4252-9fd8-52d677586130" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+    <list default="true" id="a29feb6d-b1d2-4252-9fd8-52d677586130" name="Default Changelist" comment="目录排版整理">
+      <change afterPath="$PROJECT_DIR$/socket/system-send/read.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/client/ChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/client/handler/ChatClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/offer/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/offer/src/main/java/com/zx/ListNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/offer/src/main/java/com/zx/One.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/offer/src/main/java/com/zx/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot/offer/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/model/IMMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/model/IMMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/model/IMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/model/IMP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/model/MsgProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/model/MsgProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/code/IMEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/code/IMEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/handler/ChatClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/handler/HttpServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/handler/HttpServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/handler/TerminalServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/handler/TerminalServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/handler/WebSocketServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/handler/WebSocketServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/ChatClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/ChatServer.java" afterDir="false" />
+    </list>
+    <list id="7ea8e5ec-990d-4263-8268-70c950742915" name="un" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/bloom/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/bloom/src/main/java/com/zx/Google.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/bloom/src/main/java/com/zx/MyBloomFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/bloom/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/cors/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/cors/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/cors/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/cors/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/cors/src/main/java/com/boot/SwaggerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/cors/src/main/java/com/boot/config/DruidConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/cors/src/main/java/com/boot/config/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/cors/src/main/java/com/boot/config/WebMvcMyConfigurer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/cors/src/main/java/com/boot/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/cors/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/druid/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/druid/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/druid/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/druid/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/druid/src/main/java/com/boot/SwaggerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/druid/src/main/java/com/boot/config/DruidConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/druid/src/main/java/com/boot/config/DruidDataSourceProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/druid/src/main/java/com/boot/config/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/druid/src/main/java/com/boot/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/druid/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/offer/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/offer/src/main/java/com/zx/ListNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/offer/src/main/java/com/zx/One.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/offer/src/main/java/com/zx/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/offer/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/springmvc/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/springmvc/src/main/java/com/zx/annation/Autowired.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/springmvc/src/main/java/com/zx/annation/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/springmvc/src/main/java/com/zx/annation/RequestMapping.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/springmvc/src/main/java/com/zx/annation/RequestParam.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/springmvc/src/main/java/com/zx/annation/Service.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/springmvc/src/main/java/com/zx/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/springmvc/src/main/java/com/zx/controller/StudentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/springmvc/src/main/java/com/zx/dispatch/DispatcherServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/springmvc/src/main/java/com/zx/service/HelloService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/springmvc/src/main/java/com/zx/service/StudentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/springmvc/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/springmvc/src/main/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/swagger/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/swagger/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/swagger/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/swagger/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/swagger/src/main/java/com/boot/SwaggerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/swagger/src/main/java/com/boot/config/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/swagger/src/main/java/com/boot/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/swagger/src/main/java/com/boot/test/AccountingSync.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/swagger/src/main/java/com/boot/test/AccountingSync2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/swagger/src/main/java/com/boot/test/SynchronizedBlocked.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/swagger/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/boot/swagger/src/test/java/com/boot/SwaggerApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/datastructure/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/datastructure/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/datastructure/src/main/java/二叉树/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/datastructure/src/main/java/二叉树/TreeNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/datastructure/src/test/java/com/example/cloud/CloudApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designinit/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designinit/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designinit/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designinit/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designinit/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designinit/src/main/java/依赖倒置原则/ICourse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designinit/src/main/java/依赖倒置原则/JavaCourse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designinit/src/main/java/依赖倒置原则/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designinit/src/main/java/依赖倒置原则/PythonCourse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designinit/src/main/java/依赖倒置原则/Tom.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designinit/src/main/java/依赖倒置原则/read.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designinit/src/main/java/开闭原则/ICourse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designinit/src/main/java/开闭原则/JavaCourse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designinit/src/main/java/开闭原则/JavaDiscCountCourse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designinit/src/main/java/开闭原则/read.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designinit/src/main/java/测试静态块/Children.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designinit/src/main/java/测试静态块/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designinit/src/main/java/测试静态块/TestObj.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designinit/src/test/java/com/example/cloud/CloudApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/EightDecorator/EightMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/EightDecorator/RedShapeDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/EightDecorator/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/EightDecorator/ShapeDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/EightDecorator/impl/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/EightDecorator/impl/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/FiveAdapter/AdvancedMediaPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/FiveAdapter/AudioPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/FiveAdapter/FiveMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/FiveAdapter/MediaAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/FiveAdapter/MediaPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/FiveAdapter/Mp4Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/FiveAdapter/VicPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/FourBuilder/Bottle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/FourBuilder/Burger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/FourBuilder/BurgerWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/FourBuilder/Cold.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/FourBuilder/ColdBottle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/FourBuilder/FourMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/FourBuilder/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/FourBuilder/Meal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/FourBuilder/MealBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/FourBuilder/Packing.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/FourBuilder/Wrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/NineProxy/JDKProxy/CarHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/NineProxy/JDKProxy/JDKMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/NineProxy/SaticProxy/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/NineProxy/SaticProxy/MoiveAble.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/NineProxy/SaticProxy/NineMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/NineProxy/SaticProxy/TimeProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/OneFactory/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/OneFactory/OneMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/OneFactory/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/OneFactory/SharpFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/OneFactory/Square.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/OneFactory/shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/SevenFilter/AndCriteria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/SevenFilter/Criteria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/SevenFilter/CriteriaFemale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/SevenFilter/CriteriaMale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/SevenFilter/CriteriaPatternDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/SevenFilter/CriteriaSingle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/SevenFilter/OrCriteria.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/SevenFilter/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/SevenFilter/SevenMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/SixBridge/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/SixBridge/DrawAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/SixBridge/GreenCircle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/SixBridge/RedCircle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/SixBridge/Shape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/SixBridge/SixMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/TenIterator/Container.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/TenIterator/Iterator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/TenIterator/NamePepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/TenIterator/TenMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/ThreeSingle/SingleFour.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/ThreeSingle/SingleOne.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/ThreeSingle/SingleThree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/ThreeSingle/SingleTwo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/TwoAbstractFactory/AbstractFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/TwoAbstractFactory/Color.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/TwoAbstractFactory/ColorFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/TwoAbstractFactory/FactoryProducer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/TwoAbstractFactory/Red.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/TwoAbstractFactory/SharpFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/TwoAbstractFactory/TwoMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/main/java/TwoAbstractFactory/Yellow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/designmode/src/test/java/com/example/cloud/CloudApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/suanfa/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/suanfa/src/main/java/IntRight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/suanfa/src/main/java/IntTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/suanfa/src/main/java/MySort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/suanfa/src/main/java/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/suanfa/src/main/java/Solution2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/suanfa/src/main/java/Solution3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/suanfa/src/main/java/StringTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/design/suanfa/src/test/java/com/example/cloud/CloudApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty/src/main/java/bio/client/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty/src/main/java/bio/server/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty/src/main/java/bio/server/ServerBIO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty/src/main/java/bio/server/handlerBIO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty/src/main/java/excel/EasyExcelTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty/src/main/java/excel/EasyExcelUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty/src/main/java/excel/ElectronicDrawDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty/src/main/java/excel/ExcelModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty/src/main/java/excel/ExcelTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty/src/main/java/excel/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty/src/main/java/excel/POIUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty/src/main/java/nio/client/ClientHander.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty/src/main/java/nio/client/ClientHanderReadAndWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty/src/main/java/nio/client/ClientMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty/src/main/java/nio/server/ServerHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty/src/main/java/nio/server/ServerHandlerReadAndWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty/src/main/java/nio/server/ServerMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty/src/main/java/nio/server/Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty4/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty4/src/main/java/nio/client/ClientHander.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty4/src/main/java/nio/client/ClientHanderReadAndWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty4/src/main/java/nio/client/ClientMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty4/src/main/java/nio/server/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty4/src/main/java/nio/server/ServerHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty4/src/main/java/nio/server/ServerHandlerReadAndWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty4/src/main/java/nio/server/ServerMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/socket/netty4/src/main/java/nio/server/Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/model/EquipmentDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/model/EventListDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/model/ExpertTeamDetailDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/model/GroupDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/model/ImportantProtectionTargetDetailDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/model/MajorDangerSourcesDetailDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/model/MedicalOrgDetailDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/model/MeetVideoListDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/model/OrgListDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/model/PollutionSourcesDetailDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/model/RescueTeamDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/model/ShelterPlaceDetailDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/model/Table.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/model/TableCol.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/model/TransportListDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/model2/SceneRescuePointDetailDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/model2/SceneRescueTaskDetailDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/model2/SceneRescueTaskMemberDetailDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/model2/SceneRescueTaskResourceDetailDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/model2/SceneRescueTaskTeamDetailDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/model2/UrgentMedicineRescueCasualtyDetailDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/model2/UrgentMedicineRescueCasualtyTriageDetailDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/util/Clazzzaa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/util/CountDownLatchExample1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/util/CyclicBarrierExample2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/util/Inter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/util/SemaphoreExample1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/util/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/util/test/IntThrad.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/util/test/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/util/test/OutThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/springdata/word/src/main/java/com/boot/util/test/Res.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,6 +38,26 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/.idea/workspace.xml">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="5" changelist="7ea8e5ec-990d-4263-8268-70c950742915" />
+        <range start1="3" end1="6" start2="6" end2="28" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="7" end1="21" start2="29" end2="29" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="23" end1="24" start2="31" end2="31" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="25" end1="246" start2="32" end2="32" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="258" end1="258" start2="44" end2="64" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="277" end1="278" start2="83" end2="84" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="285" end1="285" start2="91" end2="95" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="290" end1="291" start2="100" end2="127" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="302" end1="302" start2="138" end2="144" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="307" end1="307" start2="149" end2="150" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="311" end1="312" start2="154" end2="183" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="313" end1="313" start2="184" end2="185" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="317" end1="317" start2="189" end2="259" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+      </ranges>
+    </file>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -275,7 +78,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/迅雷下载/netty4-samples-master" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -283,12 +86,42 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\design-mode-test\socket\system-send\src\main" />
+      <recent name="D:\github\design-mode-test\socket\system-send\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\github\design-mode-test\boot" />
       <recent name="D:\github\design-mode-test\boot\excel" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ChatServer">
+    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nio.client.ChatClient" />
+      <module name="system-send" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nio.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nio.netty.server.ChatServer" />
+      <module name="system-send" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nio.netty.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -300,20 +133,126 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ChatServer" />
+        <item itemvalue="Application.ChatClient" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a29feb6d-b1d2-4252-9fd8-52d677586130" name="Default Changelist" comment="" />
+      <changelist id="7ea8e5ec-990d-4263-8268-70c950742915" name="un" comment="" />
       <created>1617001229550</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617001229550</updated>
-      <workItem from="1617001230857" duration="891000" />
+      <workItem from="1617001230857" duration="6886000" />
     </task>
+    <task id="LOCAL-00001" summary="目录排版整理">
+      <created>1617002193146</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617002193146</updated>
+    </task>
+    <task id="LOCAL-00002" summary="目录排版整理">
+      <created>1617002314807</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617002314807</updated>
+    </task>
+    <task id="LOCAL-00003" summary="目录排版整理">
+      <created>1617002734982</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617002734982</updated>
+    </task>
+    <task id="LOCAL-00004" summary="目录排版整理">
+      <created>1617002901311</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617002901311</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="目录排版整理" />
+    <option name="LAST_COMMIT_MESSAGE" value="目录排版整理" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1617003787358">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617003787358" />
+    <state x="732" y="444" key="#xdebugger.evaluate" timestamp="1617006135791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="732" y="444" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1617006135791" />
+    <state x="465" y="106" key="CommitChangelistDialog2" timestamp="1617007642408">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="465" y="106" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617007642408" />
+    <state width="435" height="466" key="DebuggerActiveHint" timestamp="1617006112832">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="435" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1617006112832" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1617004248988">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1617004248988" />
+    <state width="1921" height="356" key="GridCell.Tab.0.bottom" timestamp="1617008117184">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617008117184" />
+    <state width="1921" height="356" key="GridCell.Tab.0.center" timestamp="1617008117184">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617008117184" />
+    <state width="1921" height="356" key="GridCell.Tab.0.left" timestamp="1617008117183">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617008117183" />
+    <state width="1921" height="356" key="GridCell.Tab.0.right" timestamp="1617008117184">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617008117184" />
+    <state width="1921" height="356" key="GridCell.Tab.1.bottom" timestamp="1617008117024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617008117024" />
+    <state width="1921" height="356" key="GridCell.Tab.1.center" timestamp="1617008117023">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617008117023" />
+    <state width="1921" height="356" key="GridCell.Tab.1.left" timestamp="1617008117023">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617008117023" />
+    <state width="1921" height="356" key="GridCell.Tab.1.right" timestamp="1617008117024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="356" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617008117024" />
+    <state x="741" y="432" key="VCS.ChangelistChooser" timestamp="1617002726796">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="741" y="432" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1617002726796" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617002903113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617002903113" />
+    <state x="662" y="223" width="596" height="594" key="find.popup" timestamp="1617007051958">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="223" width="596" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617007051958" />
   </component>
 </project>

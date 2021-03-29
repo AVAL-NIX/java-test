@@ -17,29 +17,29 @@ public enum IMP {
     /**
      * 系统消息
      */
-    SYSTEM("system"),
+    SYSTEM("SYSTEM"),
 
     /**
      * 登录指令
      */
-    LOGIN("login"),
+    LOGIN("LOGIN"),
 
 
     /**
      * 登出指令
      */
-    LOGOUT("logout"),
+    LOGOUT("LOGOUT"),
 
     /**
      * 聊天消息
      */
-    CHAT("chat"),
+    CHAT("CHAT"),
 
 
     /**
      * 送鲜花
      */
-    FLOWER("flower"),
+    FLOWER("FLOWER"),
 
 
     ;

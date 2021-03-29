@@ -40,13 +40,27 @@ public class IMMessage {
         this.terminal = terminal;
     }
 
-    public IMMessage(String head, String head1, long time, String nickname) {
-
+    public IMMessage(String cmd,long time,int online,String content){
+        this.cmd = cmd;
+        this.time = time;
+        this.online = online;
+        this.content = content;
+        this.terminal = terminal;
     }
 
-    public IMMessage(String head, long time, String nickname, String content) {
+    public IMMessage(String cmd,String terminal,long time,String sender){
+        this.cmd = cmd;
+        this.time = time;
+        this.sender = sender;
+        this.terminal = terminal;
     }
 
-    public IMMessage(String name, long currentTimeMillis, int size, String s) {
+
+    public IMMessage(String cmd,long time,String sender,String content){
+        this.cmd = cmd;
+        this.time = time;
+        this.sender = sender;
+        this.content = content;
+        this.terminal = terminal;
     }
 }

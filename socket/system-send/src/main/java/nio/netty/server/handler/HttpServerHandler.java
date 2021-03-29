@@ -1,10 +1,9 @@
-package nio.netty.handler;
+package nio.netty.server.handler;
 
 import io.netty.channel.*;
 import io.netty.handler.codec.http.*;
 import io.netty.handler.codec.http.HttpHeaders.Names;
 import io.netty.handler.codec.http.HttpHeaders.Values;
-import lombok.extern.slf4j.Slf4j;
 
 import java.io.File;
 import java.io.RandomAccessFile;
@@ -47,9 +46,13 @@ public class HttpServerHandler extends SimpleChannelInboundHandler<FullHttpReque
     protected void channelRead0(ChannelHandlerContext ctx, FullHttpRequest request) throws Exception {
         String uri = request.getUri();
         RandomAccessFile file = null;
-
-        String page = uri.equals("/") ? "chat.html" : uri;
-        file = new RandomAccessFile(page, "r");
+        try{
+            String page = uri.equals("/") ? "chat.html" : uri;
+            file =	new RandomAccessFile(getResource(page), "r");
+        }catch(Exception e){
+            ctx.fireChannelRead(request.retain());
+            return;
+        }
 
         ///
         HttpVersion version;

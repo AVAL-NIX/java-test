@@ -9,19 +9,17 @@ import io.netty.handler.codec.http.HttpObjectAggregator;
 import io.netty.handler.codec.http.HttpServerCodec;
 import io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler;
 import io.netty.handler.stream.ChunkedWriteHandler;
-import lombok.extern.slf4j.Slf4j;
 import nio.netty.code.IMDecoder;
 import nio.netty.code.IMEncoder;
-import nio.netty.handler.HttpServerHandler;
-import nio.netty.handler.TerminalServerHandler;
-import nio.netty.handler.WebSocketServerHandler;
+import nio.netty.server.handler.HttpServerHandler;
+import nio.netty.server.handler.TerminalServerHandler;
+import nio.netty.server.handler.WebSocketServerHandler;
 import org.apache.commons.lang3.math.NumberUtils;
 
 /**
  * @author zhengxin
  * @date 2021/3/29
  */
-@Slf4j
 public class ChatServer {
 
     private int port  = 8088;
@@ -36,22 +34,25 @@ public class ChatServer {
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         @Override
                         protected void initChannel(SocketChannel ch) throws Exception {
-                            // inbound  高到低 ， outbound 低到高 的顺序
+                            // inbound  高到低 ， outbound 低到高 的顺序 ， 不能乱
                             ChannelPipeline channelPipeline = ch.pipeline();
                             channelPipeline.addLast(new IMDecoder());// inbound
+                            channelPipeline.addLast(new IMEncoder()); // outbound
                             channelPipeline.addLast(new TerminalServerHandler());// inbound
+
+                            //解析http请求
+                            channelPipeline.addLast(new HttpServerCodec());// outbound
+
                             //将同一个HTTP请求或响应的多个消息对象变成一个fullhttprequest
                             channelPipeline.addLast(new HttpObjectAggregator(64 *1024));// inbound
+                            //对大文件进行处理超过1GB的那种
+                            channelPipeline.addLast(new ChunkedWriteHandler());// inbound , outbound
                             channelPipeline.addLast(new HttpServerHandler());// inbound
                             //解析websocket请求
                             channelPipeline.addLast(new WebSocketServerProtocolHandler("/im"));// inbound
                             channelPipeline.addLast(new WebSocketServerHandler());// inbound
 
-                            channelPipeline.addLast(new IMEncoder()); // outbound
-                            //解析http请求
-                            channelPipeline.addLast(new HttpServerCodec());// outbound
-                            //对大文件进行处理超过1GB的那种
-                            channelPipeline.addLast(new ChunkedWriteHandler());// inbound , outbound
+
                         }
                     });
             ChannelFuture channelFuture  = b.bind(port);

@@ -4,8 +4,8 @@ import com.alibaba.fastjson.JSONObject;
 import io.netty.channel.Channel;
 import io.netty.channel.group.ChannelGroup;
 import io.netty.channel.group.DefaultChannelGroup;
+import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
 import io.netty.util.AttributeKey;
-import io.netty.util.concurrent.EventExecutor;
 import io.netty.util.concurrent.GlobalEventExecutor;
 import nio.netty.code.IMDecoder;
 import nio.netty.code.IMEncoder;
@@ -37,7 +37,6 @@ public class MsgProcessor {
      */
     public String getNickName(Channel client) {
         return client.attr(NICK_NAME).get();
-
     }
 
     /**
@@ -74,6 +73,9 @@ public class MsgProcessor {
      */
     public void setAttrs(Channel client, String key, Object value) {
         JSONObject jsonObject = client.attr(ATTRS).get();
+        if(jsonObject == null){
+            jsonObject = new JSONObject();
+        }
         jsonObject.put(key, value);
         client.attr(ATTRS).set(jsonObject);
     }
@@ -124,7 +126,7 @@ public class MsgProcessor {
                 }
                 //正常消息
                 String content = imEncoder.encode(request);
-                onlineUser.writeAndFlush(content);
+                onlineUser.writeAndFlush(new TextWebSocketFrame(content));
             }
 
 
@@ -134,7 +136,7 @@ public class MsgProcessor {
                 if (isMy) {
                     request.setSender("you");
                 } else {
-                    request.setSender(getNickName(onlineUser));
+                    request.setSender(getNickName(client));
                 }
                 request.setTime(System.currentTimeMillis());
                 //console
@@ -144,7 +146,7 @@ public class MsgProcessor {
                 }
                 //正常消息
                 String content = imEncoder.encode(request);
-                onlineUser.writeAndFlush(content);
+                onlineUser.writeAndFlush(new TextWebSocketFrame(content));
             }
 
         } else if (IMP.FLOWER.getName().equals(request.getCmd())) {
@@ -177,7 +179,7 @@ public class MsgProcessor {
                 request.setTime(System.currentTimeMillis());
                 //正常消息
                 String content = imEncoder.encode(request);
-                onlineUser.writeAndFlush(content);
+                onlineUser.writeAndFlush(new TextWebSocketFrame(content));
             }
 
         }
