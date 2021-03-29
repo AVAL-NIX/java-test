@@ -35,7 +35,7 @@ public class ChatClientHandler extends SimpleChannelInboundHandler<IMMessage> {
                     if (scanner.hasNext()) {
                         String input = scanner.nextLine();
                         if ("exit".equals(input)) {
-                            message = new IMMessage(IMP.LOGOUT.getName(), "Console", System.currentTimeMillis(), nickName);
+                            message = new IMMessage(IMP.LOGOUT.getName(), "Console", System.currentTimeMillis(), nickName,"登录");
                         } else {
                             message = new IMMessage(IMP.CHAT.getName(), System.currentTimeMillis(), nickName, input);
                         }

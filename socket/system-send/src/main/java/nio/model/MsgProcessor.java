@@ -119,7 +119,7 @@ public class MsgProcessor {
                     request = new IMMessage(IMP.SYSTEM.getName(), System.currentTimeMillis()
                             , onlineUsers.size(), getNickName(client) + "加入");
                 }
-                //console
+                //如果是控制台chatClient对象
                 if ("Console".equals(onlineUser.attr(FROM).get())) {
                     onlineUser.writeAndFlush(request);
                     continue;
@@ -139,12 +139,16 @@ public class MsgProcessor {
                     request.setSender(getNickName(client));
                 }
                 request.setTime(System.currentTimeMillis());
-                //console
-                if ("Console".equals(onlineUser.attr(FROM).get()) & !isMy) {
+                //如果是控制台chatClient对象
+                if ("Console".equals(onlineUser.attr(FROM).get()) ) {
+                    if(isMy){
+                        continue;
+                    }
                     onlineUser.writeAndFlush(request);
                     continue;
                 }
-                //正常消息
+
+                //websocket正常消息
                 String content = imEncoder.encode(request);
                 onlineUser.writeAndFlush(new TextWebSocketFrame(content));
             }

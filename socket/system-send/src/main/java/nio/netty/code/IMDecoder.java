@@ -31,8 +31,8 @@ public class IMDecoder extends ByteToMessageDecoder {
             final int length = in.readableBytes();
             final byte[] array = new byte[length];
             String content = new String(array, in.readerIndex(), length);
-            //空消息不解析
-            if (org.apache.commons.lang3.StringUtils.isNotBlank(content)) {
+            //其他指令消息不解析
+            if (StringUtils.isNotBlank(content.trim())) {
                 if (!IMP.isIMP(content)) {
                     ctx.channel().pipeline().remove(this);
                     return;

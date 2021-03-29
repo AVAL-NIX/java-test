@@ -65,6 +65,14 @@ public class IMMessage {
         this.terminal = terminal;
     }
 
+    public IMMessage(String cmd,String terminal,long time,String sender,String content){
+        this.cmd = cmd;
+        this.time = time;
+        this.sender = sender;
+        this.terminal = terminal;
+        this.content = content;
+    }
+
     public IMMessage(String cmd,String terminal,long time,String sender){
         this.cmd = cmd;
         this.time = time;
