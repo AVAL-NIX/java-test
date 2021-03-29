@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/designmode/cloud.iml" filepath="$PROJECT_DIR$/designmode/cloud.iml" />
-      <module fileurl="file://$PROJECT_DIR$/boot/cors/druid.iml" filepath="$PROJECT_DIR$/boot/cors/druid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/boot/druid/druid.iml" filepath="$PROJECT_DIR$/boot/druid/druid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/java-test.iml" filepath="$PROJECT_DIR$/.idea/java-test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud/mango-admin/mango-admin.iml" filepath="$PROJECT_DIR$/cloud/mango-admin/mango-admin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud/mango-back/mango-back.iml" filepath="$PROJECT_DIR$/cloud/mango-back/mango-back.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud/mango-common/mango-common.iml" filepath="$PROJECT_DIR$/cloud/mango-common/mango-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud/mango-config/mango-config.iml" filepath="$PROJECT_DIR$/cloud/mango-config/mango-config.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud/mango-consul/mango-consul.iml" filepath="$PROJECT_DIR$/cloud/mango-consul/mango-consul.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud/mango-consumer/mango-consumer.iml" filepath="$PROJECT_DIR$/cloud/mango-consumer/mango-consumer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud/mango-core/mango-core.iml" filepath="$PROJECT_DIR$/cloud/mango-core/mango-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud/mango-hystrix/mango-hystrix.iml" filepath="$PROJECT_DIR$/cloud/mango-hystrix/mango-hystrix.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud/mango-monitor/mango-monitor.iml" filepath="$PROJECT_DIR$/cloud/mango-monitor/mango-monitor.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud/mango-pom/mango-pom.iml" filepath="$PROJECT_DIR$/cloud/mango-pom/mango-pom.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud/mango-producer/mango-producer.iml" filepath="$PROJECT_DIR$/cloud/mango-producer/mango-producer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud/test/mango-producer2/mango-producer2.iml" filepath="$PROJECT_DIR$/cloud/test/mango-producer2/mango-producer2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud/mango-zipkin/mango-zipkin.iml" filepath="$PROJECT_DIR$/cloud/mango-zipkin/mango-zipkin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud/mango-zuul/mango-zuul.iml" filepath="$PROJECT_DIR$/cloud/mango-zuul/mango-zuul.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud/mango-zuul/mango-zuul (2).iml" filepath="$PROJECT_DIR$/cloud/mango-zuul/mango-zuul (2).iml" />
-      <module fileurl="file://$PROJECT_DIR$/netty/netty.iml" filepath="$PROJECT_DIR$/netty/netty.iml" />
-      <module fileurl="file://$PROJECT_DIR$/swagger/swagger.iml" filepath="$PROJECT_DIR$/swagger/swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/design-mode-test.iml" filepath="$PROJECT_DIR$/.idea/design-mode-test.iml" />
     </modules>
   </component>
 </project>

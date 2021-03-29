@@ -1,34 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="JavaScriptSettings">
-    <option name="languageLevel" value="ES6" />
-  </component>
-  <component name="MavenProjectsManager">
-    <option name="originalFiles">
-      <list>
-        <option value="$PROJECT_DIR$/boot/cors/pom.xml" />
-        <option value="$PROJECT_DIR$/boot/druid/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud/test/mango-producer2/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud/mango-pom/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud/mango-back/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud/mango-core/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud/mango-admin/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud/mango-common/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud/mango-consul/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud/mango-hystrix/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud/mango-monitor/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud/mango-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud/mango-producer/pom.xml" />
-        <option value="$PROJECT_DIR$/netty/pom.xml" />
-        <option value="$PROJECT_DIR$/swagger/pom.xml" />
-        <option value="$PROJECT_DIR$/designmode/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud/mango-zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud/mango-zipkin/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud/mango-config/pom.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
 </project>
