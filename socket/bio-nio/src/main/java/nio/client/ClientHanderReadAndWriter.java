@@ -1,4 +1,4 @@
-package nio.client;
+package nio.netty.client;
 
 import nio.server.Util;
 

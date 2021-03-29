@@ -47,11 +47,10 @@ public class ChatServer {
                             channelPipeline.addLast(new HttpObjectAggregator(64 *1024));// inbound
                             //对大文件进行处理超过1GB的那种
                             channelPipeline.addLast(new ChunkedWriteHandler());// inbound , outbound
-                            channelPipeline.addLast(new HttpServerHandler());// inbound
+                            channelPipeline.addLast(new HttpServerHandler());// inbound 可有可无
                             //解析websocket请求
                             channelPipeline.addLast(new WebSocketServerProtocolHandler("/im"));// inbound
                             channelPipeline.addLast(new WebSocketServerHandler());// inbound
-
 
                         }
                     });

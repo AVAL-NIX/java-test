@@ -6,7 +6,7 @@ import nio.model.IMMessage;
 import nio.model.MsgProcessor;
 
 /**
- * 对自定义协议的支持
+ * 对自定义协议的支持  ， 专门处理IMMessage
  *
  * @author zhengxin
  * @date 2021/3/29

@@ -1,4 +1,4 @@
-package nio.client;
+package nio.netty.client;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
@@ -8,7 +8,7 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
-import nio.client.handler.ChatClientHandler;
+import nio.netty.client.handler.ChatClientHandler;
 import nio.netty.code.IMDecoder;
 import nio.netty.code.IMEncoder;
 
@@ -21,15 +21,15 @@ import java.util.Random;
  */
 public class ChatClient {
 
-    private int port  = 8081;
+    private int port = 8081;
     private String host;
-    private ChatClientHandler chatClientHandler ;
+    private ChatClientHandler chatClientHandler;
 
     public ChatClient(String nickName) {
         this.chatClientHandler = new ChatClientHandler(nickName);
     }
 
-    public void connect(String host,int port){
+    public void connect(String host, int port) {
         this.host = host;
         this.port = port;
 
@@ -58,7 +58,7 @@ public class ChatClient {
 
 
     public static void main(String[] args) throws IOException {
-        new ChatClient("Cover" + new Random().nextInt(10000)).connect("127.0.0.1",8088);
+        new ChatClient("Cover" + new Random().nextInt(10000)).connect("127.0.0.1", 8088);
         String url = "http://localhost:8080/images/a.png";
         System.out.println(url.toLowerCase().matches(".*\\.(gif|png|jpg)$"));
 

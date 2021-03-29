@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a29feb6d-b1d2-4252-9fd8-52d677586130" name="Default Changelist" comment="目录排版整理">
-      <change afterPath="$PROJECT_DIR$/socket/system-send/read.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/client/ChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/client/handler/ChatClientHandler.java" afterDir="false" />
+    <list default="true" id="a29feb6d-b1d2-4252-9fd8-52d677586130" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/offer/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/offer/src/main/java/com/zx/ListNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/offer/src/main/java/com/zx/One.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/offer/src/main/java/com/zx/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot/offer/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/bio-nio/src/main/java/nio/client/ClientHander.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/bio-nio/src/main/java/nio/client/ClientHander.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/bio-nio/src/main/java/nio/client/ClientHanderReadAndWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/bio-nio/src/main/java/nio/client/ClientHanderReadAndWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/bio-nio/src/main/java/nio/client/ClientMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/bio-nio/src/main/java/nio/client/ClientMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/system-send/read.md" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/read.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/client/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/client/ChatClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/client/handler/ChatClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/client/handler/ChatClientHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/model/IMMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/model/IMMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/model/IMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/model/IMP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/model/MsgProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/model/MsgProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/code/IMEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/code/IMEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/handler/ChatClientHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/handler/HttpServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/handler/HttpServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/handler/TerminalServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/handler/TerminalServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/handler/WebSocketServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/handler/WebSocketServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/ChatClient.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/ChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/handler/HttpServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/handler/HttpServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/handler/TerminalServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/handler/TerminalServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/handler/WebSocketServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/handler/WebSocketServerHandler.java" afterDir="false" />
     </list>
     <list id="7ea8e5ec-990d-4263-8268-70c950742915" name="un" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
@@ -43,19 +37,35 @@
     <file path="$PROJECT_DIR$/.idea/workspace.xml">
       <ranges>
         <range start1="2" end1="2" start2="2" end2="5" changelist="7ea8e5ec-990d-4263-8268-70c950742915" />
-        <range start1="3" end1="6" start2="6" end2="28" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="7" end1="21" start2="29" end2="29" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="23" end1="24" start2="31" end2="31" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="25" end1="246" start2="32" end2="32" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="258" end1="258" start2="44" end2="64" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="277" end1="278" start2="83" end2="84" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="285" end1="285" start2="91" end2="95" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="290" end1="291" start2="100" end2="127" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="302" end1="302" start2="138" end2="144" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="307" end1="307" start2="149" end2="150" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="311" end1="312" start2="154" end2="183" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="313" end1="313" start2="184" end2="185" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="317" end1="317" start2="189" end2="259" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="3" end1="7" start2="6" end2="7" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="8" end1="13" start2="8" end2="14" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="14" end1="16" start2="15" end2="15" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="17" end1="22" start2="16" end2="16" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="23" end1="23" start2="17" end2="20" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="45" end1="58" start2="42" end2="71" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="97" end1="100" start2="110" end2="113" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="103" end1="104" start2="116" end2="117" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="135" end1="138" start2="148" end2="154" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="139" end1="139" start2="155" end2="156" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="151" end1="152" start2="168" end2="169" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="181" end1="182" start2="198" end2="206" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="189" end1="190" start2="213" end2="215" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="192" end1="193" start2="217" end2="222" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="195" end1="196" start2="224" end2="229" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="200" end1="201" start2="233" end2="234" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="203" end1="204" start2="236" end2="237" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="212" end1="213" start2="245" end2="246" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="215" end1="217" start2="248" end2="250" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="219" end1="221" start2="252" end2="254" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="223" end1="225" start2="256" end2="258" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="227" end1="229" start2="260" end2="262" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="231" end1="233" start2="264" end2="266" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="235" end1="237" start2="268" end2="270" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="239" end1="241" start2="272" end2="274" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="243" end1="244" start2="276" end2="277" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="248" end1="249" start2="281" end2="282" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="251" end1="252" start2="284" end2="285" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
+        <range start1="256" end1="256" start2="289" end2="334" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
       </ranges>
     </file>
   </component>
@@ -95,13 +105,13 @@
       <recent name="D:\github\design-mode-test\boot\excel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChatServer">
-    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nio.client.ChatClient" />
+  <component name="RunManager" selected="Application.ChatClient">
+    <configuration name="ChatClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nio.netty.client.ChatClient" />
       <module name="system-send" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nio.client.*" />
+          <option name="PATTERN" value="nio.netty.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,10 +143,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ChatClient" />
+      <item itemvalue="Application.ChatServer" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ChatServer" />
         <item itemvalue="Application.ChatClient" />
+        <item itemvalue="Application.ChatServer" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +163,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617001229550</updated>
-      <workItem from="1617001230857" duration="6886000" />
+      <workItem from="1617001230857" duration="10742000" />
     </task>
     <task id="LOCAL-00001" summary="目录排版整理">
       <created>1617002193146</created>
@@ -179,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617002901311</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="netty聊天室代码提交">
+      <created>1617008182230</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617008182230</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,21 +208,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="目录排版整理" />
-    <option name="LAST_COMMIT_MESSAGE" value="目录排版整理" />
+    <MESSAGE value="netty聊天室代码提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="netty聊天室代码提交" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1617003787358">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617008849310">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617003787358" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617008849310" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1617010121337">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1617010121337" />
+    <state x="552" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1617011750477">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617011750477" />
     <state x="732" y="444" key="#xdebugger.evaluate" timestamp="1617006135791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="732" y="444" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1617006135791" />
-    <state x="465" y="106" key="CommitChangelistDialog2" timestamp="1617007642408">
+    <state x="465" y="106" key="CommitChangelistDialog2" timestamp="1617008175657">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="465" y="106" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617007642408" />
+    <state x="465" y="106" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617008175657" />
     <state width="435" height="466" key="DebuggerActiveHint" timestamp="1617006112832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -210,49 +240,94 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1617004248988" />
-    <state width="1921" height="356" key="GridCell.Tab.0.bottom" timestamp="1617008117184">
+    <state width="1921" height="329" key="GridCell.Tab.0.bottom" timestamp="1617011318815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617008117184" />
-    <state width="1921" height="356" key="GridCell.Tab.0.center" timestamp="1617008117184">
+    <state width="1921" height="329" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617011318815" />
+    <state width="1921" height="329" key="GridCell.Tab.0.center" timestamp="1617011318815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617008117184" />
-    <state width="1921" height="356" key="GridCell.Tab.0.left" timestamp="1617008117183">
+    <state width="1921" height="329" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617011318815" />
+    <state width="1921" height="329" key="GridCell.Tab.0.left" timestamp="1617011318815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617008117183" />
-    <state width="1921" height="356" key="GridCell.Tab.0.right" timestamp="1617008117184">
+    <state width="1921" height="329" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617011318815" />
+    <state width="1921" height="329" key="GridCell.Tab.0.right" timestamp="1617011318815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617008117184" />
-    <state width="1921" height="356" key="GridCell.Tab.1.bottom" timestamp="1617008117024">
+    <state width="1921" height="329" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617011318815" />
+    <state width="1921" height="329" key="GridCell.Tab.1.bottom" timestamp="1617011318816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617008117024" />
-    <state width="1921" height="356" key="GridCell.Tab.1.center" timestamp="1617008117023">
+    <state width="1921" height="329" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617011318816" />
+    <state width="1921" height="329" key="GridCell.Tab.1.center" timestamp="1617011318816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617008117023" />
-    <state width="1921" height="356" key="GridCell.Tab.1.left" timestamp="1617008117023">
+    <state width="1921" height="329" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617011318816" />
+    <state width="1921" height="329" key="GridCell.Tab.1.left" timestamp="1617011318816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617008117023" />
-    <state width="1921" height="356" key="GridCell.Tab.1.right" timestamp="1617008117024">
+    <state width="1921" height="329" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617011318816" />
+    <state width="1921" height="329" key="GridCell.Tab.1.right" timestamp="1617011318816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1921" height="356" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617008117024" />
+    <state width="1921" height="329" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617011318816" />
     <state x="741" y="432" key="VCS.ChangelistChooser" timestamp="1617002726796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="741" y="432" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1617002726796" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617002903113">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617008424363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617002903113" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617008424363" />
     <state x="662" y="223" width="596" height="594" key="find.popup" timestamp="1617007051958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="662" y="223" width="596" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617007051958" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1617009831042">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617009831042" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/socket/system-send/src/main/java/nio/model/MsgProcessor.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/socket/system-send/src/main/java/nio/model/MsgProcessor.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/handler/TerminalServerHandler.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/code/IMDecoder.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/code/IMEncoder.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/code/IMEncoder.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/design_mode_test$ChatClient.ic" NAME="ChatClient Coverage Results" MODIFIED="1617011283635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>nio.client.*</FILTER>
+    </SUITE>
   </component>
 </project>

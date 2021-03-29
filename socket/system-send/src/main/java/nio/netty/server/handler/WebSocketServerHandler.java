@@ -7,6 +7,8 @@ import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
 import nio.model.MsgProcessor;
 
 /**
+ * 对自定义协议的支持  ， 专门处理TextWebSocketFrame
+ *
  * @author zhengxin
  * @date 2021/3/29
  */

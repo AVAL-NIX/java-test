@@ -28,6 +28,23 @@ public class IMMessage {
     //终端
     private String terminal;
 
+    /**
+     * 要注意留一个空参构造，否则会反射失败
+     * 二月 28, 2017 11:49:55 上午 org.msgpack.template.builder.BuildContext build
+     严重: builder:
+     {
+     if (!$3 && $1.trySkipNil()) {
+     return null;
+     }
+     messagepack.UserInfo _(双$)_t;
+     if ($2 == null) {
+     _(双$)_t = new messagepack.UserInfo();
+     } else {
+     _$$_t = (messagepack.UserInfo) $2;
+     }
+     */
+    public IMMessage() {
+    }
 
     public IMMessage(String addr, String cmd, long time, int online, String sender, String receiver, String content, String terminal) {
         this.addr = addr;

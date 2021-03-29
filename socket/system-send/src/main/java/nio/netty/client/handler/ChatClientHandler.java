@@ -1,4 +1,4 @@
-package nio.client.handler;
+package nio.netty.client.handler;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;

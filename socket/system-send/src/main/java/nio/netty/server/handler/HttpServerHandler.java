@@ -11,6 +11,7 @@ import java.net.URISyntaxException;
 import java.net.URL;
 
 /**
+ * 对自定义协议的支持  ， 专门处理FullHttpRequest
  * 主要处理服务器分发请求
  * 手动编写HTTP请求头
  *

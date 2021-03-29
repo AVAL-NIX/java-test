@@ -24,8 +24,6 @@ import java.util.regex.Pattern;
 
 public class IMEncoder extends MessageToByteEncoder<IMMessage> {
 
-    private Pattern pattern = Pattern.compile("^\\[(.*)\\](\\s\\-\\s(.*))?");
-
     @Override
     protected void encode(ChannelHandlerContext ctx,IMMessage imMessage, ByteBuf out) throws Exception {
            out.writeBytes(new MessagePack().write(imMessage));
