@@ -132,6 +132,7 @@ public class MsgProcessor {
 
         } else if (IMP.CHAT.getName().equals(request.getCmd())) {
             for (Channel onlineUser : onlineUsers) {
+                // 这里request 对象可能有拷贝问题。建议深拷贝一次。
                 boolean isMy = (onlineUser == client);
                 if (isMy) {
                     request.setSender("you");
