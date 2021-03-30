@@ -12,10 +12,14 @@ public class Solution2 {
         System.out.println(solution2.GetLeastNumbers_Solution(b, 4));
     }
 
+    /**
+     * 先快排，然后在取其中的数就OK了
+     * @param input
+     * @param k
+     * @return
+     */
     public ArrayList<Integer> GetLeastNumbers_Solution(int[] input, int k) {
         ArrayList<Integer> result = new ArrayList<Integer>();
-
-
         if (input == null || input.length < k) {
             return result;
         }
