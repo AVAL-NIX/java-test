@@ -50,6 +50,7 @@ public class Solution3 {
 
 
     public static class ListNode {
+         
         int val;
         ListNode next;
 
