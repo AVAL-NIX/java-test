@@ -3,6 +3,9 @@ package com.boot.controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.Queue;
 import java.util.Random;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -50,6 +53,7 @@ public class HelloController {
     @GetMapping("/cpu/test")
     public String testCPU() throws InterruptedException {
         System.out.println("请求cpu");
+
         Object lock1 = new Object();
         Object lock2 = new Object();
         service.submit(new DeadLockThread(lock1, lock2), "deadLookThread-" + new Random().nextInt());
