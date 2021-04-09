@@ -3,24 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a29feb6d-b1d2-4252-9fd8-52d677586130" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/bio-nio/src/main/java/nio/client/ClientHander.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/bio-nio/src/main/java/nio/client/ClientHander.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/bio-nio/src/main/java/nio/client/ClientHanderReadAndWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/bio-nio/src/main/java/nio/client/ClientHanderReadAndWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/bio-nio/src/main/java/nio/client/ClientMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/bio-nio/src/main/java/nio/client/ClientMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/system-send/read.md" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/read.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/client/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/client/ChatClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/client/handler/ChatClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/client/handler/ChatClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/model/IMMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/model/IMMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/code/IMEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/code/IMEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/ChatServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/handler/HttpServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/handler/HttpServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/handler/TerminalServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/handler/TerminalServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/handler/WebSocketServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket/system-send/src/main/java/nio/netty/server/handler/WebSocketServerHandler.java" afterDir="false" />
     </list>
     <list id="7ea8e5ec-990d-4263-8268-70c950742915" name="un" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,42 +19,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/.idea/workspace.xml">
-      <ranges>
-        <range start1="2" end1="2" start2="2" end2="5" changelist="7ea8e5ec-990d-4263-8268-70c950742915" />
-        <range start1="3" end1="7" start2="6" end2="7" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="8" end1="13" start2="8" end2="14" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="14" end1="16" start2="15" end2="15" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="17" end1="22" start2="16" end2="16" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="23" end1="23" start2="17" end2="20" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="45" end1="58" start2="42" end2="71" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="97" end1="100" start2="110" end2="113" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="103" end1="104" start2="116" end2="117" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="135" end1="138" start2="148" end2="154" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="139" end1="139" start2="155" end2="156" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="151" end1="152" start2="168" end2="169" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="181" end1="182" start2="198" end2="206" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="189" end1="190" start2="213" end2="215" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="192" end1="193" start2="217" end2="222" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="195" end1="196" start2="224" end2="229" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="200" end1="201" start2="233" end2="234" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="203" end1="204" start2="236" end2="237" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="212" end1="213" start2="245" end2="246" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="215" end1="217" start2="248" end2="250" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="219" end1="221" start2="252" end2="254" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="223" end1="225" start2="256" end2="258" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="227" end1="229" start2="260" end2="262" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="231" end1="233" start2="264" end2="266" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="235" end1="237" start2="268" end2="270" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="239" end1="241" start2="272" end2="274" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="243" end1="244" start2="276" end2="277" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="248" end1="249" start2="281" end2="282" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="251" end1="252" start2="284" end2="285" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-        <range start1="256" end1="256" start2="289" end2="334" changelist="a29feb6d-b1d2-4252-9fd8-52d677586130" />
-      </ranges>
-    </file>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -86,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="E:/迅雷下载/netty4-samples-master" />
@@ -132,13 +84,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mango-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.AdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mango-back" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mango.BackApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mango-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mango.config.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mango-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mango.consumer.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mango-core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mango.core.CoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mango-hystrix" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mango.hystrix.HystrixApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mango-monitor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mango.MonitorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mango-producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mango.ProducerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwaggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="druid (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.boot.SwaggerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mango-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mango.config.ZuulApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,6 +157,16 @@
     <list>
       <item itemvalue="Application.ChatClient" />
       <item itemvalue="Application.ChatServer" />
+      <item itemvalue="Spring Boot.SwaggerApplication" />
+      <item itemvalue="Spring Boot.AdminApplication" />
+      <item itemvalue="Spring Boot.ZuulApplication" />
+      <item itemvalue="Spring Boot.BackApplication" />
+      <item itemvalue="Spring Boot.CoreApplication" />
+      <item itemvalue="Spring Boot.ConfigApplication" />
+      <item itemvalue="Spring Boot.ProducerApplication" />
+      <item itemvalue="Spring Boot.MonitorApplication" />
+      <item itemvalue="Spring Boot.HystrixApplication" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -154,7 +175,10 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a29feb6d-b1d2-4252-9fd8-52d677586130" name="Default Changelist" comment="" />
@@ -164,6 +188,7 @@
       <option name="presentableId" value="Default" />
       <updated>1617001229550</updated>
       <workItem from="1617001230857" duration="10742000" />
+      <workItem from="1617028201235" duration="2030000" />
     </task>
     <task id="LOCAL-00001" summary="目录排版整理">
       <created>1617002193146</created>
@@ -200,11 +225,18 @@
       <option name="project" value="LOCAL" />
       <updated>1617008182230</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="netty聊天室代码提交">
+      <created>1617030888758</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617030888758</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="目录排版整理" />
@@ -228,14 +260,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="732" y="444" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1617006135791" />
-    <state x="465" y="106" key="CommitChangelistDialog2" timestamp="1617008175657">
+    <state x="465" y="106" key="CommitChangelistDialog2" timestamp="1617030796063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="465" y="106" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1617030796063" />
     <state x="465" y="106" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617008175657" />
     <state width="435" height="466" key="DebuggerActiveHint" timestamp="1617006112832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="435" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1617006112832" />
+    <state x="308" y="105" key="DiffContextDialog" timestamp="1617028462156">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="308" y="105" key="DiffContextDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1617028462156" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1617004248988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
