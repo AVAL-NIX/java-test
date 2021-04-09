@@ -2,8 +2,6 @@ package nio.netty.server.handler;
 
 import io.netty.channel.*;
 import io.netty.handler.codec.http.*;
-import io.netty.handler.codec.http.HttpHeaders.Names;
-import io.netty.handler.codec.http.HttpHeaders.Values;
 
 import java.io.File;
 import java.io.RandomAccessFile;
@@ -45,10 +43,10 @@ public class HttpServerHandler extends SimpleChannelInboundHandler<FullHttpReque
 
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, FullHttpRequest request) throws Exception {
-        String uri = request.getUri();
+        String uri = request.uri();
         RandomAccessFile file = null;
         try{
-            String page = uri.equals("/") ? "chat.html" : uri;
+            String page = "/".equals(uri) ? "chat.html" : uri;
             file =	new RandomAccessFile(getResource(page), "r");
         }catch(Exception e){
             ctx.fireChannelRead(request.retain());
@@ -74,11 +72,11 @@ public class HttpServerHandler extends SimpleChannelInboundHandler<FullHttpReque
             System.out.println("contentType : "+contentType);
         }
 
-        response.headers().set(Names.CONTENT_TYPE,contentType +"charest=utf-8;");
-        boolean keepAlive = HttpHeaders.isKeepAlive(request);
+        response.headers().set(HttpHeaderNames.CONTENT_TYPE,contentType +"charest=utf-8;");
+        boolean keepAlive = HttpUtil.isKeepAlive(request);
         if(keepAlive){
-            response.headers().set(Names.CONTENT_LENGTH, file.length());
-            response.headers().set(Names.CONNECTION, Values.KEEP_ALIVE);
+            response.headers().set(HttpHeaderNames.CONTENT_LENGTH, file.length());
+            response.headers().set(HttpHeaderNames.CONNECTION, HttpHeaderValues.KEEP_ALIVE);
         }
         ctx.write(response);
         ctx.write(new DefaultFileRegion(file.getChannel(), 0 ,file.length()));

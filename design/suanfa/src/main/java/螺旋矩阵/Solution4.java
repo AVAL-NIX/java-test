@@ -1,4 +1,3 @@
-import sun.applet.Main;
 
 import java.util.*;
 
@@ -6,8 +5,7 @@ import java.util.*;
  * 题目描述
  * 给定一个m x n大小的矩阵（m行，n列），按螺旋的顺序返回矩阵中的所有元素。
  */
-public class Solution {
-
+public class Solution4 {
 
     public static void main(String[] args) {
         int[][] b = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};

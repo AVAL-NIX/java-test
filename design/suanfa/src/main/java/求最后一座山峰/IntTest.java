@@ -1,5 +1,8 @@
 /**
- * 求最后一座山峰
+ * 山峰元素是指其值大于或等于左右相邻值的元素。给定一个输入数组nums，任意两个相邻元素值不相等，数组可能包含多个山峰。找到索引最大的那个山峰元素并返回其索引。
+ *
+ * 假设 nums[-1] = nums[n] = -∞。
+ *
  * @author zhengxin
  * @date 2021/3/17
  */
@@ -12,6 +15,12 @@ public class IntTest {
         System.out.println(shanfeng(d));
     }
 
+    /**
+     * 用个标记来判断 最后一个数是不是小于最后一个数就OK了
+     *
+     * @param a
+     * @return
+     */
     public static int shanfeng(int[] a) {
         // write code here
         if (a == null || a.length == 0) {
@@ -22,6 +31,7 @@ public class IntTest {
             max = a[i];
             if (max >= a[i - 1]) {
                 boolean flag = true;
+                //判断数组下标是否越界
                 if (i + 1 < a.length) {
                     if (max < a[i + 1]) {
                         flag = false;

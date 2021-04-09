@@ -27,6 +27,7 @@ public class ChatClientHandler extends SimpleChannelInboundHandler<IMMessage> {
      */
     private void session() throws IOException {
         new Thread() {
+            @Override
             public void run() {
                 System.out.println(nickName + ",你好，请在控制台输入对话内容");
                 IMMessage message = null;
