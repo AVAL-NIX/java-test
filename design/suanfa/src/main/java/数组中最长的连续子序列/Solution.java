@@ -25,10 +25,12 @@ public class Solution {
         if (arr == null || arr.length == 0) {
             return len;
         }
+        //过滤
         Set<Integer> set = new HashSet<>();
         for (int i : arr) {
             set.add(i);
         }
+        //排序
         Set<Integer> sortSet = new TreeSet<Integer>(Comparator.naturalOrder());
         sortSet.addAll(set);
 
@@ -50,6 +52,7 @@ public class Solution {
             }
         }
 
+        //最后还要判断一波，因为可能是最后一条
         if (tempLen > len) {
             len = tempLen;
         }
