@@ -22,8 +22,24 @@ import java.util.Stack;
  * 栈解决
  * • 先循环压入栈， 栈符合先进后出的规则
  * • 在组成链表
+ *
+ * 递归解决
+ *
+ *
  */
 public class Solution {
+
+    public static ListNode ReverseList3(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode listNode = ReverseList3(head.next);
+        head.next.next = head;
+        head.next = null;
+        return listNode;
+    }
+
+
 
     public ListNode ReverseList(ListNode head) {
         if (head == null) {
@@ -75,7 +91,24 @@ public class Solution {
         return pre;
     }
 
-    public class ListNode {
+
+    public static void main(String[] args) {
+        ListNode listNode = new ListNode(1);
+        ListNode listNode2 = new ListNode(3);
+
+        ListNode listNode1 = new ListNode(2);
+        ListNode listNode3 = new ListNode(4);
+        ListNode listNode4 = new ListNode(5);
+        listNode.next = listNode1;
+        listNode1.next = listNode2;
+        listNode2.next = listNode3;
+        listNode3.next = listNode4;
+//        listNode3.next = listNode;
+
+        ListNode a = ReverseList3(listNode);
+        System.out.println(a);
+    }
+    public  static class ListNode {
         public int val;
         public ListNode next = null;
 
