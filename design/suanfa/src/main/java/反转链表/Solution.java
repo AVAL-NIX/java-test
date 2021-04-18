@@ -34,7 +34,10 @@ public class Solution {
             return head;
         }
         ListNode listNode = ReverseList3(head.next);
+        // head = 4,  head.next = 5 ,  5.next =  head 意味着把 4 赋值给5.next
+         // 然后到3的时候 。 head = 3  , 3.next = 4 . 4.next = head    意味着 把 3 复制给4.next ， 而4又是挂在5的.next 下的
         head.next.next = head;
+        //这里要把 最后一个next 置空 ，毕竟循环链表
         head.next = null;
         return listNode;
     }
