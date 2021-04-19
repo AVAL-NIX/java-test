@@ -27,8 +27,7 @@
     </section>
     <footer>
         <div>
-            <input type="hidden" id="txtNum" value="1" placeholder="请输入中奖人数">
-            <input>
+            <input type="number" id="txtNum" value="" placeholder="请输入中奖人数">
             <button id="btnStart">开始</button>
             <button id="btnReset">&nbsp;</button>
         </div>

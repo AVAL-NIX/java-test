@@ -9,7 +9,6 @@ var luckyMan = [];
 var timer;//定时器
 var times = 1;//抽奖次数,如果不是第一次，不加粗显示领导姓名
 
-$("#txtNum").val(1)
 
 $(function () {
     getData();
@@ -23,8 +22,8 @@ $(function () {
                 showDialog("请输入中奖人数");
                 return false;
             }
-            if ($("#txtNum").val() > 49) {
-                showDialog("一次最多只能输入49人");
+            if ($("#txtNum").val() > 19) {
+                showDialog("一次最多只能输入19人");
                 return false;
             }
             if ($("#txtNum").val() > remainPerson.length) {
@@ -59,7 +58,7 @@ $(function () {
             //熏置未中奖人员名单
             remainPerson = allPerson.toString().split(";");
             //中奖人数框置空
-            $("#txtNum").val(1);
+            $("#txtNum").val("");
             $("#showName").val("");
             //隐藏中奖名单,然后显示抽奖框
             $("#result").fadeOut();//.prev().fadeIn()
@@ -101,7 +100,7 @@ function startLuckDraw() {
     //中奖人员
     luckyMan = luckyMan.concat(randomPerson);
     //设置抽奖人数框数字为空
-    $("#txtNum").val(1);
+    $("#txtNum").val("");
 }
 
 //跳动的数字
