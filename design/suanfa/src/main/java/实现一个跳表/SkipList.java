@@ -56,7 +56,7 @@ public class SkipList<T> {
             if (cur.forward[l] == null) {
                 continue;
             }
-
+            // 在当前层往后找。直到key小于
             while (cur.forward[l] != null && key > cur.forward[l].key) {
                 cur = cur.forward[l];
             }
@@ -72,6 +72,7 @@ public class SkipList<T> {
         SkipNode newNode = initNode(key, value);
         int newNodeMaxLevel = newNode.forward.length;
         SkipNode cur = head;
+        //暂存起来要更新的节点
         SkipNode[] update = new SkipNode[newNodeMaxLevel];//记录更新的节点
 
         /**
@@ -85,14 +86,15 @@ public class SkipList<T> {
                 }
                 continue;
             }
-
+            // 在当前层往后找。直到key小于
             while (cur.forward[l] != null && key > cur.forward[l].key) {
                 cur = cur.forward[l];
             }
-
+            //如果包含KEY 就返回
             if (cur.forward[l] != null && key == cur.forward[l].key) {
                 return false;
             }
+            //如果L小于需要新增维护的层， 就暂存起来
             if (l < newNodeMaxLevel) {
                 update[l] = cur;
             }
@@ -199,7 +201,7 @@ public class SkipList<T> {
 
     private class SkipNode<T> {
         /**
-         * 当前数据的层数
+         * 当前数据的层数据， 因为是链表， 第forward【0】 包含全部
          */
         SkipNode[] forward;
         /**

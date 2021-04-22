@@ -9,10 +9,15 @@ public class Test {
 
     public static void main(String[] args) {
         SkipList<Integer> list = new SkipList<>();
-        for (int i = 0; i < 100 ; i++) {
-            list.set(i,i);
+        for (int i = 0; i < 5 ; i++) {
+            list.set(1,i);
         }
-        
+
         System.out.println(list.toString());
+
+
+        for (int i = 0; i < 5 ; i++) {
+            list.get(i);
+        }
     }
 }
