@@ -1,13 +1,17 @@
 package com.rpc.controller;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-@SpringBootApplication
 public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+//       IHelloService helloService = new HelloServiceImpl();
+//       RpcProxyServer proxyServer = new RpcProxyServer();
+//       proxyServer.publisher(helloService, 8080);
+
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
+        context.start();
     }
 
 }

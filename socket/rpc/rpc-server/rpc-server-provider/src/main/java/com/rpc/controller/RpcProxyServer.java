@@ -14,20 +14,23 @@ public class RpcProxyServer {
 
     ExecutorService executorService = Executors.newCachedThreadPool();
 
-    public void publisher(int port) {
+    /**
+     * server  是要调用的实例
+     * @param server
+     * @param port
+     */
+    public void publisher(Object server , int port) {
         ServerSocket serverSocket = null;
         try {
             serverSocket = new ServerSocket(port);
             while (true) {
                 Socket socket = serverSocket.accept();
-                executorService.execute(new ProcessorHandler(socket));
+                executorService.execute(new ProcessorHandler(null, socket));
             }
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
 
         }
-
-
     }
 }

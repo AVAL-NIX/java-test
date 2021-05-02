@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.boot</groupId>
-    <artifactId>rpc-server</artifactId>
+    <artifactId>rpc-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>rpc-server</name>
+    <name>rpc-client</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -19,6 +19,19 @@
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.boot</groupId>
+            <artifactId>rpc-server-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>4.3.13.RELEASE</version>
+        </dependency>
 
     </dependencies>
 
