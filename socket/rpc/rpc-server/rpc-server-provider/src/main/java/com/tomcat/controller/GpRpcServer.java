@@ -1,4 +1,4 @@
-package com.rpc.controller;
+package com.tomcat.controller;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.InitializingBean;

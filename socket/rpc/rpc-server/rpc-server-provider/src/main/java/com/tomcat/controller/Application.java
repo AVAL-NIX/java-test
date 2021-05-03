@@ -1,6 +1,5 @@
-package com.rpc.controller;
+package com.tomcat.controller;
 
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Application {

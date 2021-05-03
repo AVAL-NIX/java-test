@@ -1,4 +1,4 @@
-package com.rpc.controller;
+package com.tomcat.controller;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;

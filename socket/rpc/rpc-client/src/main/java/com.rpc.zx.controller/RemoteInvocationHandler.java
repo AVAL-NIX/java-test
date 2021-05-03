@@ -1,6 +1,6 @@
 package com.rpc.zx.controller;
 
-import com.rpc.controller.RpcRequest;
+import com.tomcat.controller.RpcRequest;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

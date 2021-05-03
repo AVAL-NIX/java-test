@@ -1,6 +1,6 @@
 package com.rpc.zx.controller;
 
-import com.rpc.controller.RpcRequest;
+import com.tomcat.controller.RpcRequest;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

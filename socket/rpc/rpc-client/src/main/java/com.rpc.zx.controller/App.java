@@ -1,7 +1,6 @@
 package com.rpc.zx.controller;
 
-import com.rpc.controller.IHelloService;
-import org.springframework.context.ApplicationContext;
+import com.tomcat.controller.IHelloService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
