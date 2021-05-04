@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/design-mode-test.iml" filepath="$PROJECT_DIR$/.idea/design-mode-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/socket/rpc/rpc-server/rpc-server-api/rpc-server-api.iml" filepath="$PROJECT_DIR$/socket/rpc/rpc-server/rpc-server-api/rpc-server-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/socket/rpc/rpc-server/rpc-server-provider/rpc-server-provider.iml" filepath="$PROJECT_DIR$/socket/rpc/rpc-server/rpc-server-provider/rpc-server-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/socket/system-send/system-send.iml" filepath="$PROJECT_DIR$/socket/system-send/system-send.iml" />
     </modules>
   </component>
 </project>
