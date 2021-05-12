@@ -42,7 +42,7 @@ class LRUCache {
         }
         list.addFirst(key);
         if (list.size() > capacity) {
-            int delKey = list.removeLast();
+            list.removeLast();
         }
     }
 

@@ -12,6 +12,7 @@ public class TreeNode {
     }
 }
 */
+
 /**
  * 给定一棵二叉搜索树，请找出其中的第k小的TreeNode结点。
  *
@@ -34,19 +35,23 @@ public class Solution {
      * @return
      */
     TreeNode KthNode(TreeNode pRoot, int k) {
-        if(pRoot == null){return null;}
+        if (pRoot == null) {
+            return null;
+        }
         mid(pRoot);
         System.out.println(list);
-        if(k<1||list.size()<k){
+        if (k < 1 || list.size() < k) {
             return null;
-        }else{
-            return list.get(k-1);
+        } else {
+            return list.get(k - 1);
         }
     }
+
     ArrayList<TreeNode> list = new ArrayList<>();
+
     //递归遍历二叉搜索树
-    public void mid(TreeNode pRoot){
-        if(pRoot!=null){
+    public void mid(TreeNode pRoot) {
+        if (pRoot != null) {
             mid(pRoot.left);
             list.add(pRoot);
             mid(pRoot.right);
