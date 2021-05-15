@@ -1,4 +1,4 @@
-package 二叉树的中序遍历;
+package 二叉树集合.二叉树的中序遍历;
 
 import java.util.*;
 

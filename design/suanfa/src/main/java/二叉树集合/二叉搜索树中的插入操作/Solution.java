@@ -1,4 +1,4 @@
-package 二叉搜索树中的插入操作;
+package 二叉树集合.二叉搜索树中的插入操作;
 
 import common.TreeNode;
 

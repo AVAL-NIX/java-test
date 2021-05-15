@@ -1,6 +1,4 @@
-package 合并二叉树;
-
-import java.util.*;
+package 二叉树集合.合并二叉树;
 
 /*
  * public class TreeNode {

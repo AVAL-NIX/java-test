@@ -1,4 +1,4 @@
-package 二叉树的之字形层序遍历;
+package 二叉树集合.二叉树的之字形层序遍历;
 
 import common.TreeNode;
 

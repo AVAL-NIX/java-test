@@ -1,9 +1,5 @@
 package 合并有序链表;
 
-import 合并二叉树.Solution.TreeNode;
-
-import java.util.*;
-
 /*
  * public class ListNode {
  *   int val;

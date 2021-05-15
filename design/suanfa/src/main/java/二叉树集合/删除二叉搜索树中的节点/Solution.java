@@ -1,4 +1,4 @@
-package 删除二叉搜索树中的节点;
+package 二叉树集合.删除二叉搜索树中的节点;
 
 import common.TreeNode;
 
