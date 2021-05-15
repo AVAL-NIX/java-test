@@ -1,5 +1,7 @@
 package 合并有序链表;
 
+import 合并二叉树.Solution.TreeNode;
+
 import java.util.*;
 
 /*
@@ -31,20 +33,23 @@ public class Solution {
         }
 
         while (l1Next != null && l2Next != null) {
+            ListNode temp = newListNode.next;
             if (l1Next != null && l2Next == null) {
-                newListNode.next = l1Next;
+                temp = l1Next;
+                l1Next = l1Next.next;
             } else if (l1Next == null && l2Next != null) {
-                newListNode.next = l2Next;
+                temp = l2Next;
+                l2Next = l2Next.next;
             } else if (l1Next != null && l2Next != null) {
                 if (l1Next.val > l2Next.val) {
-                    newListNode.next = l2Next;
+                    temp = l2Next;
                     l2Next = l2Next.next;
                 } else {
-                    newListNode.next = l1Next;
+                    temp = l1Next;
                     l1Next = l1Next.next;
                 }
             }
-            newListNode = newListNode.next;
+            newListNode.next = temp;
         }
 
         return newListNode;
