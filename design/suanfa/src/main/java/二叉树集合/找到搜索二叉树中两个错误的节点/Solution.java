@@ -1,4 +1,4 @@
-package 找到搜索二叉树中两个错误的节点;
+package 二叉树集合.找到搜索二叉树中两个错误的节点;
 
 
 import common.TreeNode;

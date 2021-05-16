@@ -1,8 +1,6 @@
-package 将升序数组转化为平衡二叉搜索树;
+package 二叉树集合.将升序数组转化为平衡二叉搜索树;
 
 import common.TreeNode;
-
-import java.util.*;
 
 /*
  * public class TreeNode {

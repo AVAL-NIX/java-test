@@ -1,4 +1,4 @@
-package 平衡二叉树;
+package 二叉树集合.平衡二叉树;
 
 import common.TreeNode;
 

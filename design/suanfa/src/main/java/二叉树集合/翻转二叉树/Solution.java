@@ -1,4 +1,4 @@
-package 翻转二叉树;
+package 二叉树集合.翻转二叉树;
 
 import common.TreeNode;
 

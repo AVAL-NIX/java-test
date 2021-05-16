@@ -1,4 +1,4 @@
-package 把二叉搜索树转换为累加树;
+package 二叉树集合.把二叉搜索树转换为累加树;
 
 import common.TreeNode;
 

@@ -1,4 +1,4 @@
-package 重建二叉树;
+package 二叉树集合.重建二叉树;
 
 /**
  * Definition for binary tree

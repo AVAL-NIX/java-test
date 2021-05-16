@@ -1,4 +1,4 @@
-package 验证二叉搜索树;
+package 二叉树集合.验证二叉搜索树;
 
 import common.TreeNode;
 
