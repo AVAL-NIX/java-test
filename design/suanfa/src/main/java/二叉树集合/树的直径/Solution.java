@@ -33,11 +33,14 @@ public class Solution {
         TreeNode root = new TreeNode(Tree_edge[0].start, Edge_value[0]);
         for (int i = 1; i < Tree_edge.length - 1; i++) {
             Interval curr = Tree_edge[i];
-            if(curr.start == Tree_edge[i-1].end)
+            if(curr.start == Tree_edge[i-1].end){
+
+            }
           //  TreeNode temp = new TreeNode(curr.start, Edge_value[i]);
             //构建左右
 
         }
+        return 0;
     }
 
     public int index = 0;

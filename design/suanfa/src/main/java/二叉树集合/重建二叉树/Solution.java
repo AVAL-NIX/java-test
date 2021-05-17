@@ -24,8 +24,6 @@ public class Solution {
         if (preStart > preEnd) {
             return null;
         }
-
-
         int rootVale = pre[preStart];
         // rootVal 在中序遍历数组中的索引
         int index = 0;
