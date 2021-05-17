@@ -34,14 +34,16 @@ public class Solution {
         return stack.isEmpty();
     }
     public boolean isValid2(String s) {
-        int len = s.length();
-        if (len % 2 != 0) {
-            return false;
+        boolean flag = true;
+        while(flag){
+            int len = s.length();
+            s=s.replace("()","");
+            s=s.replace("[]","");
+            s=s.replace("{}","");
+            if(len == s.length()){
+                flag=false;
+            }
         }
-
-        s=s.replaceAll("()","");
-        s=s.replaceAll("[]","");
-        s=s.replaceAll("{}","");
         return s.length() == 0;
     }
 }
