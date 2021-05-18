@@ -22,5 +22,6 @@ public class Solution {
      */
     public ListNode addInList (ListNode head1, ListNode head2) {
         // write code here
+        return null;
     }
 }
