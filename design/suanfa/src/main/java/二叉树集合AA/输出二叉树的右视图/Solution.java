@@ -1,5 +1,7 @@
 package 二叉树集合AA.输出二叉树的右视图;
 
+import sun.reflect.generics.tree.Tree;
+
 import java.util.*;
 
 /**
@@ -20,15 +22,23 @@ public class Solution {
     public int[] solve(int[] xianxu, int[] zhongxu) {
         List<Integer> result = new ArrayList<>();
         TreeNode tree = reBuild(xianxu, zhongxu);
-        result.add(tree.val);
-        tree = tree.right;
-        while (tree != null) {
-            result.add(tree.val);
-            if (tree.right != null) {
-                tree = tree.right;
-            } else {
-                tree = tree.left;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(tree);
+        while (!queue.isEmpty()) {
+            //遍历一层
+            int len = queue.size();
+            TreeNode tempRoot = null;
+            for (int i = 0; i < len; i++) {
+                tempRoot = queue.poll();
+                if(tempRoot.left!=null){
+                    queue.add(tempRoot.left);
+                }
+                if(tempRoot.right !=null ){
+                    queue.add(tempRoot.right);
+                }
             }
+            //只留最后一个。
+            result.add(tempRoot.val);
         }
         return result.stream().mapToInt(Integer::valueOf).toArray();
     }
