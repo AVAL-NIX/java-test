@@ -14,41 +14,23 @@ public class Solution {
      * @return ListNode类
      */
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        if (l1 == null && l2 == null) {
-            return null;
-        }
-        ListNode l1Next, l2Next, newListNode;
-        l1Next = l1;
-        l2Next = l2;
-        if (l1Next.val > l2Next.val) {
-            newListNode = l2Next;
-            l2Next = l2Next.next;
-        } else {
-            newListNode = l1Next;
-            l1Next = l1Next.next;
-        }
-
-        while (l1Next != null && l2Next != null) {
-            ListNode temp = newListNode.next;
-            if (l1Next != null && l2Next == null) {
-                temp = l1Next;
-                l1Next = l1Next.next;
-            } else if (l1Next == null && l2Next != null) {
-                temp = l2Next;
-                l2Next = l2Next.next;
-            } else if (l1Next != null && l2Next != null) {
-                if (l1Next.val > l2Next.val) {
-                    temp = l2Next;
-                    l2Next = l2Next.next;
-                } else {
-                    temp = l1Next;
-                    l1Next = l1Next.next;
-                }
+        // write code here
+        if(l1 == null) return l2;
+        if(l2 == null) return l1;
+        ListNode newListNode = new ListNode(0);
+        ListNode cur = newListNode;
+        while (l1 != null && l2 != null) {
+            if (l1.val > l2.val) {
+                cur.next = l2;
+                l2 = l2.next;
+            } else {
+                cur.next = l1;
+                l1 = l1.next;
             }
-            newListNode.next = temp;
+            cur = cur.next;
         }
-
-        return newListNode;
+        cur.next = (l1 == null)? l2 : l1;
+        return newListNode.next;
     }
 
     public static class ListNode {

@@ -19,34 +19,51 @@ import java.util.Map;
 class Solution {
 
 
-
     public String minWindow(String s, String t) {
         Map<Character, Integer> need = new HashMap<>();
-        Map<Character, Integer> winow = new HashMap<>();
+        Map<Character, Integer> window = new HashMap<>();
         for (char c : t.toCharArray()) {
             //统计需要出现的次数
             need.put(c, need.getOrDefault(c, 0) + 1);
         }
-        int left = 0, right = 0 ;
+        int left = 0, right = 0;
         //代表window中满足need的字符个数
         int valid = 0;
         //记录长度
-        int start = 0 , len = Integer.MAX_VALUE;
-        while(right < s.length()){
+        int start = 0, len = Integer.MAX_VALUE;
+        while (right < s.length()) {
             char add = s.charAt(right);
-            right ++;
+            right++;
             //TODO
+            // 进行窗口内数据的一系列更新
+            if (need.containsKey(add)) {
+                window.put(add, window.getOrDefault(add, 0) + 1);
+                //校验某个字满足了条件了没。
+                if (window.get(add).equals(need.get(add))) {
+                    valid++;
+                }
+            }
 
-
-
-            while (true){
+            //判断是否要搜索
+            while (valid == need.size()) {
+                //更新最小覆盖子串 ， 判断len的
+                if(right - left < len){
+                    start = left;
+                    len = right - left;
+                }
                 char del = s.charAt(left);
                 left++;
-
                 //TODO
+                // 进行窗口内数据的一系列更新
+                if (need.containsKey(del)) {
+                    if (window.get(del).equals(need.get(del))) {
+                        valid--;
+                    }
+                    window.put(del, window.getOrDefault(del, 0) - 1);
+                }
             }
 
         }
-        return "";
+        return len == Integer.MAX_VALUE ? "" : s.substring(start, start + len);
     }
 }
