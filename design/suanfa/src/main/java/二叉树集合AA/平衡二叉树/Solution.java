@@ -4,20 +4,25 @@ import common.TreeNode;
 
 public class Solution {
     public boolean IsBalanced_Solution(TreeNode root) {
-        return traverse(root, null, null);
-    }
-
-    private boolean traverse(TreeNode root, TreeNode min, TreeNode max) {
         if (root == null) {
             return true;
         }
-        if (max != null && root.val >= max.val) {
-            return false;
+        int leftDeep = getDeep(root.left);
+        int rightDeep = getDeep(root.right);
+        //每颗都是绝对值差1
+        return Math.abs(leftDeep - rightDeep) <= 1 && IsBalanced_Solution(root.left) && IsBalanced_Solution(root.right);
+    }
+
+    /**
+     * 求树高， ，
+     *
+     * @param root
+     * @return
+     */
+    private int getDeep(TreeNode root) {
+        if (root == null) {
+            return 0;
         }
-        if (min != null && root.val <= min.val) {
-            return false;
-        }
-        return traverse(root.left, min, root) &&
-                traverse(root.right, root, max);
+        return Math.max(getDeep(root.left), getDeep(root.right)) + 1;
     }
 }
