@@ -1,6 +1,4 @@
-package 牛牛的数列;
-
-import java.util.*;
+package 查找算法集合AA.牛牛的数列;
 
 
 public class Solution {
