@@ -1,4 +1,4 @@
-package dongtai.目标和;
+package 动态规划AA.目标和;
 
 import java.util.HashMap;
 

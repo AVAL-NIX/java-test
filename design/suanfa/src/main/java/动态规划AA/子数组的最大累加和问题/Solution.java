@@ -1,4 +1,4 @@
-package dongtai.子数组的最大累加和问题;
+package 动态规划AA.子数组的最大累加和问题;
 
 
 public class Solution {

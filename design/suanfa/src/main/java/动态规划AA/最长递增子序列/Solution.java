@@ -1,4 +1,4 @@
-package dongtai.最长递增子序列;
+package 动态规划AA.最长递增子序列;
 
 import java.util.Arrays;
 

@@ -1,6 +1,4 @@
-package dongtai.最长公共子串;
-
-import java.util.*;
+package 动态规划AA.最长公共子串;
 
 
 public class Solution {
