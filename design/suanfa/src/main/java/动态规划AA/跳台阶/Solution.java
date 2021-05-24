@@ -1,4 +1,4 @@
-package 递归集合AA.跳台阶;
+package 动态规划AA.跳台阶;
 
 import java.util.HashMap;
 import java.util.Map;

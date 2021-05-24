@@ -1,4 +1,4 @@
-package 递归集合AA.斐波那契数列;
+package 动态规划AA.斐波那契数列;
 
 public class Solution {
     int[] memo = null;
