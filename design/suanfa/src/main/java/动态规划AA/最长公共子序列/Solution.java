@@ -1,19 +1,11 @@
-package 动态规划AA.最长公共子串;
+package 动态规划AA.最长公共子序列;
 
+import java.util.Arrays;
 
-/**
- * https://mp.weixin.qq.com/s/ZhPEchewfc03xWv9VP3msg
- */
-public class Solution {
-    /**
-     * longest common substring
-     * @param str1 string字符串 the string
-     * @param str2 string字符串 the string
-     * @return string字符串
-     */
-    public String LCS (String str1, String str2) {
-        meno = new int[str1.length()][str2.length()];
-        return ""+dp(str1, 0, str2, 0);
+class Solution {
+    public int longestCommonSubsequence(String text1, String text2) {
+        meno = new int[text1.length()][text2.length()];
+        return dp(text1, 0, text2, 0);
     }
 
     int[][] meno;
