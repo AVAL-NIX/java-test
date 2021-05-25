@@ -26,6 +26,6 @@ class Solution {
 
 
     public static void main(String[] args) {
-        System.out.println(new Solution().longestPalindromeSubseq("abbbc"));
+        System.out.println(new 动态规划AA.最长回文子序列.Solution().longestPalindromeSubseq("abbbc"));
     }
 }

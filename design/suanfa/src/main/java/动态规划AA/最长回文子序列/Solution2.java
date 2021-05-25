@@ -1,4 +1,4 @@
-package 字符串集合AA.最长回文子序列;
+package 动态规划AA.最长回文子序列;
 
 /**
  * 给定一个字符串，找到其中最长的回文子序列，并返回该序列的长度。字符串长度<=5000
@@ -9,7 +9,7 @@ package 字符串集合AA.最长回文子序列;
  * @author zhengxin
  * @date 2021/4/12
  */
-public class Solution {
+public class Solution2 {
     /**
      * 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
      *
@@ -53,6 +53,6 @@ public class Solution {
 
 
     public static void main(String[] args) {
-        System.out.println(new Solution().longestPalindromeSubSeq("bdccfb"));
+        System.out.println(new Solution2().longestPalindromeSubSeq("bdccfb"));
     }
 }
