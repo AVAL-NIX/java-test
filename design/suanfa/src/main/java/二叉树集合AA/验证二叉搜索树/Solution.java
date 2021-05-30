@@ -30,7 +30,7 @@ class Solution {
 
         if (min != null && root.val <= min.val) {
             return false;
-        }
+    }
         if (max != null && root.val >= max.val) {
             return false;
         }

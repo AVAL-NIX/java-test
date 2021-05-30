@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a29feb6d-b1d2-4252-9fd8-52d677586130" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/design/suanfa/src/main/java/递归集合AA/表达式求值/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/suanfa/src/main/java/数组集合AA/数组中相加和为0的三元组/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/suanfa/src/main/java/数组集合AA/数组中相加和为0的三元组/Solution.java" afterDir="false" />
     </list>
-    <list id="7ea8e5ec-990d-4263-8268-70c950742915" name="un" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-    </list>
+    <list id="7ea8e5ec-990d-4263-8268-70c950742915" name="un" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,8 +41,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/迅雷下载/netty4-samples-master" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/design/suanfa" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.508046" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RebelAgentSelection">
@@ -175,7 +179,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -189,6 +193,9 @@
       <updated>1617001229550</updated>
       <workItem from="1617001230857" duration="10742000" />
       <workItem from="1617028201235" duration="2030000" />
+      <workItem from="1622255437034" duration="853000" />
+      <workItem from="1622268435465" duration="1457000" />
+      <workItem from="1622341841281" duration="1117000" />
     </task>
     <task id="LOCAL-00001" summary="目录排版整理">
       <created>1617002193146</created>
@@ -236,95 +243,12 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="目录排版整理" />
     <MESSAGE value="netty聊天室代码提交" />
     <option name="LAST_COMMIT_MESSAGE" value="netty聊天室代码提交" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617008849310">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617008849310" />
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1617010121337">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1617010121337" />
-    <state x="552" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1617011750477">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617011750477" />
-    <state x="732" y="444" key="#xdebugger.evaluate" timestamp="1617006135791">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="732" y="444" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1617006135791" />
-    <state x="465" y="106" key="CommitChangelistDialog2" timestamp="1617030796063">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="465" y="106" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1617030796063" />
-    <state x="465" y="106" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1617008175657" />
-    <state width="435" height="466" key="DebuggerActiveHint" timestamp="1617006112832">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="435" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1617006112832" />
-    <state x="308" y="105" key="DiffContextDialog" timestamp="1617028462156">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="308" y="105" key="DiffContextDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1617028462156" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1617004248988">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1617004248988" />
-    <state width="1921" height="329" key="GridCell.Tab.0.bottom" timestamp="1617011318815">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="329" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617011318815" />
-    <state width="1921" height="329" key="GridCell.Tab.0.center" timestamp="1617011318815">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="329" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617011318815" />
-    <state width="1921" height="329" key="GridCell.Tab.0.left" timestamp="1617011318815">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="329" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617011318815" />
-    <state width="1921" height="329" key="GridCell.Tab.0.right" timestamp="1617011318815">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="329" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617011318815" />
-    <state width="1921" height="329" key="GridCell.Tab.1.bottom" timestamp="1617011318816">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="329" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617011318816" />
-    <state width="1921" height="329" key="GridCell.Tab.1.center" timestamp="1617011318816">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="329" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617011318816" />
-    <state width="1921" height="329" key="GridCell.Tab.1.left" timestamp="1617011318816">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="329" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617011318816" />
-    <state width="1921" height="329" key="GridCell.Tab.1.right" timestamp="1617011318816">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1921" height="329" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617011318816" />
-    <state x="741" y="432" key="VCS.ChangelistChooser" timestamp="1617002726796">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="741" y="432" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1617002726796" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617008424363">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617008424363" />
-    <state x="662" y="223" width="596" height="594" key="find.popup" timestamp="1617007051958">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="662" y="223" width="596" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617007051958" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1617009831042">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617009831042" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
