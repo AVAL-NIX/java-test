@@ -1,4 +1,4 @@
-package 贪心算法.跳跃游戏;
+package 贪心算法AA.跳跃游戏;
 
 class Solution {
     public boolean canJump(int[] nums) {

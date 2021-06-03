@@ -5,6 +5,7 @@ class Solution {
         int max_k = 2;
         int n = prices.length;
         int[][][] dp = new int[n][max_k + 1][2];
+        //初始化值， 这里
         dp[0][0][1] = prices[0];
         dp[0][1][1] = prices[0];
         for (int i = 1; i < n; i++) {

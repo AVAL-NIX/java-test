@@ -17,6 +17,7 @@ class LRUCache {
     public int get(int key) {
         int result = hash.getOrDefault(key, -1);
         if (result != -1) {
+            //如果值不为空更新最近的KEY
             updateLessKey(key);
         }
         return result;
@@ -24,54 +25,34 @@ class LRUCache {
 
     public void put(int key, int value) {
         hash.put(key, value);
+        //如果容量超标
         if (hash.size() > capacity) {
+            //删除最近的KEY
             hash.remove((Object) getLessKey());
         }
+        //更新最近的KEY
         updateLessKey(key);
     }
 
-
+    //获取最近的KEY ， 因为链表是队列的一种， 所以取对尾
     public int getLessKey() {
         int key = list.getLast();
         return key;
     }
 
+    //  //更新最近的KEY
     public void updateLessKey(int key) {
+        // 如果重复了， 先删除， 在添加
         if (list.contains(key)) {
             list.remove((Object) key);
         }
         list.addFirst(key);
+        // 队列超标了也删除最后的。
         if (list.size() > capacity) {
             list.removeLast();
         }
     }
 
-    public static void main(String[] args) {
-//        ["LRUCache","put","put","get","put","get","put","get","get","get"]
-//[[2],[1,1],[2,2],[1],[3,3],[2],[4,4],[1],[3],[4]]
-        LRUCache lruCache = new LRUCache(2);
-        lruCache.put(1, 1);
-        lruCache.put(2, 2);
-        lruCache.get(1);
-        lruCache.put(3, 3);
-        System.out.println(lruCache);
-        lruCache.get(2);
-        lruCache.put(3, 4);
-        lruCache.put(4, 4);
-        lruCache.put(4, 5);
-        lruCache.get(3);
-        lruCache.get(4);
-
-//        ["LRUCache","put","put","get","put","get","get"]
-//[[2],[2,1],[1,1],[2],[4,1],[1],[2]]
-//        lruCache.put(2,1);
-//        lruCache.put(1,1);
-//        lruCache.get(2);
-//        lruCache.put(4,1);
-//        lruCache.get(1);
-//        lruCache.get(2);
-
-    }
 }
 
 

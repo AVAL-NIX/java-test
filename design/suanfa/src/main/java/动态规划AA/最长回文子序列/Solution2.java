@@ -28,7 +28,6 @@ public class Solution2 {
      * 则如果S[i]==S[j] , 则：fun(S, i , j) = 2+fun(S , i+1 , j-1)
      * 如果不等，则，fun(S , i , j) = max{ fun(S, i+1 , j) ,  fun(S , i , j-1)}
      *
-     *
      * @param s
      * @param b
      * @param e
