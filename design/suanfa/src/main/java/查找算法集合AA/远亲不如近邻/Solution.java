@@ -19,20 +19,26 @@ public class Solution {
     public int[] solve(int n, int m, int[] a, int[] x) {
         int[] res = new int[x.length];
         List<Integer> list = new ArrayList<>();
+        Arrays.sort(a);
         for (int i = 0; i < x.length; i++) {
             int value = x[i];
             int left = 0, right = a.length - 1;
             while (left < right) {
-                int mid = left + (right + left) >> 2;
-                if (a[mid] > value && mid - 1 >= 0 && a[mid - 1] > value) {
-                    right = mid - 1;
-                } else if (a[mid] < value && mid + 1 < a.length && a[mid + 1] < value) {
-                    left = mid + 1;
+                int mid = left + (int) Math.ceil((right - left) / 2.0);
+                if (a[mid] < value) {
+                    left = mid;
                 } else {
-                    int min = Math.min(Math.abs(a[mid] - value), Math.min(Math.abs(a[left] - value), Math.abs(a[right] - value)));
-                    list.add(min);
+                    right = mid - 1;
                 }
             }
+            int min = Math.abs(a[left] - value);
+            if (left - 1 >= 0) {
+                min = Math.min(min, Math.abs(a[left - 1] - value));
+            }
+            if (left + 1 < a.length) {
+                min = Math.min(min, Math.abs(a[left + 1] - value));
+            }
+            list.add(min);
         }
         return list.stream().mapToInt(Integer::intValue).toArray();
     }
