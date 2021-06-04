@@ -20,30 +20,39 @@ public class Solution {
                 stack.push(temp);
             }
             if (!stack.isEmpty() && (temp == '}' || temp == ']' || temp == ')')) {
-                if(temp == '}' && stack.peek()=='{'){
+                if (temp == '}' && stack.peek() == '{') {
                     stack.pop();
-                }
-                if(temp == ')' && stack.peek()=='('){
+                } else if (temp == ')' && stack.peek() == '(') {
                     stack.pop();
-                }
-                if(temp == ']' && stack.peek()=='['){
+                } else if (temp == ']' && stack.peek() == '[') {
                     stack.pop();
+                } else {
+                    return false;
                 }
+            } else if (temp == '}' || temp == ']' || temp == ')') {
+                return false;
             }
+
         }
         return stack.isEmpty();
     }
+
     public boolean isValid2(String s) {
         boolean flag = true;
-        while(flag){
+        while (flag) {
             int len = s.length();
-            s=s.replace("()","");
-            s=s.replace("[]","");
-            s=s.replace("{}","");
-            if(len == s.length()){
-                flag=false;
+            s = s.replace("()", "");
+            s = s.replace("[]", "");
+            s = s.replace("{}", "");
+            if (len == s.length()) {
+                flag = false;
             }
         }
         return s.length() == 0;
+    }
+
+
+    public static void main(String[] args) {
+        System.out.println(new Solution().isValid("([}}])"));
     }
 }

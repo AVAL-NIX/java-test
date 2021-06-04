@@ -1,4 +1,4 @@
-package 栈AA.设计getMin功能的栈;
+package 数据结构集合AA.设计getMin功能的栈;
 
 import java.util.*;
 
