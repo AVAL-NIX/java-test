@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * 输出 K的组合
+ */
 class Solution {
     List<List<Integer>> res = new ArrayList<>();
 
