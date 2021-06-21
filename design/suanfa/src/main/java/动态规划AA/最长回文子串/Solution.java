@@ -4,6 +4,7 @@ package 动态规划AA.最长回文子串;
  * 对于一个字符串，请设计一个高效算法，计算其中最长回文子串的长度。
  * <p>
  * 给定字符串A以及它的长度n，请返回最长回文子串的长度。
+ * 18行动态规划+27行中心扩散法+36行马拉车算法
  *
  * @author zhengxin
  * @date 2021/4/2
@@ -12,8 +13,6 @@ public class Solution {
 
     /**
      * 暴利解法
-     * 18行动态规划+27行中心扩散法+36行马拉车算法
-     *
      * @param A
      * @param n
      * @return
@@ -88,19 +87,21 @@ public class Solution {
                         dp[l][r] = dp[l+1][r-1];
                     }
                 }
-
                 // 只要 dp[i][L] == true 成立，就表示子串 s[i..L] 是回文，此时记录回文长度和起始位置
                 if (dp[l][r] && r - l + 1 > maxLen) {
                     maxLen = r - l + 1;
                     begin = l;
                 }
-
-
             }
         }
         return s.substring(begin, begin+maxLen);
     }
 
+    /**
+     * 27行中心扩散法
+     * @param s
+     * @return
+     */
     public String longestPalindrome3(String s) {
         int len = s.length();
         if(len < 2){

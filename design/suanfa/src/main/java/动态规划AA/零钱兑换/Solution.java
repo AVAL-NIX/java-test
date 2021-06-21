@@ -7,7 +7,7 @@ package 动态规划AA.零钱兑换;
 class Solution {
     public int[] table ;
     public int coinChange(int[] coins, int amount) {
-        table = new int[amount+1];
+            table = new int[amount+1];
         return dp(coins, amount);
     }
 

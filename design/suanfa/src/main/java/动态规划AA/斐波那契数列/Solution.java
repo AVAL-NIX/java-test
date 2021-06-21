@@ -1,5 +1,7 @@
 package 动态规划AA.斐波那契数列;
 
+import java.math.BigDecimal;
+
 public class Solution {
     int[] memo = null;
 
@@ -17,14 +19,27 @@ public class Solution {
         return curr;
     }
 
+    public int Fibonacci3(int n) {
+        if (n < 1)
+            return 0;
+        BigDecimal prev = new BigDecimal(1);
+        BigDecimal curr = new BigDecimal(1);
+        for (int i = 3; i <= n; i++) {
+            BigDecimal sum = prev.add(curr);
+            prev = curr;
+            curr = sum;
+        }
+        return curr.intValue() ;
+    }
 
 
-//    public int Fibonacci(int n) {
-//        if (n < 1)
-//            return 0;
-//        memo = new int[n + 1];
-//        return fib(n);
-//    }
+
+    public int Fibonacci2(int n) {
+        if (n < 1)
+            return 0;
+        memo = new int[n + 1];
+        return (int) (fib(n) %(1e9+7));
+    }
 
     public int fib(int n) {
         if (n == 0) {
@@ -44,6 +59,6 @@ public class Solution {
 
     public static void main(String[] args) {
 
-        System.out.println(  new Solution().Fibonacci(4));
+        System.out.println(  new Solution().Fibonacci2(45));
     }
 }
