@@ -17,4 +17,21 @@ public class Solution {
         }
         return key;
     }
+
+    public int majorityElement(int[] nums) {
+        int v = nums[0];
+        int count = 1;
+        for(int i= 1; i< nums.length ; i++){
+            if(nums[i] == v){
+                count++;
+            }else{
+                count--;
+            }
+            if(count <=0){
+                count = 1;
+                v = nums[i];
+            }
+        }
+        return v;
+    }
 }

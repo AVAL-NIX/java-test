@@ -44,7 +44,7 @@ class Solution {
         if (nums.length == 0) {
             return new int[0];
         }
-        int len = nums.length ;
+        int len = nums.length;
         for (int i = 0; i < len; i++) {
             int temp = nums[i];
             for (int j = i + 1; j < len; j++) {
@@ -68,7 +68,7 @@ class Solution {
             return new int[0];
         }
         Map<Integer, Integer> hash = new HashMap<>();
-        int len = nums.length ;
+        int len = nums.length;
         for (int i = 0; i < len; i++) {
             int temp = nums[i];
             if (hash.containsKey(target - temp)) {
