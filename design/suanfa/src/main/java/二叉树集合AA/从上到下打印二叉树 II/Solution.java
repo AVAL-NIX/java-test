@@ -1,4 +1,4 @@
-package 二叉树集合AA.从上到下打印二叉树
+package 二叉树集合AA.从上到下打印二叉树;
 
 import common.TreeNode;
 
