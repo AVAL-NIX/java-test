@@ -69,8 +69,34 @@ public class Solution {
         return dp[index];
     }
 
+    public int nthUglyNumber(int index) {
+        if (index < 0) {
+            return 0;
+        }
+        int[] dp = new int[index+1];
+        dp[1] = 1;
+        int p2=1 , p3=1, p5=1;
+        for(int i=2; i<=index; i++){
+            int num2 = dp[p2] * 2 ;
+            int num3 = dp[p3] * 3 ;
+            int num5 = dp[p5] * 5;
+            dp[i] = Math.min(Math.min(num2,num3),num5);
+            if(dp[i] == num2) {
+                p2++;
+            }
+            if(dp[i] == num3) {
+                p3++;
+            }
+            if(dp[i] == num5) {
+                p5++;
+            }
+        }
+        return dp[index];
+    }
+
 
     public static void main(String[] args) {
         System.out.println(new Solution().GetUglyNumber_Solution(10));
+        System.out.println(new Solution().nthUglyNumber(10));
     }
 }
