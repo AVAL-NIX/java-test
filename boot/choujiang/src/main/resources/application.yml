@@ -1,3 +1,4 @@
+
 spring:
   devtools:
     restart:
@@ -24,3 +25,5 @@ spring:
       date_format: yyyy-MM-dd
       time_format: HH:mm:ss
     allow-request-override: true
+server:
+  port: 9991

@@ -68,4 +68,10 @@ public class DrawController {
     }
 
 
+    @RequestMapping("/set")
+    @ResponseBody
+    public void response(String data){
+        System.out.println(data);
+    }
+
 }
