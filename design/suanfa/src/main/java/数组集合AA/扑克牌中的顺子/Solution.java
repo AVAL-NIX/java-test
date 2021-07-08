@@ -36,4 +36,36 @@ class Solution {
         }
         return true;
     }
+
+
+    public boolean IsContinuous(int [] numbers) {
+        int ex = 0;
+        for(int i=0; i< numbers.length ; i++){
+            if(numbers[i] == 0){
+                ex++;
+            }
+        }
+        Arrays.sort(numbers);
+        int pre = -1;
+        for(int i= ex; i< numbers.length ; i++){
+            if(pre == -1){
+                pre = numbers[i];
+                continue;
+            }
+            if(pre+1 == numbers[i]){
+                pre = numbers[i];
+                continue;
+            }else{
+                if(ex == 0){
+                    return false;
+                }else{
+                    pre++;
+                    ex--;
+                }
+            }
+
+        }
+        return true;
+
+    }
 }

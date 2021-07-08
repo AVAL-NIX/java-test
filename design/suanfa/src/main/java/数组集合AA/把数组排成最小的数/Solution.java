@@ -66,7 +66,29 @@ class Solution {
         return sb.toString();
     }
 
+
+    public String minNumber2(int[] nums) {
+        StringBuilder sb = new StringBuilder();
+        List<Integer> list = Arrays.stream(nums).boxed().collect(Collectors.toList());
+        Collections.sort(list, new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                String s1 = o1 + "";
+                String s2 = o2 + "";
+                return (s1 + s2).compareTo(s2 + s1);
+            }
+        });
+        for (int i = 0; i < list.size(); i++) {
+            int num = list.get(i);
+            if (num == 0) {
+                continue;
+            }
+            sb.append(num);
+        }
+        return sb.toString();
+    }
+
     public static void main(String[] args) {
-        System.out.println(new Solution().minNumber(new int[]{824,938,1399,5607,6973,5703,9609,4398,8247}));
+        System.out.println(new Solution().minNumber(new int[]{824, 938, 1399, 5607, 6973, 5703, 9609, 4398, 8247}));
     }
 }

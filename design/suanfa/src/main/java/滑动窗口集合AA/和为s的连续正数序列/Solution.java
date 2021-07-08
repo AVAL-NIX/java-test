@@ -41,6 +41,30 @@ class Solution {
         return r;
     }
 
+    public ArrayList<ArrayList<Integer> > FindContinuousSequence(int sum) {
+        int left = 1,right = 1;
+        int target = 0;
+        LinkedList<Integer> temp = new LinkedList<Integer>();
+        ArrayList<ArrayList<Integer>> res = new ArrayList<ArrayList<Integer>>();
+        while(right < sum){
+            int v = right;
+            right++;
+            target += v;
+            temp.add(v);
+
+            while(target >= sum){
+                if(target == sum){
+                    res.add(new ArrayList<Integer>(temp));
+                }
+                int lv = left;
+                left++;
+                target -= lv;
+                temp.removeFirst();
+            }
+        }
+        return res;
+    }
+
     public static void main(String[] args) {
         new Solution().findContinuousSequence(9);
     }
