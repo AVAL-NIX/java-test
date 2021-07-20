@@ -22,4 +22,5 @@ public class SingleQueue {
             q.pollFirst();
         }
     }
+
 }

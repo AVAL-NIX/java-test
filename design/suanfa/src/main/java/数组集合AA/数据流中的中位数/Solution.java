@@ -20,7 +20,7 @@ public class Solution {
     }
 
     public Double GetMedian() {
-        return max.size() == min.size() ? (max.peek() + min.peek()) / 2.0 : max.peek();
+        return (Double) (max.size() == min.size() ? (max.peek() + min.peek()) / 2.0 : max.peek());
     }
 
 
