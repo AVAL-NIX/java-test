@@ -42,6 +42,7 @@ class Solution {
 
 
     int count;
+
     public int reversePairs(int[] nums) {
         this.count = 0;
         merge(nums, 0, nums.length - 1);
@@ -85,7 +86,34 @@ class Solution {
         }
     }
 
-    public static void main(String[] args) {
-        System.out.println(new int[]{9,84,4,2});
+    public static void main(String[] args) throws InterruptedException {
+        System.out.println(Solution.copu(1d));
     }
+    
+    static int day = 0;
+
+    public static double copu(double i) {
+        if (i > 10) {
+            return i;
+        } else {
+            day++;
+            return copu(i + (i * 0.05));
+        }
+    }
+
+    static class A extends Thread {
+        @Override
+        public void run() {
+            System.out.println(" 11111111111");
+            try {
+                Thread.sleep(100000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println(" 222222222");
+
+        }
+    }
+
+
 }
