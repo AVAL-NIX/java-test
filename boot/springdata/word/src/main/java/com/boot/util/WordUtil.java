@@ -1,8 +1,8 @@
 package com.boot.util;
 
 
+import com.boot.dao.TableCol;
 import com.boot.model.*;
-import com.boot.model2.*;
 import com.lowagie.text.*;
 import com.lowagie.text.Table;
 import com.lowagie.text.pdf.BaseFont;
@@ -10,10 +10,8 @@ import com.lowagie.text.rtf.RtfWriter2;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Component;
 
 import java.io.*;
-import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 import java.util.List;
 
@@ -31,7 +29,7 @@ public class WordUtil {
      * @throws Exception
      * @throws IOException
      */
-    public static void createDocContext(String file, List<com.boot.model.Table> tables)throws Exception, IOException{
+    public static void createDocContext(String file, List<com.boot.dao.Table> tables)throws Exception, IOException{
         //设置纸张大小
         Document document = new Document(PageSize.A4);
         //建立一个书写器，与document对象关联
@@ -40,24 +38,7 @@ public class WordUtil {
         //设置中文字体
         BaseFont bfChinese = BaseFont.createFont("STSongStd-Light","UniGB-UCS2-H",BaseFont.NOT_EMBEDDED);
         //标题字体风格
-//        Font titleFont = new Font(bfChinese,12,Font.BOLD);
-//        //正文字体风格
-//        Font contextFont = new Font(bfChinese,10, Font.NORMAL);
-     /*   Paragraph title = new Paragraph("标题");
-        //设置标题格式对齐方式
-        title.setAlignment(Element.ALIGN_CENTER);
-        title.setFont(titleFont);
-        document.add(title);*/
-//        Paragraph context = new Paragraph(contextString);
-//        context.setAlignment(Element.ALIGN_LEFT);
-//        context.setFont(contextFont);
-//        //段间距
-//        context.setSpacingBefore(3);
-//        //设置第一行空的列数
-//        context.setFirstLineIndent(20);
-
-//        document.add(context);
-        for (com.boot.model.Table table : tables) {
+        for (com.boot.dao.Table table : tables) {
             document.add(new Paragraph("表"+table.getTableName() + ""));
             WordUtil.createTable(document,table.getCols());
         }
@@ -116,9 +97,10 @@ public class WordUtil {
 //        WordUtil.createTable2(document, MedicalOrgDetailDto.class);
 //        WordUtil.createTable2(document, EquipmentDto.class);
 //        WordUtil.createTable2(document, EventListDto.class);
+//        WordUtil.createTable2(document, EventReportDto.class);
+//        WordUtil.createTable2(document, SceneRescuePointListDto.class);
+        WordUtil.createTable2(document, UserListDto.class);
 
-
-        WordUtil.createTable2(document, GroupDto.class);
 
         document.close();
 
@@ -198,7 +180,7 @@ public class WordUtil {
         WordUtil word = new WordUtil();
         String file = "d://test.doc";
         try {
-//            word.createDocContext(file);
+            WordUtil.createDocContext2(file);
         } catch (Exception e) {
             e.printStackTrace();
         }

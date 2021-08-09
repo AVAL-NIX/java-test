@@ -1,16 +1,4 @@
-/*
-** XQSoft Game
-** Copyright (C) 2001-2011, XQSoft Games
-** www.xqsoft.com
-**
-** Coder:Richard
-**
-*
-* 文件编码格式统一为 UTF-8
- * Copyright (C) 2010 The MobileSecurePay Project
- * All right reserved.
- * author: shiqun.shi@alipay.com
- */
+
 package com.boot.util;
 
 public final class Base64 {

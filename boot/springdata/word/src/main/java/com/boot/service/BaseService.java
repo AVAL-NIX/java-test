@@ -1,7 +1,7 @@
 package com.boot.service;
 
-import com.boot.model.Table;
-import com.boot.model.TableCol;
+import com.boot.dao.Table;
+import com.boot.dao.TableCol;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -47,7 +47,7 @@ public class BaseService {
         Query query = entityManager.createNativeQuery("" +
                 "select table_name ,TABLE_COMMENT " +
                 "from information_schema.tables " +
-                "where table_schema='lolaage_egc' and table_type='base table' " +
+                "where table_schema='aaaa' and table_type='base table' " +
                 " ");
         List<Object[]> list = query.getResultList();
 
