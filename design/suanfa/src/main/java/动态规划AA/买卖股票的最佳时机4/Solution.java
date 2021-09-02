@@ -23,4 +23,28 @@ class Solution {
         // 穷举了 n × max_k × 2 个状态，正确。
         return dp[n - 1][max_k][0];
     }
+
+    public static volatile int i;
+
+    static class A extends Thread {
+        @Override
+        public void run() {
+            i = 3;
+        }
+    }
+
+    static class B extends Thread {
+        @Override
+        public void run() {
+            System.out.println(i);
+        }
+    }
+    // 0 还是 3？
+    public static void main(String[] args) {
+        B b = new B();
+        A a = new A();
+        b.start();
+        a.start();
+    }
+
 }
