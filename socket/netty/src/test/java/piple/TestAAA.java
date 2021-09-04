@@ -8,6 +8,10 @@ import org.junit.Test;
 import server.piple.Inpiple.SimpleInA;
 import server.piple.Inpiple.SimpleInB;
 import server.piple.Inpiple.SimpleInC;
+import server.piple.OutPiple;
+import server.piple.OutPiple.SimpleOutD;
+import server.piple.OutPiple.SimpleOutE;
+import server.piple.OutPiple.SimpleOutF;
 
 /**
  * @author zhengxin
@@ -52,7 +56,31 @@ import server.piple.Inpiple.SimpleInC;
 public class TestAAA {
 
     @Test
-    public void serverRun(){
+    public void test1(){
+
+        ChannelInitializer c = new ChannelInitializer<EmbeddedChannel>() {
+            @Override
+            protected void initChannel(EmbeddedChannel ch) throws Exception {
+                ch.pipeline().addLast(new SimpleInA());
+                ch.pipeline().addLast(new SimpleOutD());
+                ch.pipeline().addLast(new SimpleOutE());
+                ch.pipeline().addLast(new SimpleInB());
+                ch.pipeline().addLast(new SimpleInC());
+                ch.pipeline().addLast(new SimpleOutF());
+            }
+        };
+
+        EmbeddedChannel embeddedChannel = new EmbeddedChannel(c);
+        ByteBuf buf = Unpooled.buffer();
+        buf.writeInt(1);
+        //向通道写一个
+        embeddedChannel.writeInbound(buf);
+        embeddedChannel.writeOutbound(buf);
+    }
+
+
+    @Test
+    public void test2(){
 
         ChannelInitializer c = new ChannelInitializer<EmbeddedChannel>() {
             @Override

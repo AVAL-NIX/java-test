@@ -13,7 +13,8 @@ public class Inpiple {
         @Override
         public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
             System.out.println(" AAAAAAAAAAAAAAA ");
-            super.channelRead(ctx, msg);
+           // super.channelRead(ctx, msg);
+            ctx.fireChannelRead(msg);
         }
     }
 
