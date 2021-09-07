@@ -96,6 +96,8 @@ public class TestAAA {
         buf.writeInt(1);
         //向通道写一个
         embeddedChannel.writeInbound(buf);
+
+
     }
 
 }
