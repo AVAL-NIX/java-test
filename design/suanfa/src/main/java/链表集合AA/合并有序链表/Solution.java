@@ -7,6 +7,8 @@ package 链表集合AA.合并有序链表;
  * }
  */
 
+import common.ListNode;
+
 public class Solution {
     /**
      * @param l1 ListNode类
@@ -14,7 +16,6 @@ public class Solution {
      * @return ListNode类
      */
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        // write code here
         if(l1 == null) return l2;
         if(l2 == null) return l1;
         ListNode newListNode = new ListNode(0);
@@ -31,26 +32,6 @@ public class Solution {
         }
         cur.next = (l1 == null)? l2 : l1;
         return newListNode.next;
-    }
-
-    public static class ListNode {
-        int val;
-        ListNode next = null;
-
-        public ListNode(int val) {
-            this.val = val;
-        }
-
-        @Override
-        public String toString() {
-            ListNode next = this;
-            StringBuilder stringBuilder = new StringBuilder();
-            while (next != null) {
-                stringBuilder.append(next.val + ",");
-                next = next.next;
-            }
-            return stringBuilder.toString();
-        }
     }
 
 

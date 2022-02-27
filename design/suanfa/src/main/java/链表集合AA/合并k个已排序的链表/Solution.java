@@ -5,20 +5,23 @@ import common.ListNode;
 
 import java.util.ArrayList;
 
+/**
+ * TODO .这题不会. .
+ */
 public class Solution {
     public ListNode mergeKLists(ArrayList<ListNode> lists) {
         return fenzhi(lists, 0, lists.size() - 1);
     }
 
-    private ListNode fenzhi(ArrayList<ListNode> lists, int l, int r) {
-        if (l == r) {
-            return lists.get(l);
+    private ListNode fenzhi(ArrayList<ListNode> lists, int left, int right) {
+        if (left == right) {
+            return lists.get(left);
         }
-        if (l > r) {
+        if (left > right) {
             return null;
         }
-        int mid = l + (r - l) / 2;
-        return sum(fenzhi(lists, l, mid), fenzhi(lists, mid + 1, r));
+        int mid = left + (right - left) / 2;
+        return sum(fenzhi(lists, left, mid), fenzhi(lists, mid + 1, right));
     }
 
     private ListNode sum(ListNode one, ListNode two) {

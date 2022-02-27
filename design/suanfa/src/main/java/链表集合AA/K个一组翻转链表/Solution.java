@@ -15,7 +15,7 @@ class Solution {
         if (head == null) {
             return null;
         }
-        //定义区间 [b,b)
+        //定义区间 [a,b)
         ListNode a, b;
         a = b = head;
         //跳过b个元素
