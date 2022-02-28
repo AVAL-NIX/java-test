@@ -18,7 +18,7 @@ public class Solution {
         int[][] meno = new int[str1.length()][str2.length()];
         meno[0][0] = 1;
 
-        int index = 0, maxLength = 0;
+        int endIndex = 0, maxLength = 0;
         for (int i = 1; i < str1.length(); i++) {
             for (int j = 1; j < str2.length(); j++) {
                 if (str1.charAt(i) == str2.charAt(j)) {
@@ -29,14 +29,14 @@ public class Solution {
                     }
                     if (meno[i][j] > maxLength) {
                         maxLength = meno[i][j];
-                        index = i;
+                        endIndex = i;
                     }
                 }
 
             }
 
         }
-        return maxLength == 0 ? "" : str1.substring(index - maxLength + 1, index + 1);
+        return maxLength == 0 ? "" : str1.substring(endIndex - maxLength + 1, endIndex + 1);
     }
 
 

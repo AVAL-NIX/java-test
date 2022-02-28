@@ -43,7 +43,7 @@ public class MySort {
     }
 
     /**
-     * 快排
+     *
      */
     public static int[] kuaipai(int[] arr) {
         quickSort(arr,0,arr.length -1);

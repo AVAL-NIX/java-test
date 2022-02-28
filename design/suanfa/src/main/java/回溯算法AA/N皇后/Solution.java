@@ -21,10 +21,10 @@ class Solution {
     private void tarck(String[][] board, int i) {
         if (i == board.length) {
             List<String> t = new ArrayList<>();
-            for (int i1 = 0; i1 < board.length; i1++) {
+            for (int k = 0; k < board.length; k++) {
                 StringBuilder sb = new StringBuilder();
-                for (int j = 0; j < board[i].length; j++) {
-                    sb.append(board[i1][j]);
+                for (int l = 0; l < board[i].length; l++) {
+                    sb.append(board[k][l]);
                 }
                 t.add(sb.toString());
             }

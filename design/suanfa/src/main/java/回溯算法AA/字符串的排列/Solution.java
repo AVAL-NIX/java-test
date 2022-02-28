@@ -19,6 +19,7 @@ class Solution {
             return;
         }
         for (int i = 0; i < arr.length; i++) {
+            // || (i > 0 && !visited[i - 1] && arr[i - 1] == arr[i]) 减枝  可要可不要
             if (visited[i] || (i > 0 && !visited[i - 1] && arr[i - 1] == arr[i]))
                 continue;
             visited[i] = true;

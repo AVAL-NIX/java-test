@@ -21,7 +21,7 @@ public class Solution {
         //对二叉树 ，进行前序或者后续遍历
 
         String root1Str = BST(root1);
-        String root2Str =  BST(root2);
+        String root2Str = BST(root2);
         return root1Str.indexOf(root2Str) > -1 ? true : false;
 
     }
@@ -30,7 +30,7 @@ public class Solution {
         if (root == null) {
             return "#";
         }
-        return BST(root.left) +"," + BST(root.right) +"," + root.val ;
+        return BST(root.left) + "," + BST(root.right) + "," + root.val;
     }
 
 }

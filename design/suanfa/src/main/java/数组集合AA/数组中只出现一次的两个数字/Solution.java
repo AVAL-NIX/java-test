@@ -12,6 +12,7 @@ public class Solution {
      * @return int整型一维数组
      */
     public int[] FindNumsAppearOnce(int[] array) {
+        // write code here
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < array.length; i++) {
             map.put(array[i], map.getOrDefault(array[i], 0) + 1);
@@ -20,9 +21,14 @@ public class Solution {
         int index = 0;
         Set<Entry<Integer, Integer>> entries = map.entrySet();
         for (Entry<Integer, Integer> entry : entries) {
-            if (entry.getValue() != 2) {
+            if (entry.getValue() == 1) {
                 result[index++] = entry.getKey();
             }
+        }
+        if (result[0] > result[1]) {
+            int temp = result[0];
+            result[0] = result[1];
+            result[1] = temp;
         }
         return result;
     }

@@ -1,6 +1,8 @@
 package com.boot.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayDeque;
@@ -60,6 +62,47 @@ public class HelloController {
         service.submit(new DeadLockThread(lock2, lock1), "deadLookThread-" + new Random().nextInt());
         return "ok";
     }
+
+
+
+
+    @GetMapping("/test/get")
+    public String get(Student student) throws InterruptedException {
+        System.out.println(" aa " + student.toString());
+        return "get";
+    }
+
+    @GetMapping("/test/get1")
+    public String get1(String username) throws InterruptedException {
+        System.out.println(" aaa : " + username);
+        return "get1";
+    }
+
+
+    @PostMapping("/test/post")
+    public String post1(Student student) throws InterruptedException {
+        System.out.println(" aa " + student.toString());
+        return "post";
+    }
+
+    @PostMapping("/test/post1")
+    public String post1(String username) throws InterruptedException {
+        System.out.println(" aa " + username);
+        return "post1";
+    }
+
+    @PostMapping("/test/post2")
+    public String post2(@RequestBody  Student student) throws InterruptedException {
+        System.out.println(" aa " + student.toString());
+        return "post2";
+    }
+
+    @PostMapping("/test/post3")
+    public String post3(@RequestBody  String username) throws InterruptedException {
+        System.out.println(" aa " + username);
+        return "post3";
+    }
+
 
     public class DeadLockThread implements Runnable {
         private Object lock1;
