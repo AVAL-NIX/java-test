@@ -1,5 +1,6 @@
 package com.boot.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -31,6 +32,20 @@ public class HelloController {
             num = 0;
         }
     }
+
+
+
+    @Autowired
+    Actrl actrl;
+    /**
+     * 模拟循环以来
+     */
+    @GetMapping("/testyilai")
+    public void testyilai() throws InterruptedException {
+        System.out.println("模拟循环以来");
+        actrl.test();
+    }
+
 
 
     /**
