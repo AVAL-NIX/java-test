@@ -12,24 +12,13 @@ class Solution {
     }
 
 
-    public int dp(int[] nums, int i, int end) {
-        //base case
-        if (i >= end) {
-            return 0;
-        }
-        int amount = Math.max(dp(nums, i + 1, end),
-                nums[i] + dp(nums, i + 2, end));
-        return amount;
-    }
-
-
-    public int range(int[] nums , int i , int end){
+    public int range(int[] nums , int start , int end){
         int n = nums.length;
         int[] dp = new int[n + 2];
-        for (int j = end; j >= i; j -- ) {
+        for (int j = end; j >= start; j -- ) {
             dp[j] = Math.max(dp[j+1], nums[j] +  dp[j+2]);
         }
-        return dp[i];
+        return dp[start];
     }
 
 }
