@@ -22,6 +22,7 @@ public class Solution {
             return result;
         }
 
+
         public void put(int key, int value) {
             hash.put(key, value);
             if (hash.size() > capacity) {
