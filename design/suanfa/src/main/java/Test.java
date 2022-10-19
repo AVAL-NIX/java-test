@@ -1,27 +1,35 @@
 import org.yaml.snakeyaml.events.Event.ID;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
+import java.util.Locale;
+
 public class Test {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ParseException {
+//        Date date = new Date("2007-03-01T00:00:00.000Z");
+//
+//        System.out.println(date);
+        LocalDateTime parse = LocalDateTime.parse("2007-03-01T00:00:00.000Z", DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'", Locale.ENGLISH));
+        System.out.println(parse);
+        String dateTime = "2007-03-01T00:00:00.000Z";
+        dateTime = dateTime.replace("Z", " UTC"); //2019-06-27T16:00:00.000 UTC
+        SimpleDateFormat format1 = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZ");//转换时区格式
+        SimpleDateFormat format2 = new SimpleDateFormat("yyyy-MM-dd");
 
-        Hash test = new Hash();
-        test.insert("key", "value");
-
-        test.insert("key1¬", "value1");
-
-
-        System.out.println(test.get("key"));System.out.println(test.get("key1"));
-
-
-
-
-
-
-
-
-
-
+        Date date = null;
+        try {
+            date = format1.parse(dateTime);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        String time = format2.format(date);//2019-06-28
+        System.out.println(time);
     }
 
     static class Hash {
